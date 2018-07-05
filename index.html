@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en" ng-app="MartyrSkillEditor">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="shortcut icon" href="favicon.png"> 
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <script src="js/data.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular.filter.min.js"></script>
+        <script src="js/martyr.app.js"></script>
+        <title>Martyr Build Editor | Praise the Omnissiah! </title>
+        
+        <style type="text/css">
+            @font-face {
+                font-family: "Electrolize-Regular";
+                src: url("css/Electrolize-Regular.ttf");
+            }
+            
+            @font-face {
+                font-family: "Vibro-Regular";
+                src: url("css/vibrocentric_rg.ttf");
+            }
+            
+            * {
+                font-family: "Electrolize-Regular";
+            }
+            
+            .vibro-regular {
+                font-family: "Vibro-Regular";
+            }
+            
+            .text-large {
+                font-size: 1.2em;
+            }
+        
+            .skill-icons img {
+                width: 64px;
+                height: 64px;
+                margin: 8px;
+                background-color: #080C0B;
+            }
+            .bg-black {
+                background-color: #080C0B;
+            }
+            
+            .card-header:hover {
+                background-color: rgba(0,0,0,.1);
+            }
+            
+            .category-title {
+                position: relative;
+                width: 160px;
+                font-size: 18px;
+                display: block;
+                margin: auto; 
+            }
+            
+            .character-portrait, .character-portrait img {
+                width: 332px;
+            }
+            
+            .character-portrait.character-selected img {
+                opacity: 0.8;
+                filter: alpha(opacity=80);
+            }
+            
+            .character-portrait.character-selected {
+                //background-color: rgba(96, 182, 182, 1);
+                background-image: url('Icons/Portraits/main_characterFrame_highlight.png');
+                background-position: center;
+                border: 0;
+                border-radius: 176px;
+            }
+            
+            .bottom {
+                position: relative;
+                bottom: 50px;
+            }
+            
+            .full-height {
+                min-height: 85vh;
+            }
+            
+            div.line{
+                position: absolute;
+                transform-origin: 0 100%;
+                height: 1px; /* Line width of 3 */
+                background: rgba(96, 182, 182, 1); /* Black fill */
+            }
+            
+            @media only screen and (min-width : 1800px) {
+                .class-select-vertical .class-select-header {
+                    visibility: hidden;
+                }
+                .class-select-vertical {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 332px;
+                }
+            }
+        </style>
+    </head>
+    <body class="bg-black text-light">
+        <div class="container" ng-controller="SkillSelectorController as ssc">
+            <div class="alert alert-light position-absolute p-1" ng-show="ssc.description.show"
+                style="width: 400px; top: {{ssc.description.y + 10}}px; left: {{ssc.description.x}}px; z-index: 1000;">
+                <span class="col-sm-12 badge badge-primary vibro-regular text-large">{{ssc.description.title}}</span><br ng-show="ssc.description.title"/>
+                <span ng-bind-html="ssc.description.description | unsafe"></span>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="btn btn-dark" ng-click="ssc.resetSkills()">Reset Current</div>
+                    <div class="btn btn-dark" ng-click="ssc.resetAllSkills()">Reset All</div>
+                </div>
+            </div>
+            <div class="row mt-3" ng-show="ssc.currentSkill">
+                <div class="col-sm-12 row pb-2">
+                    <div class="col"><hr></div>
+                    <div class="col-6 text-center vibro-regular text-large">
+                        {{ ssc.getCategoryLang(ssc.currentSkill)[1] }} ({{ ssc.getCategoryLang(ssc.currentSkill)[2] }})
+                        <button type="button" class="close float-right" aria-label="Close" ng-click="ssc.currentSkill = ''">
+                            <span aria-hidden="true" class="text-light">&times;</span>
+                        </button>
+                    </div>
+                    <div class="col"><hr></div>
+                </div>
+                <div class="col-sm-12 row">
+                    <div class="col-xl position-relative" style="width: 640px; height: 640px;">
+                        <div ng-repeat="(name, skill) in ssc.currentSkills()" ng-show="!name.startsWith('GUIPos')">
+                            <div class="line" ng-repeat="req in skill.Requirements" style="{{ssc.connectorLineStyle(skill, req)}}"></div>
+                        </div>
+                        <div 
+                            class="position-absolute skill-icons" 
+                            ng-repeat="(name, skill) in ssc.currentSkills()" ng-show="!name.startsWith('GUIPos')"
+                            style="width: 80px; height: 80px; top: {{skill.row * 80}}px; left: {{skill.col * 80}}px;"
+                        >
+                            <div
+                                ng-click="ssc.toggleSkill(skill)"
+                                ng-mouseover="ssc.setDescription(skill, $event);"
+                                ng-mouseleave="ssc.setDescription();">
+                                <img ng-src="Icons/SkillTree/icon_skill_{{skill.Skill}}Off.png" ng-show="!ssc.skillRequirementsMet(skill) && !skill.selected">
+                                <img ng-src="Icons/SkillTree/icon_skill_{{skill.Skill}}On.png" ng-show="skill.selected">
+                                <img ng-src="Icons/SkillTree/icon_skill_{{skill.Skill}}Over.png" ng-show="ssc.skillRequirementsMet(skill) && !skill.selected">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl" style="height: 640px; overflow-y: scroll;">
+                        <div class="card text-primary p-1 my-1">Total Skillpoints spent: {{ssc.currentCount}}</div>
+                        <div class="card text-primary"
+                            ng-repeat="(name, data) in ssc.currentCategory()" ng-show="(ssc.getSkills(name) | toArray | filter:{selected: true}).length > 0">
+                            <div class="card-header" style="cursor: pointer;" ng-click="ssc.currentSkill = name">
+                                {{ssc.getCategoryLang(name)[1]}} ({{ssc.getCategoryLang(name)[2]}}) 
+                                <span class="badge badge-primary">{{(ssc.getSkills(name) | toArray | filter:{selected: true}).length}}</span>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item" ng-repeat="out in ssc.getSkills(name) | toArray | filter:{selected: true} | groupBy: 'Skill'" >
+                                    <span class="badge badge-primary">{{ssc.getSkillLang(out[0], out.length)[1]}}</span><br ng-show="ssc.getSkillLang(out[0], out.length)[1]"/>
+                                    <span class="badge badge-primary" ng-show="out.length > 1">{{out.length}}</span>
+                                    <span ng-bind-html="ssc.getSkillLang(out[0], out.length)[0] | unsafe"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 no-gutters" ng-show="ssc.currentType">
+                <div class="col-sm-12 row pb-2">
+                    <div class="col"><hr></div>
+                    <div class="col text-center vibro-regular text-large">
+                        {{ssc.currentType}}
+                        <button type="button" class="close float-right" aria-label="Close" ng-click="ssc.currentType = ''">
+                            <span aria-hidden="true" class="text-light">&times;</span>
+                        </button>
+                    </div>
+                    <div class="col"><hr></div>
+                </div>
+                <div class="col-sm-12 row">
+                    <div 
+                        ng-repeat="(n, s) in ssc.currentCategory()"
+                        class="col-md-3 position-relative"
+                        ng-mouseover="ssc.setDescription(n, $event, true);"
+                        ng-mouseleave="ssc.setDescription();"
+                        ng-click="ssc.currentSkill = n">
+                        <span class="category-title">
+                            {{ssc.getCategoryLang(n)[2]}}
+                        </span>
+                        <img ng-src="Icons/SkillTree/Skillblocks/{{n|lowercase}}off.png" ng-show="!ssc.categoryHasActiveSkills(n)" style="margin: auto; width: 176px; display: block;" />
+                        <img ng-src="Icons/SkillTree/Skillblocks/{{n|lowercase}}on.png" ng-show="ssc.categoryHasActiveSkills(n)" style="margin: auto; width: 176px; display: block;" />
+                        <span style="position: relative; top: -45px; width: 15px; display: block; margin: auto; font-size: 20px; font-weight: bold; ">
+                            {{ssc.categoryActiveSkillCount(n)}}
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div ng-class="{'row mt-3 no-gutters full-height': !ssc.currentType, 'class-select-vertical': ssc.currentType}">
+                <div class="col-sm-12 row class-select-header">
+                    <div class="col"><hr></div>
+                    <div class="col text-center vibro-regular text-large">Select Class</div>
+                    <div class="col"><hr></div>
+                </div>
+                <div class="col-sm-12">
+                    <div
+                        ng-repeat="n in ['Crusader', 'Psyker', 'Assassin']"
+                        ng-class="{'float-left character-portrait': true, 'character-selected': ssc.currentType == n}">
+                        <img
+                            ng-click="ssc.currentType = n"
+                            ng-src="Icons/Portraits/main_portrait{{n}}.png" />
+                    </div>
+                </div>
+            </div>
+            
+            <div ng-class="{'col-sm-12 text-center text-dark': true, 'bottom': !ssc.currentType}">
+                No personal data is being stored by this website. <br/>
+                All copyrighted content is presented with express permission of the respective rightsholders. <br/>
+                Responsible for this site: Justus Wingert / Rolandstrasse 41 / 76135 Karlsruhe / justus_wingert@web.de / Imrahil on Discord <br/>
+            </div>
+        </div>
+    </body>
+</html>

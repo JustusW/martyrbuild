@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<eng>English</eng>
+	</LanguageName>
+	<Languages>eng</Languages>
+	<Skilltree>
+		<Branch>
+			<Zarvany_Melee>
+				<name>
+					<eng>Astartes Combat Training</eng>
+				</name>
+				<category>
+					<eng>Close Combat</eng>
+				</category>
+				<desc>
+					<eng>The art of armoured hand-to-hand combat, based on tactical wisdoms bastardised from the Codex Astartes.</eng>
+				</desc>
+			</Zarvany_Melee>
+			<Zarvany_Ranged>
+				<name>
+					<eng>Scion Sniper Training</eng>
+				</name>
+				<category>
+					<eng>Ranged Combat</eng>
+				</category>
+				<desc>
+					<eng>The ruthless training regime of the Tempestus Scions, the elite shock troops of the Astra Militarum.</eng>
+				</desc>
+			</Zarvany_Ranged>
+			<Zarvany_Debuff>
+				<name>
+					<eng>Arbites Shock Tactics</eng>
+				</name>
+				<category>
+					<eng>Debuffs</eng>
+				</category>
+				<desc>
+					<eng>The tactical knowledge accumulated by the Adeptus Arbites through enforcing Imperial law over a million of planets.</eng>
+				</desc>
+			</Zarvany_Debuff>
+			<Zarvany_Dot>
+				<name>
+					<eng>Venenum Toxin Mastery</eng>
+				</name>
+				<category>
+					<eng>Damage over Time</eng>
+				</category>
+				<desc>
+					<eng>The mastery of toxins from the notoriously secretive Venenum Temple of the Officio Assassinorum.</eng>
+				</desc>
+			</Zarvany_Dot>
+			<Zarvany_Critical>
+				<name>
+					<eng>Art of the Death Cults</eng>
+				</name>
+				<category>
+					<eng>Criticals</eng>
+				</category>
+				<desc>
+					<eng>The twisted art obssessed with the violent extinction of life, offered as a sacrifice to the God-Emperor of Mankind.</eng>
+				</desc>
+			</Zarvany_Critical>
+			<Zarvany_Maxsuppression>
+				<name>
+					<eng>Catachan Survival Training</eng>
+				</name>
+				<category>
+					<eng>Suppression</eng>
+				</category>
+				<desc>
+					<eng>The survival knowledge accumulated by jungle warfare experts of the Astra Militarum, originating from a notable death world.</eng>
+				</desc>
+			</Zarvany_Maxsuppression>
+			<Zarvany_Hpsuppress>
+				<name>
+					<eng>Magos Biologis Secrets</eng>
+				</name>
+				<category>
+					<eng>Hit Point</eng>
+				</category>
+				<desc>
+					<eng>The regenerative bio-implants and techno-rites provided by the Genetor division of the Adeptus Mechanicus.</eng>
+				</desc>
+			</Zarvany_Hpsuppress>
+
+			<Zarvany_SingleDPS>
+				<name>
+					<eng>Enhanced Corpus</eng>
+				</name>
+				<category>
+					<eng>Single DPS</eng>
+				</category>
+				<desc>
+					<eng>Sanctioned implants and neuro-injected protocols for field agents of the Holy Ordo.</eng>
+				</desc>
+			</Zarvany_SingleDPS>
+			<Zarvany_AoeDPS>
+				<name>
+					<eng>Krieg Support Doctrines</eng>
+				</name>
+				<category>
+					<eng>Area Effects</eng>
+				</category>
+				<desc>
+					<eng>Siege and mass destruction warfare from the Death Corps of Krieg regiments of the Astra Militarum.</eng>
+				</desc>
+			</Zarvany_AoeDPS>
+			<Zarvany_Movement>
+				<name>
+					<eng>Sicarian Augmentics</eng>
+				</name>
+				<category>
+					<eng>Movement</eng>
+				</category>
+				<desc>
+					<eng>Highly restricted, speed boosting cybernetics from the Skitarii Legions of the Adeptus Mechnicus.</eng>
+				</desc>
+			</Zarvany_Movement>
+			<Zarvany_Defense>
+				<name>
+					<eng>Secutarii Siege Axioms</eng>
+				</name>
+				<category>
+					<eng>Defense</eng>
+				</category>
+				<desc>
+					<eng>Damage mitigation and evasion protocols from the elite honour guard of the Collegia Titanica.</eng>
+				</desc>
+			</Zarvany_Defense>
+			<Zarvany_Support>
+				<name>
+					<eng>Hospitaller Curia Doctrines</eng>
+				</name>
+				<category>
+					<eng>Support</eng>
+				</category>
+				<desc>
+					<eng>Invigorating techno-psalms and survival rites from the Order Hospitaller sisters of the Adepta Sororitas.</eng>
+				</desc>
+			</Zarvany_Support>
+			<Zarvany_Execution>
+				<name>
+					<eng>Eversor Psychological Warfare</eng>
+				</name>
+				<category>
+					<eng>Execution</eng>
+				</category>
+				<desc>
+					<eng>Shock and terror tactics from the secretive Eversor Temple of the Officio Assassinorum.</eng>
+				</desc>
+			</Zarvany_Execution>
+			<Zarvany_HeatDamage>
+				<name>
+					<eng>Phosphoenic Rites</eng>
+				</name>
+				<category>
+					<eng>Heat Attacks</eng>
+				</category>
+				<desc>
+					<eng>Sacred modifications and maintenance rites for heat and energy weapons.</eng>
+				</desc>
+			</Zarvany_HeatDamage>
+			<Zarvany_PhysicalDamage>
+				<name>
+					<eng>Anatomical Knowledge</eng>
+				</name>
+				<category>
+					<eng>Physical Attacks</eng>
+				</category>
+				<desc>
+					<eng>Anatomical secrets and injury protocols from the butcher-chirurgeons of the Inquisition.</eng>
+				</desc>
+			</Zarvany_PhysicalDamage>
+			<Zarvany_AimedShot>
+				<name>
+					<eng>Vindicare Indoctrination</eng>
+				</name>
+				<category>
+					<eng>Aimed Shots</eng>
+				</category>
+				<desc>
+					<eng>The art of ranged murder from the secretive Vindicare Temple of the Officio Assassinorum.</eng>
+				</desc>
+			</Zarvany_AimedShot>
+			
+			<Zarvany_Psyker_Debuff>
+				<name>
+					<eng>Scholastica Psykana Maledictions</eng>
+				</name>
+				<category>
+					<eng>Psychic Debuffs</eng>
+				</category>
+				<desc>
+					<eng>Sanctioned psychic powers from the Scholastica Psykana division of the Adeptus Astra Telepathica.</eng>
+				</desc>
+			</Zarvany_Psyker_Debuff>
+			<Zarvany_Psyker_Combat>
+				<name>
+					<eng>Primaris Battle-Psyker Training</eng>
+				</name>
+				<category>
+					<eng>Psychic Combat</eng>
+				</category>
+				<desc>
+					<eng>Sanctioned psychic powers from the Battle-Psyker division of the Astra Militarum.</eng>
+				</desc>
+			</Zarvany_Psyker_Combat>
+			<Zarvany_Radical>
+				<name>
+					<eng>Radical Path</eng>
+				</name>
+				<category>
+					<eng>Radical Path</eng>
+				</category>
+				<desc>
+					<eng>Inquisitors who choose to use xeno-tech and the powers of the Warp to do their work are considered radicals.</eng>
+				</desc>
+			</Zarvany_Radical>
+			<Zarvany_Puritan>
+				<name>
+					<eng>Puritan Path</eng>
+				</name>
+				<category>
+					<eng>Puritan Path</eng>
+				</category>
+				<desc>
+					<eng>Inquisitors who rigidly follow the Imperial Creed are considered Puritans.</eng>
+				</desc>
+			</Zarvany_Puritan>
+		</Branch>
+		<Melee_Basic_1>
+			<Desc>
+				<eng>Increases Melee damage by {damage}.</eng>
+			</Desc>			
+		</Melee_Basic_1>
+		<Melee_Basic_2>
+			<Desc>
+				<eng>Increases Melee damage by {per_target_damage_bonus,100} when the target is Slowed, Shocked, Stunned or Frozen.</eng>
+			</Desc>			
+		</Melee_Basic_2>
+		<Melee_Basic_3>
+			<Desc>
+				<eng>Increases Critical Hit Chance with Melee skills by {critical_hit_chance_hardcap,100}.</eng>
+			</Desc>			
+		</Melee_Basic_3>
+		<Melee_Expose_weakness>
+			<Name>
+				<eng>Expose Weakness</eng>
+			</Name>
+			<Desc>
+				<eng>Critical Hits in Melee provide [ff2bede6]+1[/ff2bede6] stacking Vulnerability to the target. The Vulnerability type is based on the Melee skill.</eng>
+			</Desc>			
+		</Melee_Expose_weakness>
+		<Melee_Righteous_fury>
+			<Name>
+				<eng>Righteous Fury</eng>
+			</Name>
+			<Desc>
+				<eng>Grants [ff2bede6]20%[/ff2bede6] damage bonus to Melee skills when HP drops below 50%.</eng>
+			</Desc>			
+		</Melee_Righteous_fury>
+		<Melee_Dueling_stance>
+			<Name>
+				<eng>Dueling Stance</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {damage} damage bonus to Melee skills in single combat (with no more than one opponent within 5 meters).</eng>
+			</Desc>			
+		</Melee_Dueling_stance>
+		<Melee_Sweeping_strikes>
+			<Name>
+				<eng>Sweeping Strikes</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {damage} damage bonus to Melee skills when facing more than 3 opponents within 5 meters.</eng>
+			</Desc>			
+		</Melee_Sweeping_strikes>
+		<Melee_Eviscerate>
+			<Name>
+				<eng>Eviscerate</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {suppression_damage} Suppression damage bonus for Fleshbane attacks.</eng>
+			</Desc>			
+		</Melee_Eviscerate>
+		<Melee_Weapon_mastery>
+			<Name>
+				<eng>Weapon Mastery</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {critical_hit_chance_hardcap,100} Critical Hit Chance bonus to Combo skills.</eng>
+			</Desc>			
+		</Melee_Weapon_mastery>
+		<Melee_Riposte>
+			<Name>
+				<eng>Riposte</eng>
+			</Name>
+			<Desc>
+				<eng>Successful Deflects provide a stacking [ff2bede6]5%[/ff2bede6] damage bonus to the next attack (maximum 50%).</eng>
+			</Desc>			
+		</Melee_Riposte>
+		<Melee_Hasten>
+			<Name>
+				<eng>Hasten</eng>
+			</Name>
+			<Desc>
+				<eng>All Melee kills grant +20% Movement Speed for 5 seconds.</eng>
+			</Desc>			
+		</Melee_Hasten>
+		<Melee_Bloodthirst>
+			<Name>
+				<eng>Bloodthirst</eng>
+			</Name>
+			<Desc>
+				<eng>All Melee kills restore +50 HP.</eng>
+			</Desc>			
+		</Melee_Bloodthirst>
+		<Melee_Battle_dance>
+			<Name>
+				<eng>Battle Dance</eng>
+			</Name>
+			<Desc>
+				<eng>Dodge moves grant +20% Damage for 3 seconds.</eng>
+			</Desc>			
+		</Melee_Battle_dance>
+		<Melee_Overwhelm>
+			<Name>
+				<eng>Overwhelm</eng>
+			</Name>
+			<Desc>
+				<eng>Grants a stacking [ff2bede6]5%[/ff2bede6] damage bonus to Melee skills (up to 50%) as long as there is less than 2 seconds between each Melee attack.</eng>
+			</Desc>			
+		</Melee_Overwhelm>
+
+		<Ranged_Basic_1>
+			<Desc>
+				<eng>Grants {damage} damage bonus to Ranged skills.</eng>
+			</Desc>			
+		</Ranged_Basic_1>
+		<Ranged_Basic_2>
+			<Desc>
+				<eng>Grants {critical_hit_chance_hardcap,100} Critical Hit Chance bonus with Ranged skills.</eng>
+			</Desc>			
+		</Ranged_Basic_2>
+		<Ranged_Basic_3>
+			<Desc>
+				<eng>Increases Ranged skill damage by {per_target_damage_bonus,100} when target is Slowed, Shocked, Stunned or Frozen.</eng>
+			</Desc>			
+		</Ranged_Basic_3>
+		<Ranged_Urban_warfare>
+			<Name>
+				<eng>Urban Warfare</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {cooldown_rate} Ranged skill Cooldown bonus when fighting from cover (for skills with longer than 1 second Cooldown).</eng>
+			</Desc>			
+		</Ranged_Urban_warfare>
+		<Ranged_Ammo_mastery>
+			<Name>
+				<eng>Ammo Mastery</eng>
+			</Name>
+			<Desc>
+				<eng>Grants a {reload_time} reload time bonus for Ammo fed weapons.</eng>
+			</Desc>			
+		</Ranged_Ammo_mastery>
+		<Ranged_Focused_aim>
+			<Name>
+				<eng>Focused Aim</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {damage} damage bonus to Ranged skills when there is no enemy present within 5 meters.</eng>
+			</Desc>			
+		</Ranged_Focused_aim>
+		<Ranged_Hit_and_run>
+			<Name>
+				<eng>Hit and Run</eng>
+			</Name>
+			<Desc>
+				<eng>Grants [ff2bede6]5%[/ff2bede6] damage bonus to Rapid Fire skills. Every Rapid Fire attack increases Movement Speed by [ff2bede6]10%[/ff2bede6] for 2 seconds.</eng>
+			</Desc>			
+		</Ranged_Hit_and_run>
+		<Ranged_Overheat_mastery>
+			<Name>
+				<eng>Overheat Mastery</eng>
+			</Name>
+			<Desc>
+				<eng>Shortens the cooling time of overheated weapons by {overheat_cooling_rate}.</eng>
+			</Desc>			
+		</Ranged_Overheat_mastery>
+		<Ranged_Sustained_fire>
+			<Name>
+				<eng>Sustained Fire</eng>
+			</Name>
+			<Desc>
+				<eng>Increases Critical Hit Chance for Channeled skills by {critical_hit_chance_hardcap,100}. Provides {charge_time_limit} second charging time bonus to Barrage.</eng>
+			</Desc>			
+		</Ranged_Sustained_fire>
+		<Ranged_Assault_tactics>
+			<Name>
+				<eng>Assault Tactics</eng>
+			</Name>
+			<Desc>
+				<eng>Increases Salvo skill damage by {damage}. Provides {dodge_chance_hardcap,100} Deflection bonus when Salvo skills are in use.</eng>
+			</Desc>			
+		</Ranged_Assault_tactics>
+		<Ranged_Heavy_load>
+			<Name>
+				<eng>Heavy Load</eng>
+			</Name>
+			<Desc>
+				<eng>+5% Movement Speed while using Heavy Weapons.</eng>
+			</Desc>			
+		</Ranged_Heavy_load>
+		<Ranged_Quick_draw>
+			<Name>
+				<eng>Quick Draw</eng>
+			</Name>
+			<Desc>
+				<eng>Skill cooldowns are reduced by 50% after switching weapons.</eng>
+			</Desc>			
+		</Ranged_Quick_draw>
+		<Ranged_Surgical_precision>
+			<Name>
+				<eng>Surgical Precision</eng>
+			</Name>
+			<Desc>
+				<eng>+7% damage with ranged Armor Piercing and Armor Breaking skills.</eng>
+			</Desc>			
+		</Ranged_Surgical_precision>
+		<Ranged_Snipers_mark>
+			<Name>
+				<eng>Snipers Mark</eng>
+			</Name>
+			<Desc>
+				<eng>Grants [ff2bede6]5%[/ff2bede6] Ranged and [ff2bede6]10%[/ff2bede6] Suppression damage bonus for [ff2bede6]3[/ff2bede6] seconds when the opponent is hit by Single Target skills.</eng>
+			</Desc>			
+		</Ranged_Snipers_mark>
+
+		<Debuff_Basic_1>
+			<Desc>
+				<eng>Increases Suppression damage by {suppression_damage}.</eng>
+			</Desc>			
+		</Debuff_Basic_1>
+		<Debuff_Basic_2>
+			<Desc>
+				<eng>Grants {damage} damage bonus to Armour Breaking, Armour Piercing and Shield Piercing attacks.</eng>
+			</Desc>			
+		</Debuff_Basic_2>
+		<Debuff_Basic_3>
+			<Desc>
+				<eng>Increases the duration of Slow, Shock, Freeze and Stun by {skill_duration}.</eng>
+			</Desc>			
+		</Debuff_Basic_3>
+		<Debuff_Crowd_control>
+			<Name>
+				<eng>Crowd Control</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {crowd_control} bonus to Shock and Slow effects.</eng>
+			</Desc>			
+		</Debuff_Crowd_control>
+		<Debuff_Concussive_blow>
+			<Name>
+				<eng>Concussive Blow</eng>
+			</Name>
+			<Desc>
+				<eng>Increases the duration of Blind by {skill_duration} seconds.</eng>
+			</Desc>			
+		</Debuff_Concussive_blow>
+		<Debuff_Disorient>
+			<Name>
+				<eng>Disorient</eng>
+			</Name>
+			<Desc>
+				<eng>Grants a Shock debuff to targets that were affected by Stun, Blind, or Knockdown.</eng>
+			</Desc>			
+		</Debuff_Disorient>
+		<Debuff_Strikedown>
+			<Name>
+				<eng>Strikedown</eng>
+			</Name>
+			<Desc>
+				<eng>Targets affected by Knockback or Knockdown suffer [ff2bede6]20%[/ff2bede6] damage penalty for 10 seconds.</eng>
+			</Desc>			
+		</Debuff_Strikedown>
+		<Debuff_Demoralize>
+			<Name>
+				<eng>Demoralize</eng>
+			</Name>
+			<Desc>
+				<eng>Targets suffer [ff2bede6]3%[/ff2bede6] extra damage penalty for every point of stacked Vulnerability bestowed upon them.</eng>
+			</Desc>			
+		</Debuff_Demoralize>
+		<Debuff_Crippling_blows>
+			<Name>
+				<eng>Crippling Blows</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {suppression_damage} Suppression damage bonus to Armour Breaking, Armour Piercing and Shield Piercing attacks.</eng>
+			</Desc>			
+		</Debuff_Crippling_blows>
+		<Debuff_Paralyze>
+			<Name>
+				<eng>Paralyze</eng>
+			</Name>
+			<Desc>
+				<eng>Grants [ff2bede6]10%[/ff2bede6] damage bonus on targets affected by Slow. Increases duration of Slow by [ff2bede6]1[/ff2bede6] second.</eng>
+			</Desc>			
+		</Debuff_Paralyze>
+		<Debuff_Domination>
+			<Name>
+				<eng>Domination</eng>
+			</Name>
+			<Desc>
+				<eng>Restores 10% of maximum Suppression Resist when Stunning or Knocking Down opponents.</eng>
+			</Desc>			
+		</Debuff_Domination>
+		<Debuff_Mock_attack>
+			<Name>
+				<eng>Mock Attack</eng>
+			</Name>
+			<Desc>
+				<eng>Deflected melee attackers lose 10% of their maximum Suppression resistance.</eng>
+			</Desc>			
+		</Debuff_Mock_attack>
+		<Debuff_Culling>
+			<Name>
+				<eng>Culling</eng>
+			</Name>
+			<Desc>
+				<eng>+5% Critical Strength for every debuff effect on the target.</eng>
+			</Desc>			
+		</Debuff_Culling>
+		<Debuff_Dirty_fighting>
+			<Name>
+				<eng>Dirty Fighting</eng>
+			</Name>
+			<Desc>
+				<eng>Grants a stacking [ff2bede6]1%[/ff2bede6] damage bonus for each debilitating effect on the target (stacked vulnerabilities are counted as multiple effects).</eng>
+			</Desc>			
+		</Debuff_Dirty_fighting>
+
+		<Dot_Basic_1>
+			<Desc>
+				<eng>Increases DoT damage by {dot_damage}.</eng>
+			</Desc>			
+		</Dot_Basic_1>
+		<Dot_Volatile_substances>
+			<Name>
+				<eng>Volatile Substances</eng>
+			</Name>
+			<Desc>
+				<eng>{dot_damage} of the character's Heat Resist value is gained as bonus percentage to Burn damage.</eng>
+			</Desc>			
+		</Dot_Volatile_substances>
+		<Dot_Haemotoxins>
+			<Name>
+				<eng>Haemotoxins</eng>
+			</Name>
+			<Desc>
+				<eng>Increases the duration of all Bleed effects by {skill_duration} seconds.</eng>
+			</Desc>			
+		</Dot_Haemotoxins>
+		<Dot_Neurotoxins>
+			<Name>
+				<eng>Neurotoxins</eng>
+			</Name>
+			<Desc>
+				<eng>Poisoned opponents suffer a non-stacking [ff2bede6]20%[/ff2bede6] damage penalty for the duration of the effect.</eng>
+			</Desc>			
+		</Dot_Neurotoxins>
+		<Dot_Corrosive_agents>
+			<Name>
+				<eng>Corrosive Agents</eng>
+			</Name>
+			<Desc>
+				<eng>Engine and Armoured type creatures suffer {dot_damage} more Corrosion damage.</eng>
+			</Desc>			
+		</Dot_Corrosive_agents>
+		<Dot_Caustic_reagents>
+			<Name>
+				<eng>Caustic Reagents</eng>
+			</Name>
+			<Desc>
+				<eng>Burn effects last +1 sec longer and block HP regeneration</eng>
+			</Desc>			
+		</Dot_Caustic_reagents>
+		<Dot_Haemophilic_shock>
+			<Name>
+				<eng>Haemophilic Shock</eng>
+			</Name>
+			<Desc>
+				<eng>Bleeding enemies are Slowed aswell.</eng>
+			</Desc>			
+		</Dot_Haemophilic_shock>
+		<Dot_Fast_metabolism>
+			<Name>
+				<eng>Fast Metabolism</eng>
+			</Name>
+			<Desc>
+				<eng>Duration of Poison, Burn and Bleed effects are halved.</eng>
+			</Desc>			
+		</Dot_Fast_metabolism>
+		<Dot_Toxin_synergy>
+			<Name>
+				<eng>Toxin Synergy</eng>
+			</Name>
+			<Desc>
+				<eng>Grants a stacking {per_target_damage_bonus,100} damage bonus for every active DoT effect on the target.</eng>
+			</Desc>			
+		</Dot_Toxin_synergy>
+
+		<Critical_Basic_1>
+			<Desc>
+				<eng>Increases Critical Hit Chance by {critical_hit_chance,100}.</eng>
+			</Desc>			
+		</Critical_Basic_1>
+		<Critical_Basic_2>
+			<Desc>
+				<eng>Increases Critical Hit strength by {critical_hit_strength}.</eng>
+			</Desc>			
+		</Critical_Basic_2>
+		<Critical_Cold_blood>
+			<Name>
+				<eng>Cold Blood</eng>
+			</Name>
+			<Desc>
+				<eng>Critical Hits provide [ff2bede6]+1[/ff2bede6] bonus Focus point.</eng>
+			</Desc>			
+		</Critical_Cold_blood>
+		<Critical_Deadly_blow>
+			<Name>
+				<eng>Deadly Blow</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {critical_hit_chance_hardcap,100} Critical Hit Chance bonus with Melee skills.</eng>
+			</Desc>			
+		</Critical_Deadly_blow>
+		<Critical_Killing_shot>
+			<Name>
+				<eng>Killing Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {critical_hit_chance_hardcap,100} Critical Hit Chance bonus with Ranged skills.</eng>
+			</Desc>			
+		</Critical_Killing_shot>
+		<Critical_Torment>
+			<Name>
+				<eng>Torment</eng>
+			</Name>
+			<Desc>
+				<eng>Critical Hits provide {critical_suppression_damage} Suppression damage bonus.</eng>
+			</Desc>			
+		</Critical_Torment>
+		<Critical_Revenge>
+			<Name>
+				<eng>Revenge</eng>
+			</Name>
+			<Desc>
+				<eng>Every attack increases Critical Hit Chance by [ff2bede6]1%[/ff2bede6]. The bonus resets when a Critical Hit is dealt.</eng>
+			</Desc>			
+		</Critical_Revenge>
+		<Critical_Berserker_rage>
+			<Name>
+				<eng>Berserker Rage</eng>
+			</Name>
+			<Desc>
+				<eng>Every Critical Hit dealt heals the character for [ff2bede6]1%[/ff2bede6] of max HP.</eng>
+			</Desc>			
+		</Critical_Berserker_rage>
+		<Critical_No_remorse>
+			<Name>
+				<eng>No Remorse</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {critical_hit_chance,100} Critical Hit Chance bonus, but reduces damage by {damage_reduce}.</eng>
+			</Desc>			
+		</Critical_No_remorse>
+		<Critical_Retaliation>
+			<Name>
+				<eng>Retaliation</eng>
+			</Name>
+			<Desc>
+				<eng>+5% Critical Chance if the character's Suppression status is yellow, and +10% when red.</eng>
+			</Desc>			
+		</Critical_Retaliation>
+		<Critical_Unfettered_precision>
+			<Name>
+				<eng>Unfettered Precision</eng>
+			</Name>
+			<Desc>
+				<eng>+5% Critical Chance if the character's Suppression status is green.</eng>
+			</Desc>			
+		</Critical_Unfettered_precision>
+		<Critical_Massacre>
+			<Name>
+				<eng>Massacre</eng>
+			</Name>
+			<Desc>
+				<eng>+2% Critical Hit Chance for every enemy within Melee range.</eng>
+			</Desc>			
+		</Critical_Massacre>
+		<Critical_Red_thirst>
+			<Name>
+				<eng>Red Thirst</eng>
+			</Name>
+			<Desc>
+				<eng>Grants a stacking [ff2bede6]10%[/ff2bede6] damage bonus (up to 100%) for [ff2bede6]10[/ff2bede6] seconds when a Critical Hit results a kill.</eng>
+			</Desc>			
+		</Critical_Red_thirst>
+
+		<Maxsuppression_Basic_1>
+			<Desc>
+				<eng>Grants {damage} damage bonus if the character's Suppression status is green.</eng>
+			</Desc>			
+		</Maxsuppression_Basic_1>
+		<Maxsuppression_Basic_2>
+			<Desc>
+				<eng>Grants {damage_reduce_hardcap} damage reduction bonus if the character's Suppression status is green.</eng>
+			</Desc>			
+		</Maxsuppression_Basic_2>
+		<Maxsuppression_Suppress_pain>
+			<Name>
+				<eng>Suppress Pain</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {hp_regeneration} HP per second Regeneration bonus if the character's Suppression status is green.</eng>
+			</Desc>			
+		</Maxsuppression_Suppress_pain>
+		<Maxsuppression_Resilience>
+			<Name>
+				<eng>Resilience</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {damage_reduce_hardcap} DoT damage reduction bonus if the character's Suppression status is green.</eng>
+			</Desc>			
+		</Maxsuppression_Resilience>
+		<Maxsuppression_Defiance>
+			<Name>
+				<eng>Defiance</eng>
+			</Name>
+			<Desc>
+				<eng>Reduces skill Cooldown by [ff2bede6]1[/ff2bede6] second when the character is hit (skills with Cooldown longer than 3 seconds only).</eng>
+			</Desc>			
+		</Maxsuppression_Defiance>
+		<Maxsuppression_Natural_predator>
+			<Name>
+				<eng>Natural Predator</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {critical_hit_chance_hardcap,100} Critical Hit Chance bonus if the character's Suppression status is green.</eng>
+			</Desc>			
+		</Maxsuppression_Natural_predator>
+		<Maxsuppression_Traverse>
+			<Name>
+				<eng>Traverse</eng>
+			</Name>
+			<Desc>
+				<eng>+3 Movement Speed if the character's Suppression status is green.</eng>
+			</Desc>			
+		</Maxsuppression_Traverse>
+		<Maxsuppression_Evasive_maneuvers>
+			<Name>
+				<eng>Evasive Maneuvers</eng>
+			</Name>
+			<Desc>
+				<eng>Dodging regenerates 3% of maximum Suppression if the character's Suppression status is green.</eng>
+			</Desc>			
+		</Maxsuppression_Evasive_maneuvers>
+		<Maxsuppression_Grim_resolve>
+			<Name>
+				<eng>Grim Resolve</eng>
+			</Name>
+			<Desc>
+				<eng>Grants a non-stacking [ff2bede6]20%[/ff2bede6] damage and [ff2bede6]10%[/ff2bede6] damage reduction bonus for [ff2bede6]1[/ff2bede6] second whenever the character is hit in Suppression status green.</eng>
+			</Desc>			
+		</Maxsuppression_Grim_resolve>
+		
+		<Hpsuppress_Basic_1>
+			<Desc>
+				<eng>Grants {hp_max} bonus HP.</eng>
+			</Desc>			
+		</Hpsuppress_Basic_1>
+		<Hpsuppress_Basic_2>
+			<Desc>
+				<eng>Grants {suppression_resist_max} bonus Suppression.</eng>
+			</Desc>			
+		</Hpsuppress_Basic_2>
+		<Hpsuppress_Field_surgery>
+			<Name>
+				<eng>Field Surgery</eng>
+			</Name>
+			<Desc>
+				<eng>Whenever the character's max HP is reduced below [ff2bede6]25%[/ff2bede6], Inoculator Cooldown resets to zero.</eng>
+			</Desc>			
+		</Hpsuppress_Field_surgery>
+		<Hpsuppress_Emergency_booster>
+			<Name>
+				<eng>Emergency Booster</eng>
+			</Name>
+			<Desc>
+				<eng>Regenerates {hp_regeneration} HP per second if the character's HP is below 50%.</eng>
+			</Desc>			
+		</Hpsuppress_Emergency_booster>
+		<Hpsuppress_Regenerative_bionics>
+			<Name>
+				<eng>Regenerative Bionics</eng>
+			</Name>
+			<Desc>
+				<eng>Heals the character for [ff2bede6]1[/ff2bede6] HP for every [ff2bede6]10[/ff2bede6] Suppression point regained.</eng>
+			</Desc>			
+		</Hpsuppress_Regenerative_bionics>
+		<Hpsuppress_Shock_stimulus>
+			<Name>
+				<eng>Shock Stimulus</eng>
+			</Name>
+			<Desc>
+				<eng>With every successful Deflect, [ff2bede6]5[/ff2bede6] Suppression points are regained.</eng>
+			</Desc>			
+		</Hpsuppress_Shock_stimulus>
+		<Hpsuppress_Trauma_control>
+			<Name>
+				<eng>Trauma Control</eng>
+			</Name>
+			<Desc>
+				<eng>Grants {damage_reduce_hardcap} damage reduction bonus if the character's Suppression status is red.</eng>
+			</Desc>			
+		</Hpsuppress_Trauma_control>
+		<Hpsuppress_Adrenal_glands>
+			<Name>
+				<eng>Adrenal Glands</eng>
+			</Name>
+			<Desc>
+				<eng>Regenerates {suppression_regeneration_percent,100} Suppression per second if the character's HP is below 50%.</eng>
+			</Desc>			
+		</Hpsuppress_Adrenal_glands>
+		<Hpsuppress_Pain_supression>
+			<Name>
+				<eng>Pain Supression</eng>
+			</Name>
+			<Desc>
+				<eng>For every [ff2bede6]10[/ff2bede6] HP healed the character regains [ff2bede6]1[/ff2bede6] Suppression point.</eng>
+			</Desc>			
+		</Hpsuppress_Pain_supression>
+		<Hpsuppress_Neural_rewiring>
+			<Name>
+				<eng>Neural Rewiring</eng>
+			</Name>
+			<Desc>
+				<eng>Enemy attacks do -20% Suppression Damage until the character is over 50% of max HP.</eng>
+			</Desc>			
+		</Hpsuppress_Neural_rewiring>
+		<Hpsuppress_Vascular_pumps>
+			<Name>
+				<eng>Vascular Pumps</eng>
+			</Name>
+			<Desc>
+				<eng>Each successful Dodge or Dodge Move regenerates +25 Suppression points.</eng>
+			</Desc>			
+		</Hpsuppress_Vascular_pumps>
+		<Hpsuppress_Cellular_stimulus>
+			<Name>
+				<eng>Cellular Stimulus</eng>
+			</Name>
+			<Desc>
+				<eng>Regenerates +10 HP and +10 Suppression Resist per second while the character is on the move.</eng>
+			</Desc>			
+		</Hpsuppress_Cellular_stimulus>
+		<Hpsuppress_Enhanced_organs>
+			<Name>
+				<eng>Enhanced Organs</eng>
+			</Name>
+			<Desc>
+				<eng>Grants [ff2bede6]10%[/ff2bede6] max HP and [ff2bede6]10%[/ff2bede6] max Suppression bonus.</eng>
+			</Desc>			
+		</Hpsuppress_Enhanced_organs>
+		
+		<Singledps_Basic_1>
+			<Desc>
+				<eng>{damage} damage for all single target skills.</eng>
+			</Desc>			
+		</Singledps_Basic_1>
+		<Singledps_Basic_2>
+			<Desc>
+				<eng>{suppression_damage} Suppression damage for single target skills.</eng>
+			</Desc>			
+		</Singledps_Basic_2>
+		<Singledps_Myo_encasing>
+			<Name>
+				<eng>Myo-Encasing</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} damage for all single target melee skills.</eng>
+			</Desc>			
+		</Singledps_Myo_encasing>
+		<Singledps_Aiming_rites>
+			<Name>
+				<eng>Ocular Implant</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} damage for all single target ranged skill.</eng>
+			</Desc>			
+		</Singledps_Aiming_rites>
+		<Singledps_Paroxysm>
+			<Name>
+				<eng>Paroxysm</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} damage for all skills with more than 1 sec cooldown remaining.</eng>
+			</Desc>			
+		</Singledps_Paroxysm>
+		<Singledps_Purgative_protocols>
+			<Name>
+				<eng>Purgative Protocols</eng>
+			</Name>
+			<Desc>
+				<eng>{per_target_damage_bonus,100} damage and Suppression damage bonus vs enemies below 30% HP (Single Target skills only).</eng>
+			</Desc>			
+		</Singledps_Purgative_protocols>
+		<Singledps_Kinetic_transfer>
+			<Name>
+				<eng>Kinetic Transfer</eng>
+			</Name>
+			<Desc>
+				<eng>Enemies losing 50% or more HP from a Single Target attack are knocked down</eng>
+			</Desc>			
+		</Singledps_Kinetic_transfer>
+		<Singledps_Euphoric_surge>
+			<Name>
+				<eng>Euphoric Glands</eng>
+			</Name>
+			<Desc>
+				<eng>Every one hit kill restores 10% of max HP (Single Target skills only).</eng>
+			</Desc>			
+		</Singledps_Euphoric_surge>
+		<Singledps_Exploitation>
+			<Name>
+				<eng>Repulsive Bionics</eng>
+			</Name>
+			<Desc>
+				<eng>{per_target_suppression_damage_bonus,100} Suppression damage bonus to Single Target attacks (when hitting same target with the same skill).</eng>
+			</Desc>			
+		</Singledps_Exploitation>
+		<Singledps_Retargeting_protocols>
+			<Name>
+				<eng>Retargeting Protocols</eng>
+			</Name>
+			<Desc>
+				<eng>Killing with a Single Target attack reduces the skill's cooldown by 30%.</eng>
+			</Desc>			
+		</Singledps_Retargeting_protocols>
+		<Singledps_Cortical_pumps>
+			<Name>
+				<eng>Cortical Pumps</eng>
+			</Name>
+			<Desc>
+				<eng>The first attack with a Single Target skill grants +5% Critical Hit Chance.</eng>
+			</Desc>			
+		</Singledps_Cortical_pumps>
+		<Singledps_Focusing_monocle>
+			<Name>
+				<eng>Focusing Monocle</eng>
+			</Name>
+			<Desc>
+				<eng>{per_target_damage_bonus,100} damage with Single Target skills against Slowed, Shocked, Stunned or Frozen enemies.</eng>
+			</Desc>			
+		</Singledps_Focusing_monocle>
+		<Singledps_Retinal_auspex>
+			<Name>
+				<eng>Retinal Auspex</eng>
+			</Name>
+			<Desc>
+				<eng>{per_target_damage_bonus,100} damage with Single Target skills vs Medium, Commander and Elite enemies.</eng>
+			</Desc>			
+		</Singledps_Retinal_auspex>
+		<Singledps_Targeting_bionics>
+			<Name>
+				<eng>Targeting Bionics</eng>
+			</Name>
+			<Desc>
+				<eng>{per_target_damage_bonus,100} damage with Single Target skills vs unmoving targets.</eng>
+			</Desc>			
+		</Singledps_Targeting_bionics>
+		<Singledps_Neuro_stimulation>
+			<Name>
+				<eng>Neuro Stimulation</eng>
+			</Name>
+			<Desc>
+				<eng>One hit kills with Single Target skills grant +20% damage and +10% damage reduction bonus for 10 seconds.</eng>
+			</Desc>			
+		</Singledps_Neuro_stimulation>
+		
+		<Aoedps_Basic_1>
+			<Desc>
+				<eng>{damage} damage to all Area of Effect skills.</eng>
+			</Desc>			
+		</Aoedps_Basic_1>
+		<Aoedps_Basic_2>
+			<Desc>
+				<eng>{suppression_damage} Suppression damage to all Area of Effect skills.</eng>
+			</Desc>			
+		</Aoedps_Basic_2>
+		<Aoedps_Basic_3>
+			<Desc>
+				<eng>{area_extent_bonus,100} increased area for all Area of Effect skills.</eng>
+			</Desc>			
+		</Aoedps_Basic_3>
+		<Aoedps_Optimal_dispersion>
+			<Name>
+				<eng>Optimal Dispersion</eng>
+			</Name>
+			<Desc>
+				<eng>{aoe_damage_bonus_per_target,100}% damage to all Area of Effect skills after each enemy within their area of effect.</eng>
+			</Desc>			
+		</Aoedps_Optimal_dispersion>
+		<Aoedps_Surgical_carnage>
+			<Name>
+				<eng>Surgical Carnage</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} damage to all area effect Melee skills.</eng>
+			</Desc>			
+		</Aoedps_Surgical_carnage>
+		<Aoedps_Blessed_exloading>
+			<Name>
+				<eng>Exloading Rites</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} damage to all area effect Ranged skill.</eng>
+			</Desc>			
+		</Aoedps_Blessed_exloading>
+		<Aoedps_Consecrated_ordnance>
+			<Name>
+				<eng>Master of Ordnance</eng>
+			</Name>
+			<Desc>
+				<eng>{critical_hit_strength} Critical Strength to all Area of Effect skills.</eng>
+			</Desc>			
+		</Aoedps_Consecrated_ordnance>
+		<Aoedps_Master_grenadier>
+			<Name>
+				<eng>Master Grenadier</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} damage to all Grenade skills.</eng>
+			</Desc>			
+		</Aoedps_Master_grenadier>
+		<Aoedps_Enhanced_radius>
+			<Name>
+				<eng>Enhanced Radius</eng>
+			</Name>
+			<Desc>
+				<eng>Effect radius for Aura skills increased by {area_extent_bonus,100}.</eng>
+			</Desc>			
+		</Aoedps_Enhanced_radius>
+		<Aoedps_Enhanced_range>
+			<Name>
+				<eng>Enhanced Range</eng>
+			</Name>
+			<Desc>
+				<eng>Effect range for Cone skills and Line skills increased by {area_extent_bonus,100}.</eng>
+			</Desc>			
+		</Aoedps_Enhanced_range>
+		<Aoedps_Area_denial>
+			<Name>
+				<eng>Area Denial</eng>
+			</Name>
+			<Desc>
+				<eng>Area effect kills restore +100 Suppression points each</eng>
+			</Desc>			
+		</Aoedps_Area_denial>
+		<Aoedps_Enhanced_duration>
+			<Name>
+				<eng>Enhanced Duration</eng>
+			</Name>
+			<Desc>
+				<eng>{skill_duration} second duration to damage over time effects (Area of Effect skills only).</eng>
+			</Desc>			
+		</Aoedps_Enhanced_duration>
+		<Aoedps_Master_sapper>
+			<Name>
+				<eng>Master Sapper</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} damage bonus to Mine skills.</eng>
+			</Desc>			
+		</Aoedps_Master_sapper>
+		<Aoedps_Eradicative_protocols>
+			<Name>
+				<eng>Eradicative Protocols</eng>
+			</Name>
+			<Desc>
+				<eng>All area effect hits reduce the skill's cooldown by 4%, kills grant a 8% reduction (for AoE skills with longer than 1 sec cooldown only).</eng>
+			</Desc>
+		</Aoedps_Eradicative_protocols>
+		
+		<Movement_Basic_1>
+			<Desc>
+				<eng>{movement_speed} Movement Speed.</eng>
+			</Desc>			
+		</Movement_Basic_1>
+		<Movement_Basic_2>
+			<Desc>
+				<eng>{cooldown} cooldown bonus for skills with longer than 1 sec cooldown.</eng>
+			</Desc>			
+		</Movement_Basic_2>
+		<Movement_Unburdened>
+			<Name>
+				<eng>Myocytic Mesh</eng>
+			</Name>
+			<Desc>
+				<eng>{movement_speed} Movement Speed bonus (for one-handed weapons only).</eng>
+			</Desc>			
+		</Movement_Unburdened>
+		<Movement_Hard_target>
+			<Name>
+				<eng>Precognitive Boost</eng>
+			</Name>
+			<Desc>
+				<eng>{damage_reduce_hardcap} damage reduction when moving for more than 2 secs.</eng>
+			</Desc>			
+		</Movement_Hard_target>
+		<Movement_Motoric_boost>
+			<Name>
+				<eng>Motoric Boost</eng>
+			</Name>
+			<Desc>
+				<eng>{movement_speed} Movement Speed when not in combat.</eng>
+			</Desc>			
+		</Movement_Motoric_boost>
+		<Movement_Pain_stimulus>
+			<Name>
+				<eng>Pain Stimulus</eng>
+			</Name>
+			<Desc>
+				<eng>Dropping below 25% of max HP resets the cooldown of all movement skills.</eng>
+			</Desc>			
+		</Movement_Pain_stimulus>
+		<Movement_Cerebral_feedback>
+			<Name>
+				<eng>Cerebral Feedback</eng>
+			</Name>
+			<Desc>
+				<eng>Dealing critical hits reduces skill cooldowns by 10% (for cooldowns longer than 1 sec only).</eng>
+			</Desc>			
+		</Movement_Cerebral_feedback>
+		<Movement_Synaptic_rewiring>
+			<Name>
+				<eng>Synaptic Rewiring</eng>
+			</Name>
+			<Desc>
+				<eng>{cooldown} cooldown reduction to all skills with cooldowns longer than 1 sec.</eng>
+			</Desc>			
+		</Movement_Synaptic_rewiring>
+		<Movement_Cardial_overdrive>
+			<Name>
+				<eng>Cardial Overdrive</eng>
+			</Name>
+			<Desc>
+				<eng>Grants immunity to Slow, Stun, Shock and Freeze when HP drops below 25%.</eng>
+			</Desc>			
+		</Movement_Cardial_overdrive>
+		<Movement_Quickening>
+			<Name>
+				<eng>Quickening</eng>
+			</Name>
+			<Desc>
+				<eng>Kills grant +20% Movement Speed bonus for 5 seconds.</eng>
+			</Desc>			
+		</Movement_Quickening>
+		<Movement_Evasive_rites>
+			<Name>
+				<eng>Evasive Bionics</eng>
+			</Name>
+			<Desc>
+				<eng>Using movement skills grant {damage_reduce_hardcap}% damage reduction for 10 seconds. Stacks for a maximum of 5.</eng>
+			</Desc>			
+		</Movement_Evasive_rites>
+		<Movement_Mental_spur>
+			<Name>
+				<eng>Mental Spur</eng>
+			</Name>
+			<Desc>
+				<eng>{critical_hit_chance_hardcap,100} Critical Hit Chance and Critical Strength bonus when not taking damage for at least 3 seconds.</eng>
+			</Desc>			
+		</Movement_Mental_spur>
+		<Movement_Overreaction>
+			<Name>
+				<eng>Overreaction</eng>
+			</Name>
+			<Desc>
+				<eng>All successful Deflects reduce skill cooldowns by 5%.</eng>
+			</Desc>			
+		</Movement_Overreaction>
+		<Movement_Athletic_augmentation>
+			<Name>
+				<eng>Athletic Augmentation</eng>
+			</Name>
+			<Desc>
+				<eng>Dodge moves cost {resource_cost} less Adrenaline.</eng>
+			</Desc>			
+		</Movement_Athletic_augmentation>
+		<Movement_Blessed_Ruination>
+			<Name>
+				<eng>Blessed Ruination</eng>
+			</Name>
+			<Desc>
+				<eng>When taking damage, all skill cooldowns over 1 seconds are reduced by the percentage of HP lost from your max HP.</eng>
+			</Desc>			
+		</Movement_Blessed_Ruination>
+		
+		<Defense_Basic_1>
+			<Desc>
+				<eng>{heat_resist}% Heat Resistance.</eng>
+			</Desc>			
+		</Defense_Basic_1>
+		<Defense_Basic_2>
+			<Desc>
+				<eng>{physical_resist}% Physical Resistance.</eng>
+			</Desc>			
+		</Defense_Basic_2>
+		<Defense_Basic_3>
+			<Desc>
+				<eng>{warp_resist}% Warp Resistance.</eng>
+			</Desc>			
+		</Defense_Basic_3>
+		<Defense_Skeletal_padding>
+			<Name>
+				<eng>Skeletal Padding</eng>
+			</Name>
+			<Desc>
+				<eng>Damage reduction by armour is increased by {item_damage_reduce}.</eng>
+			</Desc>			
+		</Defense_Skeletal_padding>
+		<Defense_Optimal_concealment>
+			<Name>
+				<eng>Optimal Concealment</eng>
+			</Name>
+			<Desc>
+				<eng>{damage_reduce_hardcap}% damage reduction in cover.</eng>
+			</Desc>			
+		</Defense_Optimal_concealment>
+		<Defense_Shock_dampening>
+			<Name>
+				<eng>Shock Dampening</eng>
+			</Name>
+			<Desc>
+				<eng>{damage_reduce}% damage reduction.</eng>
+			</Desc>			
+		</Defense_Shock_dampening>
+		<Defense_Combat_stance>
+			<Name>
+				<eng>Combat Stance</eng>
+			</Name>
+			<Desc>
+				<eng>{damage_reduce_hardcap}% damage reduction when standing still.</eng>
+			</Desc>
+		</Defense_Combat_stance>
+		<Defense_Shield_mastery>
+			<Name>
+				<eng>Shield Mastery</eng>
+			</Name>
+			<Desc>
+				<eng>+50% Deflect bonus from shields.</eng>
+			</Desc>			
+		</Defense_Shield_mastery>
+		<Defense_Enhanced_recovery>
+			<Name>
+				<eng>Enhanced Recovery</eng>
+			</Name>
+			<Desc>
+				<eng>Slow and Shock effects are reduced by {crowd_control_resist}.</eng>
+			</Desc>			
+		</Defense_Enhanced_recovery>
+		<Defense_Cover_drills>
+			<Name>
+				<eng>Cover Drills</eng>
+			</Name>
+			<Desc>
+				<eng>Covers block 50% more penetrating attacks.</eng>
+			</Desc>			
+		</Defense_Cover_drills>
+		<Defense_Runic_wards>
+			<Name>
+				<eng>Runic Wards</eng>
+			</Name>
+			<Desc>
+				<eng>Increases energy shield effectiveness by {shield_efficiency}.</eng>
+			</Desc>			
+		</Defense_Runic_wards>
+		<Defense_Bulwark_of_zeal>
+			<Name>
+				<eng>Bulwark of Zeal</eng>
+			</Name>
+			<Desc>
+				<eng>5% damage reduction for 10 secs whenever Focus points are spent.</eng>
+			</Desc>			
+		</Defense_Bulwark_of_zeal>
+		<Defense_Counter_maneuvers>
+			<Name>
+				<eng>Counter Maneuvers</eng>
+			</Name>
+			<Desc>
+				<eng>{dodge_chance,100} Dodge.</eng>
+			</Desc>			
+		</Defense_Counter_maneuvers>
+		<Defense_Reanimator_glands>
+			<Name>
+				<eng>Reanimator Glands</eng>
+			</Name>
+			<Desc>
+				<eng>Any damage that would normally kill the character is reduced by 80%. Upon survival, +200 HP regeneration per second and +20% damage bonus is granted for 10 seconds.</eng>
+			</Desc>			
+		</Defense_Reanimator_glands>
+		<Defense_Defensive_stance>
+			<Name>
+				<eng>Defensive Stance</eng>
+			</Name>
+			<Desc>
+				<eng>25% of incoming damage is substracted from Suppression Resistance instead of Health.</eng>
+			</Desc>			
+		</Defense_Defensive_stance>
+
+		
+		<Support_Basic_1>
+			<Desc_crusader>
+				<eng>{resource_max} Focus.</eng>
+			</Desc_crusader>
+			<Desc_assassin>
+				<eng>{resource_max} Adrenaline.</eng>
+			</Desc_assassin>
+			<Desc_psyker>
+				<eng>{resource_max} Warp Heat.</eng>
+			</Desc_psyker>
+		</Support_Basic_1>
+		<Support_Basic_2>
+			<Desc_crusader>
+				<eng>{cooldown_hardcap} cooldown for skills using the Focus resource.</eng>
+			</Desc_crusader>
+			<Desc_assassin>
+				<eng>{cooldown_hardcap} cooldown for skills using the Adrenaline resource.</eng>
+			</Desc_assassin>
+			<Desc_psyker>
+				<eng>{cooldown_hardcap} cooldown for skills generating Warp Heat.</eng>
+			</Desc_psyker>
+		</Support_Basic_2>
+		<Support_Basic_3>
+			<Desc>
+				<eng>{medkit_capacity} Inoculator Capacity.</eng>
+			</Desc>			
+		</Support_Basic_3>
+		<Support_Basic_4>
+			<Desc>
+				<eng>{medkit_cooldown} Inoculator cooldown.</eng>
+			</Desc>
+		</Support_Basic_4>
+		<Support_Perpetual_prayer>
+			<Name>
+				<eng>Perpetual Prayer</eng>
+			</Name>
+			<Desc_crusader>
+				<eng>{zeal_regeneration} Focus Regeneration.</eng>
+			</Desc_crusader>
+			<Desc_assassin>
+				<eng>{zeal_regeneration} Adrenaline Regeneration.</eng>
+			</Desc_assassin>
+			<Desc_psyker>
+				<eng>{zeal_regeneration} Warp Heat Regeneration.</eng>
+			</Desc_psyker>
+		</Support_Perpetual_prayer>
+		<Support_Grenade_mastery>
+			<Name>
+				<eng>Enlarged Dispenser</eng>
+			</Name>
+			<Desc>
+				<eng>Grenades have {belt_starting_amount} more charges.</eng>
+			</Desc>			
+		</Support_Grenade_mastery>
+		<Support_Runic_injectors>
+			<Name>
+				<eng>Runic Injectors</eng>
+			</Name>
+			<Desc>
+				<eng>Inoculators heal {medkit_heal} more HP.</eng>
+			</Desc>			
+		</Support_Runic_injectors>
+		<Support_Invigorating_faith>
+			<Name>
+				<eng>Invigorating Faith</eng>
+			</Name>
+			<Desc_crusader>
+				<eng>Every Focus point spent heals you for {hp_per_resource_spent,100} of your maximum HP.</eng>
+			</Desc_crusader>
+			<Desc_assassin>
+				<eng>Every Adrenaline point spent heals you for {hp_per_resource_spent,100} of your maximum HP.</eng>
+			</Desc_assassin>
+			<Desc_psyker>
+				<eng>Every point of Warp Heat gained heals you for {hp_per_resource_spent,100} of your maximum HP.</eng>
+			</Desc_psyker>
+		</Support_Invigorating_faith>
+		<Support_Galvanic_fuel_cells>
+			<Name>
+				<eng>Galvanic Fuel Cells</eng>
+			</Name>
+			<Desc>
+				<eng>Energy Fields have {belt_starting_amount} more charges and {cooldown_hardcap} cooldown.</eng>
+			</Desc>			
+		</Support_Galvanic_fuel_cells>
+		<Support_Inoculator_augmentation>
+			<Name>
+				<eng>Inoculator Augmentation</eng>
+			</Name>
+			<Desc>
+				<eng>Regeneration boost for {hp_regeneration} HP per second while the Inoculator is on cooldown.</eng>
+			</Desc>			
+		</Support_Inoculator_augmentation>
+		<Support_Master_ambusher>
+			<Name>
+				<eng>Master Ambusher</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} damage bonus vs Surprised enemies.</eng>
+			</Desc>			
+		</Support_Master_ambusher>
+		<Support_Mine_mastery>
+			<Name>
+				<eng>Mine Mastery</eng>
+			</Name>
+			<Desc>
+				<eng>Mines have {belt_starting_amount} more charges.</eng>
+			</Desc>			
+		</Support_Mine_mastery>
+		<Support_Divine_visions>
+			<Name>
+				<eng>Divine Visions</eng>
+			</Name>
+			<Desc_crusader>
+				<eng>Inoculator use restores {resource_per_inoculator_use_percent,100} of missing Focus.</eng>
+			</Desc_crusader>	
+			<Desc_assassin>
+				<eng>Inoculator use restores {resource_per_inoculator_use_percent,100} of missing Adrenaline.</eng>
+			</Desc_assassin>	
+			<Desc_psyker>
+				<eng>Inoculator use lowers Warp Heat by {resource_per_inoculator_use_percent,100}.</eng>
+			</Desc_psyker>
+		</Support_Divine_visions>
+		
+		<Execution_Basic_1>
+			<Desc>
+				<eng>Bonuses granted by Executions last 20% longer.</eng>
+			</Desc>			
+		</Execution_Basic_1>
+		<Execution_Basic_2>
+			<Desc>
+				<eng>{execute_chance}% Execution chance.</eng>
+			</Desc>			
+		</Execution_Basic_2>
+		<Execution_Demoralize>
+			<Name>
+				<eng>Demoralize</eng>
+			</Name>
+			<Desc>
+				<eng>Enemies within 10 meters lose 25% of max Suppression when an Execution is completed.</eng>
+			</Desc>			
+		</Execution_Demoralize>
+		<Execution_Mortiferocity>
+			<Name>
+				<eng>Mortiferocity</eng>
+			</Name>
+			<Desc>
+				<eng>Kills with Critical Hits have increased chance to turn into Executions.</eng>
+			</Desc>			
+		</Execution_Mortiferocity>
+		<Execution_Necrotic_surge>
+			<Name>
+				<eng>Necrotic Surge</eng>
+			</Name>
+			<Desc>
+				<eng>Executing an enemy heals 20% of maximum HP instantly.</eng>
+			</Desc>			
+		</Execution_Necrotic_surge>
+		<Execution_Enfeeblement>
+			<Name>
+				<eng>Enfeeblement</eng>
+			</Name>
+			<Desc>
+				<eng>Enemies within 10 meters suffer 30% damage reduction for 10 seconds when an Execution is completed.</eng>
+			</Desc>			
+		</Execution_Enfeeblement>
+		<Execution_Murderlust>
+			<Name>
+				<eng>Murderlust</eng>
+			</Name>
+			<Desc>
+				<eng>Executions grant a 10% damage bonus for 10 seconds.</eng>
+			</Desc>			
+		</Execution_Murderlust>
+		<Execution_Executioners_Reward>
+			<Name>
+				<eng>Executioner's Reward</eng>
+			</Name>
+			<Desc>
+				<eng>Executions restore 10% max HP and 10% max Suppression Resist.</eng>
+			</Desc>			
+		</Execution_Executioners_Reward>
+		<Execution_Thirst_for_blood>
+			<Name>
+				<eng>Thirst for Blood</eng>
+			</Name>
+			<Desc>
+				<eng>Executions restore 10 Adrenaline points.</eng>
+			</Desc>			
+		</Execution_Thirst_for_blood>
+		<Execution_Necrophobic_rites>
+			<Name>
+				<eng>Necrophobic Rites</eng>
+			</Name>
+			<Desc>
+				<eng>Enemies within 10 meters suffer Shock and lose 25% of max Suppression when an Execution is completed.</eng>
+			</Desc>			
+		</Execution_Necrophobic_rites>
+		
+		<Heatdamage_Basic_1>
+			<Desc>
+				<eng>{heat_damage} Heat Damage.</eng>
+			</Desc>			
+		</Heatdamage_Basic_1>
+		<Heatdamage_Consecrated_capacitors>
+			<Name>
+				<eng>Consecrated Capacitors</eng>
+			</Name>
+			<Desc>
+				<eng>Energy and heat weapons deal 10-20% extra damage when their Overheat bar is over 50% (damage increases with overheat rate).</eng>
+			</Desc>			
+		</Heatdamage_Consecrated_capacitors>
+		<Heatdamage_Adamantium_heat_sink>
+			<Name>
+				<eng>Adamantium Heat Sink</eng>
+			</Name>
+			<Desc>
+				<eng>Energy and heat weapons generate {overheat} less heat.</eng>
+			</Desc>			
+		</Heatdamage_Adamantium_heat_sink>
+		<Heatdamage_Volatile_output>
+			<Name>
+				<eng>Volatile Output</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} Damage and {critical_hit_chance_hardcap,100} Critical Chance bonus to energy and heat weapons.</eng>
+			</Desc>			
+		</Heatdamage_Volatile_output>
+		<Heatdamage_Superheated_discharge>
+			<Name>
+				<eng>Superheated Discharge</eng>
+			</Name>
+			<Desc>
+				<eng>Critical hits with energy and heat weapons bestow a stacking Heat vulnerability upon the target.</eng>
+			</Desc>			
+		</Heatdamage_Superheated_discharge>
+		<Heatdamage_Coolant_fluids>
+			<Name>
+				<eng>Coolant Fluids</eng>
+			</Name>
+			<Desc>
+				<eng>Overheated weapons cool down {overheat_cooling_rate,100} faster.</eng>
+			</Desc>			
+		</Heatdamage_Coolant_fluids>
+		<Heatdamage_Anti_spatter_nozzle>
+			<Name>
+				<eng>Anti-Spatter Nozzle</eng>
+			</Name>
+			<Desc>
+				<eng>Discharging an energy or heat weapon with zero Overheat bestows a Burn effect upon the target.</eng>
+			</Desc>			
+		</Heatdamage_Anti_spatter_nozzle>
+		<Heatdamage_Spontaneous_combustion>
+			<Name>
+				<eng>Spontaneous Combustion</eng>
+			</Name>
+			<Desc>
+				<eng>Critical hits with energy and heat weapons bestow a Burn effect upon the target.</eng>
+			</Desc>			
+		</Heatdamage_Spontaneous_combustion>
+		
+		<Physicaldamage_Basic_1>
+			<Desc>
+				<eng>{physical_damage} Physical Damage.</eng>
+			</Desc>			
+		</Physicaldamage_Basic_1>
+		<Physicaldamage_Deep_lacerations>
+			<Name>
+				<eng>Deep Lacerations</eng>
+			</Name>
+			<Desc>
+				<eng>{critical_hit_strength} Critical Strength for skills with Physical Damage.</eng>
+			</Desc>			
+		</Physicaldamage_Deep_lacerations>
+		<Physicaldamage_Arterial_wounding>
+			<Name>
+				<eng>Arterial Wounding</eng>
+			</Name>
+			<Desc>
+				<eng>Bleeding effects last {skill_duration} sec longer.</eng>
+			</Desc>			
+		</Physicaldamage_Arterial_wounding>
+		<Physicaldamage_Incensed_weapons>
+			<Name>
+				<eng>Incensed Weapons</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} damage to all skills dealing Physical Damage with less than 1 second cooldown.</eng>
+			</Desc>			
+		</Physicaldamage_Incensed_weapons>
+		<Physicaldamage_Impact_necrosis>
+			<Name>
+				<eng>Impact Necrosis</eng>
+			</Name>
+			<Desc>
+				<eng>Critical Hits dealt with Physical Damage bestows a stacking physical vulnerability upon the target.</eng>
+			</Desc>			
+		</Physicaldamage_Impact_necrosis>
+		<Physicaldamage_Mercy_kill>
+			<Name>
+				<eng>Mercy Kill</eng>
+			</Name>
+			<Desc>
+				<eng>{per_target_damage_bonus,100} damage against Bleeding enemies.</eng>
+			</Desc>			
+		</Physicaldamage_Mercy_kill>
+		<Physicaldamage_Severing_the_tendons>
+			<Name>
+				<eng>Severing the Tendons</eng>
+			</Name>
+			<Desc>
+				<eng>Critical Hits dealt with Physical Damage bestows a Slow effect upon the target.</eng>
+			</Desc>			
+		</Physicaldamage_Severing_the_tendons>
+		<Physicaldamage_Kinetic_exorcism>
+			<Name>
+				<eng>Concussive Trauma</eng>
+			</Name>
+			<Desc>
+				<eng>Physical attacks grant a stacking {per_target_damage_bonus,100} damage bonus (up to 50%, maximum one token per seconds). Attacking a different target negates the bonus.</eng>
+			</Desc>
+		</Physicaldamage_Kinetic_exorcism>
+		
+		<Aimedshot_Basic_1>
+			<Desc>
+				<eng>{damage} damage for Aimed and Sniper skills.</eng>
+			</Desc>			
+		</Aimedshot_Basic_1>
+		
+		<Aimedshot_Aftershock>
+			<Name>
+				<eng>Aftershock</eng>
+			</Name>
+			<Desc>
+				<eng>All Aimed and Sniper shots cause Slow.</eng>
+			</Desc>			
+		</Aimedshot_Aftershock>
+		<Aimedshot_Rites_of_obliteration>
+			<Name>
+				<eng>Rites of Obliteration</eng>
+			</Name>
+			<Desc>
+				<eng>{critical_hit_chance_hardcap,100} Critical Hit Chance for Aimed and Sniper skills.</eng>
+			</Desc>			
+		</Aimedshot_Rites_of_obliteration>
+		<Aimedshot_Gaping_wounds>
+			<Name>
+				<eng>Gaping Wounds</eng>
+			</Name>
+			<Desc>
+				<eng>{critical_hit_strength} Critical Strength for Aimed and Sniper skills.</eng>
+			</Desc>			
+		</Aimedshot_Gaping_wounds>
+		<Aimedshot_Cranial_trauma>
+			<Name>
+				<eng>Cranial Trauma</eng>
+			</Name>
+			<Desc>
+				<eng>+30% damage for headshots performed with Aimed and Sniper skills.</eng>
+			</Desc>			
+		</Aimedshot_Cranial_trauma>
+		<Aimedshot_Nervous_collapse>
+			<Name>
+				<eng>Nervous Collapse</eng>
+			</Name>
+			<Desc>
+				<eng>Slow and Shock effects caused by Aimed and Sniper skills last {skill_duration} sec longer.</eng>
+			</Desc>			
+		</Aimedshot_Nervous_collapse>
+		<Aimedshot_Off_center_aim>
+			<Name>
+				<eng>Off-center Aim</eng>
+			</Name>
+			<Desc>
+				<eng>Aimed shots have 25% chance to cause Knockdown.</eng>
+			</Desc>			
+		</Aimedshot_Off_center_aim>
+		<Aimedshot_Fast_aim>
+			<Name>
+				<eng>Fast Aim</eng>
+			</Name>
+			<Desc>
+				<eng>The maximum aiming time with all Sniper skills are reduced to 2 seconds.</eng>
+			</Desc>			
+		</Aimedshot_Fast_aim>
+		<Aimedshot_Master_executor>
+			<Name>
+				<eng>Master Executor</eng>
+			</Name>
+			<Desc>
+				<eng>Kills performed with an Aimed or Sniper skill have +5% chance to grant the Execution bonus.</eng>
+			</Desc>			
+		</Aimedshot_Master_executor>
+		
+				
+		<Melee_Foresight>
+			<Name>
+				<eng>Foresight</eng>
+			</Name>
+			<Desc>
+				<eng>{damage_reduce} Melee damage reduction</eng>
+			</Desc>			
+		</Melee_Foresight>
+		<Melee_Psychic_weld>
+			<Name>
+				<eng>Psychic Weld</eng>
+			</Name>
+			<Desc>
+				<eng>-2 Warp Heat per psyker Melee weapon skill used</eng>
+			</Desc>			
+		</Melee_Psychic_weld>
+		<Ranged_Witch_sight>
+			<Name>
+				<eng>Witch-sight</eng>
+			</Name>
+			<Desc>
+				<eng>+10% Ranged damage with Pistols for 10 seconds when a Psyker skill is used</eng>
+			</Desc>			
+		</Ranged_Witch_sight>
+		<Ranged_Veiled_presence>
+			<Name>
+				<eng>Veiled Presence</eng>
+			</Name>
+			<Desc>
+				<eng>-5% Warp Heat cost for Ranged psyker skills</eng>
+			</Desc>			
+		</Ranged_Veiled_presence>
+		<Debuff_Castigation>
+			<Name>
+				<eng>Castigation</eng>
+			</Name>
+			<Desc>
+				<eng>+3% Critical Hit Chance for every Debuff effect on the target</eng>
+			</Desc>			
+		</Debuff_Castigation>
+		<Debuff_Transfer_strain>
+			<Name>
+				<eng>Transfer Strain</eng>
+			</Name>
+			<Desc>
+				<eng>-1 Warp Heat for every Debuff effect on the target</eng>
+			</Desc>			
+		</Debuff_Transfer_strain>
+		<Dot_Soulburn>
+			<Name>
+				<eng>Soulburn</eng>
+			</Name>
+			<Desc>
+				<eng>-20% damage penalty to Burning opponents (non-stacking)</eng>
+			</Desc>			
+		</Dot_Soulburn>
+		<Critical_Warpshock>
+			<Name>
+				<eng>Warpshock</eng>
+			</Name>
+			<Desc>
+				<eng>+5% Critical Hit Chance at maximum Warp Heat</eng>
+			</Desc>			
+		</Critical_Warpshock>
+		<Critical_Feeding_on_pain>
+			<Name>
+				<eng>Feeding on Pain</eng>
+			</Name>
+			<Desc>
+				<eng>-1 Warp Heat for every Critical Hit dealt</eng>
+			</Desc>			
+		</Critical_Feeding_on_pain>
+		<Maxsuppression_Warding_hex>
+			<Name>
+				<eng>Warding Hex</eng>
+			</Name>
+			<Desc>
+				<eng>+3% Resist All bonus if the character's Suppression status is green</eng>
+			</Desc>			
+		</Maxsuppression_Warding_hex>
+		<Hpsuppress_Ethereal_sink>
+			<Name>
+				<eng>Ethereal Sink</eng>
+			</Name>
+			<Desc>
+				<eng>-50% Warp Heat cost if the character is below 25% of max HP</eng>
+			</Desc>			
+		</Hpsuppress_Ethereal_sink>
+		<Hpsuppress_Warp_heat_converter>
+			<Name>
+				<eng>Warp Heat Converter</eng>
+			</Name>
+			<Desc>
+				<eng>+25 Suppression Resist for every Warp Heat point lost</eng>
+			</Desc>			
+		</Hpsuppress_Warp_heat_converter>
+		<Singledps_Psychic_amplifier>
+			<Name>
+				<eng>Psychic Amplifier</eng>
+			</Name>
+			<Desc>
+				<eng>{per_target_damage_bonus,100} damage to Single Target skills at maximum Warp Heat</eng>
+			</Desc>			
+		</Singledps_Psychic_amplifier>
+				
+		<Singledps_Electrum_conductors>
+			<Name>
+				<eng>Electrum Conductors</eng>
+			</Name>
+			<Desc>
+				<eng>{warpheat_free_chance,100} to not generate Warp Heat with Single Target skills</eng>
+			</Desc>			
+		</Singledps_Electrum_conductors>
+		<Aoedps_Implosion>
+			<Name>
+				<eng>Implosion</eng>
+			</Name>
+			<Desc>
+				<eng>{damage,100} damage to Area Effect skills at maximum Warp Heat</eng>
+			</Desc>			
+		</Aoedps_Implosion>
+		<Aoedps_Aftershock>
+			<Name>
+				<eng>Aftershock</eng>
+			</Name>
+			<Desc>
+				<eng>{damage} Warp damage to Area Effect skills</eng>
+			</Desc>			
+		</Aoedps_Aftershock>
+		<Movement_Biomantic_haste>
+			<Name>
+				<eng>Biomantic Haste</eng>
+			</Name>
+			<Desc>
+				<eng>+10% Movement speed bonus for 5 seconds when a psyker skill is used (non-stacking)</eng>
+			</Desc>			
+		</Movement_Biomantic_haste>
+		<Movement_Psychic_prod>
+			<Name>
+				<eng>Psychic Prod</eng>
+			</Name>
+			<Desc>
+				<eng>10% faster cooldown to psyker skills (already on cooldown) when Force weapons are used (stacking)</eng>
+			</Desc>			
+		</Movement_Psychic_prod>
+		<Defense_Trans_empyric_phasing>
+			<Name>
+				<eng>Trans-Empyric Phasing</eng>
+			</Name>
+			<Desc>
+				<eng>Invulnerability for 3 seconds when the character's status changes to Exposed</eng>
+			</Desc>			
+		</Defense_Trans_empyric_phasing>
+		<Defense_Psychic_parry>
+			<Name>
+				<eng>Psychic Parry</eng>
+			</Name>
+			<Desc>
+				<eng>{item_dodge_chance,100} bonus to Deflect with Force Swords</eng>
+			</Desc>			
+		</Defense_Psychic_parry>
+		<Support_Translocation>
+			<Name>
+				<eng>Translocation</eng>
+			</Name>
+			<Desc>
+				<eng>-20% Warp Heat cost to psyker skills mounted on the support slot</eng>
+			</Desc>			
+		</Support_Translocation>
+		
+		<Support_Psycurium_injectors>
+			<Name>
+				<eng>Psycurium Injectors</eng>
+			</Name>
+			<Desc>
+				<eng>{resource_per_inoculator_use_fix} Warp Heat upon Inoculator activation</eng>
+			</Desc>			
+		</Support_Psycurium_injectors>
+		
+		<Heatdamage_Witchfire_symbiotics>
+			<Name>
+				<eng>Witchfire Symbiotics</eng>
+			</Name>
+			<Desc>
+				<eng>+2% Heat damage for every Pyromancy skill mounted (in the skill slots)</eng>
+			</Desc>			
+		</Heatdamage_Witchfire_symbiotics>
+		
+		<Physicaldamage_Fleshgaze>
+			<Name>
+				<eng>Fleshgaze</eng>
+			</Name>
+			<Desc>
+				<eng>{physical_damage,100} damage to Phsyical skills when the character's Warp Heat status is below Exposed</eng>
+			</Desc>			
+		</Physicaldamage_Fleshgaze>
+		
+		
+		<Psychicdebuff_Phase_through>
+			<Name>
+				<eng>Phase Through</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Phase Through (Armour Piercing) psychic mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Phase_through>
+		<Psychicdebuff_Matter_displacement>
+			<Name>
+				<eng>Matter Displacement</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Matter Displacement (Armour Breaking) psychic mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Matter_displacement>
+		<Psychicdebuff_Telekinetic_shock>
+			<Name>
+				<eng>Telekinetic Shock</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Telekinetic Shock (Knockback) psychic mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Telekinetic_shock>
+		<Psychicdebuff_Telekinetic_blast>
+			<Name>
+				<eng>Telekinetic Blast</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Telekinetic Blast (Knockdown) psychic mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Telekinetic_blast>
+		<Psychicdebuff_Temporal_stasis>
+			<Name>
+				<eng>Temporal Stasis</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Temporal Stasis (Stun) psychic mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Temporal_stasis>		
+		<Psychicdebuff_Hinder_movement>
+			<Name>
+				<eng>Hinder Movement</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Hinder Movement (Slow) psychic mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Hinder_movement>
+		
+		<Psychicdebuff_Psychic_shackles>
+			<Name>
+				<eng>Psychic Shackles</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Psychic Shackles (Shock) mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Psychic_shackles>
+		<Psychicdebuff_Blindness>
+			<Name>
+				<eng>Blindness</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Blindness psychic mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Blindness>		
+		<Psychicdebuff_Vulnerability>
+			<Name>
+				<eng>Vulnerability</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Vulnerability psychic mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Vulnerability>
+		<Psychicdebuff_Damage_over_time>
+			<Name>
+				<eng>Damage over Time</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Damage over Time psychic mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Damage_over_time>
+		<Psychicdebuff_Warp_scourge>
+			<Name>
+				<eng>Warp Scourge</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Warp Scourge (damage conversion) psychic mastery</eng>
+			</Desc>			
+		</Psychicdebuff_Warp_scourge>
+		<Psychicdebuff_Immaterial_surge>
+			<Name>
+				<eng>Immaterial Surge</eng>
+			</Name>
+			<Desc>
+				<eng>+25% damage to psyker skills for 10 seconds when Warp Heat changes to a higher status</eng>
+			</Desc>			
+		</Psychicdebuff_Immaterial_surge>
+		<Psychiccombat_Exploit_weakness>
+			<Name>
+				<eng>Exploit Weakness</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Exploit Weakness (Critical Hit) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_Exploit_weakness>
+		<Psychiccombat_Dismantle>
+			<Name>
+				<eng>Dismantle</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Dismantle (Suppression damage) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_Dismantle>		
+		<Psychiccombat_Demolition>
+			<Name>
+				<eng>Demolition</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Demolition (Cover damage) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_Demolition>		
+		<Psychiccombat_HP_stimulus>
+			<Name>
+				<eng>Health Stimulus</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Health Stimulus (HP per hit) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_HP_stimulus>		
+		<Psychiccombat_Suppression_stimulus>
+			<Name>
+				<eng>Suppression Stimulus</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Suppression Stimulus (Suppression per hit) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_Suppression_stimulus>		
+		<Psychiccombat_Symbiosis>
+			<Name>
+				<eng>Symbiosis</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Symbiosis (Target ally) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_Symbiosis>		
+		<Psychiccombat_Knit_flesh>
+			<Name>
+				<eng>Knit Flesh</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Knit Flesh (HP regen) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_Knit_flesh>		
+		<Psychiccombat_Regain_composure>
+			<Name>
+				<eng>Regain Composure</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Regain Composure (Suppression regen) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_Regain_composure>		
+		<Psychiccombat_Deny_the_warp>
+			<Name>
+				<eng>Deny the Warp</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Deny the Warp (Warp resist) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_Deny_the_warp>
+		
+		<Psychiccombat_Speed_boost>
+			<Name>
+				<eng>Speed Boost</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Speed Boost (Movement speed) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_Speed_boost>		
+		<Psychiccombat_Damage_boost>
+			<Name>
+				<eng>Damage Boost</eng>
+			</Name>
+			<Desc>
+				<eng>Unlocks the Damage Boost (All damage) psychic mastery</eng>
+			</Desc>			
+		</Psychiccombat_Damage_boost>
+		<Psychiccombat_Electrum_psy_convector>
+			<Name>
+				<eng>Electrum Psy-Convector</eng>
+			</Name>
+			<Desc>
+				<eng>{damage,100} damage to all Force weapon skills</eng>
+			</Desc>			
+		</Psychiccombat_Electrum_psy_convector>
+
+
+		<Radical_Touched_by_the_empyrean>
+			<Name>
+				<eng>Touched by the Empyrean</eng>
+			</Name>
+			<Desc>
+				<eng>+10% Warp Damage, but -10% Warp Resistance.</eng>
+			</Desc>
+		</Radical_Touched_by_the_empyrean>
+		<Radical_Forbidden_knowledge>
+			<Name>
+				<eng>Forbidden Knowledge</eng>
+			</Name>
+			<Desc>
+				<eng>+1% Damage after every other acquired skill from the Radical path.</eng>
+			</Desc>
+		</Radical_Forbidden_knowledge>
+		<Radical_Warp_adaptation>
+			<Name>
+				<eng>Warp Adaptation</eng>
+			</Name>
+			<Desc>
+				<eng>Incoming Warp damage has a 10% chance to heal you instead of harming you.</eng>
+			</Desc>
+		</Radical_Warp_adaptation>
+		<Radical_Oblationist_penance>
+			<Name>
+				<eng>Oblationist Penance</eng>
+			</Name>
+			<Desc>
+				<eng>3% chance to reflect incoming attacks to the attacker with Warp damage type.</eng>
+			</Desc>
+		</Radical_Oblationist_penance>
+		<Radical_Soul_harvest_ritual>
+			<Name>
+				<eng>Soul Harvest Ritual</eng>
+			</Name>
+			<Desc>
+				<eng>Each killed enemy creates a Harvested Soul bonus (stacks 10 times) that bestows +10% Critical Hit Strength. A succesful critical hit removes all instances of the Harvested Soul bonus.</eng>
+			</Desc>
+		</Radical_Soul_harvest_ritual>
+		<Radical_Blood_focus>
+			<Name>
+				<eng>Blood Focus</eng>
+			</Name>
+			<Desc>
+				<eng>Taking any damage creates a Blood Focus effect that bestows +5% Damage for 1 second (does not stack).</eng>
+			</Desc>
+		</Radical_Blood_focus>
+		<Radical_Istvaanism>
+			<Name>
+				<eng>Radical Istvaanism</eng>
+			</Name>
+			<Desc>
+				<eng>Provides bonus to Damage proportional to the amount of missing Health (to a maximum of 10%).</eng>
+			</Desc>
+		</Radical_Istvaanism>
+
+		<Puritan_Hater>
+			<Name>
+				<eng>Hater</eng>
+			</Name>
+			<Desc>
+				<eng>+5% Damage against Xenos, Chaos and Renegade enemies.</eng>
+			</Desc>
+		</Puritan_Hater>
+		<Puritan_Warp_thorn>
+			<Name>
+				<eng>Warp Thorn</eng>
+			</Name>
+			<Desc>
+				<eng>Incoming attacks with Warp damage type are reflected to the attacker, dealing 30% of the original damage amount.</eng>
+			</Desc>
+		</Puritan_Warp_thorn>
+		<Puritan_Holy_rage>
+			<Name>
+				<eng>Holy Rage</eng>
+			</Name>
+			<Desc>
+				<eng>Taking any Warp damage creates a Holy Rage effect for 3 seconds that bestows +20% Warp Resistance and +5% Damage (does not stack).</eng>
+			</Desc>
+		</Puritan_Holy_rage>
+		<Puritan_Damonic_lore>
+			<Name>
+				<eng>Daemonic Lore</eng>
+			</Name>
+			<Desc>
+				<eng>+20% Damage against Daemons.</eng>
+			</Desc>
+		</Puritan_Damonic_lore>
+		<Puritan_Holy_shield>
+			<Name>
+				<eng>Holy Shield</eng>
+			</Name>
+			<Desc>
+				<eng>Incoming attacks from Xenos, Chaos and Renegade enemies deal 5% less damage.</eng>
+			</Desc>
+		</Puritan_Holy_shield>
+		<Puritan_Holy_conclave>
+			<Name>
+				<eng>Holy Conclave</eng>
+			</Name>
+			<Desc>
+				<eng>+4% Maximum Health and +2% Damage to you and nearby allies (stacks with other players' Holy Conclave).</eng>
+			</Desc>
+		</Puritan_Holy_conclave>
+		<Puritan_Monodominant_commandments>
+			<Name>
+				<eng>Monodominant Commandments</eng>
+			</Name>
+			<Desc>
+				<eng>Each killed Daemon bestows +20% Health regeneration and +20% Suppression regeneration for 5 seconds.</eng>
+			</Desc>
+		</Puritan_Monodominant_commandments>
+	
+	</Skilltree>
+</Root>

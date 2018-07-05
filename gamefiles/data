@@ -1,4 +1,618 @@
-Assassin
+# crusader
+Warfare
+{
+	Base
+	{
+		MeleeDamage
+		{
+			property=damage
+			prioritygroup=bonus_multiplier
+			conditions=skill_category(melee)
+			value=0.01
+		}
+		RangedDamage
+		{
+			property=damage
+			prioritygroup=bonus_multiplier
+			conditions=skill_category(ranged)
+			value=0.01
+		}
+	}
+	Tier
+	{
+		Demolition
+		{
+			Modifier
+			{
+				property=cover_damage
+				prioritygroup=bonus_multiplier
+				value=0.25
+			}
+		}
+		Deflection
+		{
+			Modifier
+			{
+				property=dodge_chance
+				prioritygroup=bonus_fix
+				value=0.05
+			}
+		}
+		Mobility
+		{
+			Modifier
+			{
+				property=movement_speed
+				prioritygroup=bonus_multiplier
+				value=0.05
+			}
+		}
+		Precision
+		{
+			Modifier
+			{
+				property=critical_hit_chance
+				prioritygroup=bonus_fix
+				value=0.05
+			}
+		}
+		BeastLore
+		{
+			Modifier
+			{
+				property=per_target_damage_bonus
+				prioritygroup=bonus_fix
+				conditions=giant
+				value=0.15
+			}
+		}
+	}
+}
+
+Toughness
+{
+	Base
+	{
+		Hitpoints
+		{
+			property=hp_max
+			prioritygroup=base_fix
+			value=40
+		}
+		SuppressionResist
+		{
+			property=suppression_resist_max
+			prioritygroup=bonus_fix
+			value=40
+		}
+	}
+	Tier
+	{
+		Hemophagia
+		{
+			Modifier
+			{
+				property=medkit_heal
+				prioritygroup=bonus_multiplier
+				value=0.1
+			}
+		}
+		Rejuvenation
+		{
+			Modifier
+			{
+				property=hp_regeneration
+				prioritygroup=base_fix
+				value=30
+			}
+		}
+		Salamandra
+		{
+			Modifier
+			{
+				property=heat_resist
+				prioritygroup=bonus_fix
+				value=10
+			}
+		}
+		Fortitude
+		{
+			Modifier
+			{
+				property=physical_resist
+				prioritygroup=bonus_fix
+				value=10
+			}
+		}
+		Absorption
+		{
+			Modifier
+			{
+				property=damage_reduce
+				prioritygroup=bonus_fix
+				value=5
+			}
+		}
+	}
+}
+Virtue
+{
+	Base
+	{
+		Mana
+		{
+			property=resource_max
+			prioritygroup=bonus_fix
+			value=2
+		}
+		SuppressionDamage
+		{
+			property=suppression_damage
+			prioritygroup=bonus_multiplier
+			value=0.01
+		}
+	}
+	Tier
+	{
+		Purity
+		{
+			Modifier
+			{
+				property=warp_resist
+				prioritygroup=bonus_fix
+				value=10
+			}
+		}
+		Unbending
+		{
+			Modifier
+			{
+				property=suppression_resist_max
+				prioritygroup=bonus_fix
+				value=250
+			}
+		}
+		Vigor
+		{
+			Modifier
+			{
+				property=hp_per_resource_spent
+				prioritygroup=bonus_fix
+				value=0.005
+			}
+			Modifier
+			{
+				property=suppression_resist_per_resource_spent
+				prioritygroup=bonus_fix
+				value=0.005
+			}
+		}
+		Devotion
+		{
+			Modifier
+			{
+				property=zeal_regeneration
+				prioritygroup=bonus_fix
+				value=1
+			}
+		}
+		Juggernaut
+		{
+			Modifier
+			{
+				property=damage
+				prioritygroup=bonus_multiplier
+				conditions=suppression_level(0)
+				value=0.10
+			}
+		}
+	}
+}
+
+# assassin
+Accuracy
+{
+	Base
+	{
+		MeleeDamage
+		{
+			property=damage
+			prioritygroup=bonus_multiplier
+			conditions=skill_category(melee)
+			value=0.01
+		}
+		RangedDamage
+		{
+			property=damage
+			prioritygroup=bonus_multiplier
+			conditions=skill_category(ranged)
+			value=0.01
+		}
+	}
+	Tier
+	{
+		Dismantle
+		{
+			Modifier
+			{
+				property=suppression_damage
+				prioritygroup=bonus_multiplier
+				value=0.10
+			}
+		}
+		CounterBlow
+		{
+			Modifier
+			{
+				property=suppression_resist_per_kill
+				prioritygroup=bonus_fix
+				value=5
+			}
+		}
+		Exploitation
+		{
+			Modifier
+			{
+				property=damage
+				prioritygroup=bonus_multiplier
+				value=0.20
+				conditions=soldier_flag(ambushing)
+			}
+		}
+		Euphoria
+		{
+			Modifier
+			{
+				property=hp_per_hit
+				prioritygroup=bonus_fix
+				value=5
+			}
+		}
+		Overdrive
+		{
+			Skill=assassin_ability_overdrive
+		}
+	}
+}
+
+Survival
+{
+	Base
+	{
+		Hitpoints
+		{
+			property=hp_max
+			prioritygroup=base_fix
+			value=20
+		}
+		SuppressionResist
+		{
+			property=suppression_resist_max
+			prioritygroup=bonus_fix
+			value=20
+		}
+		Dodge
+		{
+			property=dodge_chance
+			prioritygroup=bonus_fix
+			value=0.005
+		}
+	}
+	Tier
+	{
+		Momentum
+		{
+			Modifier
+			{
+				property=dodge_chance
+				conditions=soldier_flag(ambushing)
+				prioritygroup=bonus_fix
+				value=0.05
+			}
+		}
+		Immuno_flux
+		{
+			Modifier
+			{
+				property=medkit_duration
+				prioritygroup=bonus_fix
+				value=2.0
+			}
+		}
+		Quickening
+		{
+			Modifier
+			{
+				property=movement_speed
+				prioritygroup=bonus_multiplier
+				value=0.05
+			}
+		}
+		Carnophagia
+		{
+			Modifier
+			{
+				property=hp_per_kill
+				prioritygroup=bonus_fix
+				value=40
+			}
+		}
+		Fluidity
+		{
+			Skill=assassin_ability_fluidity
+		}
+	}
+}
+
+Bloodlust
+{
+	Base
+	{
+		Mana
+		{
+			property=resource_max
+			prioritygroup=bonus_fix
+			value=2
+		}
+		SuppressionDamage
+		{
+			property=critical_hit_chance
+			prioritygroup=bonus_fix
+			value=0.0025
+		}
+	}
+	Tier
+	{
+		HiddenReserve
+		{
+			Modifier
+			{
+				property=hp_per_resource_spent
+				prioritygroup=bonus_fix
+				value=0.005
+			}
+			Modifier
+			{
+				property=suppression_resist_per_resource_spent
+				prioritygroup=bonus_fix
+				value=0.005
+			}
+		}
+		Wounding
+		{
+			Modifier
+			{
+				property=critical_hit_strength
+				prioritygroup=bonus_fix
+				value=5
+			}
+		}
+		CarnalSqueeze
+		{
+			Skill=bloodlust_carnal_squeeze
+		}
+		Bodysurge
+		{
+			Modifier
+			{
+				property=adrenaline_per_hit
+				prioritygroup=bonus_multiplier
+				value=2.0
+			}
+		}
+		BlessedMurder
+		{
+			Skill=assassin_ability_blessed_murder
+		}
+	}
+}
+
+
+Force
+{
+	Base
+	{
+		AllDamage
+		{
+			property=damage
+			prioritygroup=bonus_multiplier
+			value=0.01
+		}
+	}
+	Tier
+	{
+		Dismantle
+		{
+			Modifier
+			{
+				property=suppression_damage
+				prioritygroup=bonus_multiplier
+				value=0.10
+			}
+		}
+		EtherealDrain
+		{
+			Modifier
+			{
+				property=damage
+				prioritygroup=bonus_multiplier
+				conditions=warpheat_level(2)
+				value=0.1
+			}
+		}
+		AstralBleed
+		{
+			Modifier
+			{
+				property=warp_damage
+				prioritygroup=bonus_multiplier
+				value=0.05
+			}
+		}
+		Precision
+		{
+			Modifier
+			{
+				property=critical_hit_chance
+				prioritygroup=bonus_fix
+				value=0.05
+			}
+		}
+		PainChanneling
+		{
+			Skill=psyker_ability_pain_channeling					
+		}
+	}
+}
+
+
+Resilience
+{
+	Base
+	{
+		Hitpoints
+		{
+			property=hp_max
+			prioritygroup=base_fix
+			value=30
+		}
+		SuppressionResist
+		{
+			property=suppression_resist_max
+			prioritygroup=base_fix
+			value=30
+		}	
+		WarpResist
+		{
+			property=warp_resist
+			prioritygroup=bonus_fix
+			value=1
+		}
+	}
+	Tier
+	{
+		ImmunoFlux
+		{
+			Modifier
+			{
+				property=medkit_duration
+				prioritygroup=bonus_fix
+				value=1.0
+			}
+		}
+		CounterBlow
+		{
+			Modifier
+			{
+				property=suppression_resist_per_hit
+				prioritygroup=bonus_fix
+				value=5
+			}
+		}
+		Quickening
+		{
+			Modifier
+			{
+				property=movement_speed
+				prioritygroup=bonus_multiplier
+				value=0.05
+			}
+		}
+		BioResist
+		{
+			Modifier
+			{
+				property=all_resist
+				prioritygroup=bonus_fix
+				value=3
+			}
+		}
+		Undying
+		{
+			Skill=psyker_ability_undying					
+		}
+	}
+}
+
+PsyFocus
+{
+	Base
+	{
+		WarpHeatCapacity
+		{
+			property=resource_max
+			prioritygroup=bonus_fix
+			value=2
+		}
+		CritHitStr
+		{
+			property=critical_hit_strength
+			prioritygroup=bonus_fix
+			value=0.5
+		}
+	}
+	Tier
+	{
+		Daemonbane
+		{
+			Modifier
+			{
+				property=damage
+				prioritygroup=bonus_multiplier
+				conditions=origin(chaos_daemon_engine)
+				value=0.05
+			}
+			Modifier
+			{
+				property=damage
+				prioritygroup=bonus_multiplier
+				conditions=origin(chaos_daemon)
+				value=0.05
+			}
+		}
+		Concordia
+		{
+			Modifier
+			{
+				property=resource_cost
+				conditions=skill_flag(spell)
+				prioritygroup=bonus_multiplier
+				value=-0.1
+			}
+		}
+		Attunement
+		{
+			Modifier
+			{
+				property=resource_cost
+				prioritygroup=bonus_fix
+				value=-3
+				conditioncount=1
+				condition[0].type=skill_tag
+				condition[0].value=force_weapon
+			}
+		}
+		TimeWarp
+		{
+			Modifier
+			{
+				property=cooldown
+				prioritygroup=bonus_multiplier
+				conditions=skill_flag(spell)
+				value=-0.1
+			}
+		}
+		SancticAura
+		{
+			Modifier
+			{
+				property=warp_anomaly_positive_only
+				prioritygroup=bonus_fix
+				value=0.2
+			}
+		}
+	}
+}Assassin
 {
 	Zarvany_Melee
 	{
@@ -3865,6 +4479,70 @@ Crusader
 
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Perks
+{
+	#Mindenkinek elerheto
+	General=Artifical_organs,Grinder,Crisis_management,Blessing_of_saint_victorius,Tactician,Eternal_warrior,Subdermal_mesh,Subdermal_plating,Vanquisher_of_the_vile,Self_flagellation,Diversive_tactics,Tactical_mastery,Frenzon_dispenser,Survival_instinct_override,Keen_fury,Adhoc_subjugation,Close_Quarters_gunnery,Attrition_feedback,Mind_fortress,Utility_Harness,Unfettered_Maneuvering,Artifical_Organs_II,Adaptive_Efficiency,Enhanced_Attrition,Attack_Anchor,Persistent_Attrition,Stagger_Exploitment,Cull_the_Weak,The_Art_of_Crippling
+	
+	#150-es morality folott elerheto
+	Puritan=Puritan
+	
+	#-150-es morality alatt elerheto
+	Radical=Radical
+	
+	#Ennek a class-nak meg ez is elerheto
+	Crusader=Augmented_body,No_mercy,Stride_of_the_blessed,Runic_armour,Self_mortification,Burnished_weaponry,Martyrdom,Terror_tactics,Blood_rush,Berserker,Unfettered_Marksmanship,Armoury_of_Zeal,Feint_Mastery,Augmented_Body_2
+	
+	#Ennek a subclass-nak meg ez is elerheto
+	Crusader_melee=Rabble_slayer
+	Crusader_rifle=Run_and_gun
+	Crusader_heavy=Exalted_by_murder
+	
+	#Ennek a class-nak meg ez is elerheto
+	Assassin=Forbidden_rites,Adrenal_valves,Fluidity,Bullet_dodger,Nephrine_monger,Terror_tactics,Blood_rush,Perfectly_timed_attacks,Opportunist_stance_2,Hazard_stimulation,Zealous_displacement,Precognitive_Evasion,Unfettered_Marksmanship,Fluid_Attack_Strategy,Rapid_Elimination_Protocol,Reign_of_Confusion,Regenerative_booster_gland,Opportunist_stance,Optimized_sniping_pattern
+	
+	#Ennek a subclass-nak meg ez is elerheto
+	Assassin_melee=Evasive_ambush
+	Assassin_sniper=Run_and_gun
+	Assassin_exotic=Deadshot
+	
+	#Ennek a class-nak meg ez is elerheto
+	Psyker=Warp_attunement,Warp_heat_dissipation,Psy_enhanced_warfare,Warp_resonance,Power_from_anguish,Psychic_channeling,Warp_heat_diffusion,Retrograde_Psychic_Dominion,Mind_Rift_2,Force_Weapon_Mastery,Inverse_warp_attenuation,Psychic_supremacy,Psychic_boon,Warp_heat_conversion,Temporal_efficiency,Psychic_escalation,Psychic_sequence,Warp_heat_rejuvenation
+	
+	#Ennek a subclass-nak meg ez is elerheto
+	Psyker_staff=Mind_rift
+	Psyker_melee=Anointment
+	Psyker_pistol=Blood_driven
+}
 Psyker
 {
 	Zarvany_Melee
@@ -6635,7 +7313,7 @@ Hpsuppress_Trauma_control
 		property=damage_reduce_hardcap
 		prioritygroup=bonus_fix
 		conditions=suppression_level(2)
-		value=20
+		value=5
 	}
 }
 Hpsuppress_Adrenal_glands
@@ -8222,3 +8900,197 @@ Radical_Istvaanism
 	MoralityRequirement=-250
 	Skill=Radical_Istvaanism
 }
+
+Zarvany_Melee
+{
+	Category
+	{
+		melee_weapon=0.2
+		ranged_weapon=-0.1
+	}
+}
+
+Zarvany_Ranged
+{
+	Category
+	{
+		ranged_weapon=0.2
+		melee_weapon=-0.1
+	}
+}
+
+Zarvany_Debuff
+{
+	Type
+	{
+		Grav_pistol=0.2
+		Grav_gun=0.2
+		Arc_blade=0.2
+		Arc_sword=0.2
+		Null_rod=0.2
+		Carthean_sword=0.2
+		Sniper_rifle=0.2
+		Exitus_rifle=0.2
+		Grenade_launcher=0.2
+	}
+}
+
+Zarvany_Dot
+{
+	Type
+	{
+		Needler_sniper_rifle=0.2
+		Inferno_pistol=0.2
+		Melta_gun=0.2
+		Greataxe=0.2
+		Heavy_flamer=0.2
+	}
+}
+
+Zarvany_Critical
+{
+	
+}
+
+Zarvany_Maxsuppression
+{
+	
+}
+
+Zarvany_SingleDPS
+{
+	Type
+	{
+		Autopistol=0.2
+		Bolt_pistol=0.2
+		Plasma_pistol=0.2
+		Laspistol=0.2
+		Inferno_pistol=0.2
+		Autogun=0.2
+		Boltgun=0.2
+		Plasma_gun=0.2
+		Lasgun=0.2
+		Heavy_Bolter=0.2
+		Sniper_rifle=0.2
+		Needler_sniper_rifle=0.2
+		Longlas_rifle=0.2
+		Exitus_rifle=0.2
+	}
+}
+
+Zarvany_AoeDPS
+{
+	Type
+	{
+		Eviscerator=0.2
+		Heavy_flamer=0.2
+		Shotgun=0.2
+		Arc_blade=0.2
+		Arc_sword=0.2
+		Grenade_launcher=0.2
+		Multi_melta=0.2
+		Plasma_cannon=0.2
+	}
+}
+
+Zarvany_Movement
+{
+	
+}
+
+Zarvany_Defense
+{
+	Category
+	{
+		armor=0.1
+	}
+}
+
+Zarvany_Support
+{
+	Category
+	{
+		Inoculator=0.1
+	}
+}
+
+Zarvany_Execution
+{
+	Category
+	{
+		melee_weapon=0.1
+	}
+}
+
+Zarvany_HeatDamage
+{
+	Type
+	{
+		Heavy_flamer=0.2
+		Lasgun=0.2
+		Laspistol=0.2
+		Plasma_pistol=0.2
+		Plasma_gun=0.2
+		Plasma_cannon=0.2
+		Inferno_pistol=0.2
+		Melta_gun=0.2
+		Multi_melta=0.2
+		Longlas_rifle=0.2
+		Arc_blade=0.2
+		Arc_sword=0.2
+		Null_rod=0.2
+	}
+}
+
+Zarvany_PhysicalDamage
+{
+	Type
+	{
+		Autopistol=0.2
+		Autogun=0.2
+		Bolt_pistol=0.2
+		Boltgun=0.2
+		Grav_pistol=0.2
+		Grav_gun=0.2
+		Shotgun=0.2
+		Heavy_Bolter=0.2
+		Grenade_launcher=0.2
+		Chainsword=0.2
+		Eviscerator=0.2
+		Greataxe=0.2
+		Greatsword=0.2
+		Power_axe=0.2
+		Power_sword=0.2
+		Power_hammer=0.2
+		Thunder_hammer=0.2
+		Exitus_rifle=0.2
+		Needler_sniper_rifle=0.2
+		Sniper_rifle=0.2
+		Assassin_power_sword=0.2
+		Carthean_sword=0.2
+		Death_cult_blade=0.2
+		Arc_blade=0.2
+	}
+
+}
+
+Zarvany_AimedShot
+{
+	Category
+	{
+		ranged_weapon=0.1
+	}
+	Type
+	{
+		Autogun=0.2
+		Boltgun=0.2
+		Lasgun=0.2
+		Laspistol=0.2
+		Sniper_rifle=0.2
+		Needler_sniper_rifle=0.2
+		Exitus_rifle=0.2
+		Longlas_rifle=0.2
+	}
+}
+
+

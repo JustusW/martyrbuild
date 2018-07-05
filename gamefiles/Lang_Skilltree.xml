@@ -674,7 +674,7 @@
 				<eng>No Remorse</eng>
 			</Name>
 			<Desc>
-				<eng>Grants {critical_hit_chance,100} Critical Hit Chance bonus, but reduces damage by {damage_reduce}.</eng>
+				<eng>Grants {critical_hit_chance,100} Critical Hit Chance bonus, but decreases Damage Reduction by {damage_reduce}.</eng>
 			</Desc>			
 		</Critical_No_remorse>
 		<Critical_Retaliation>
@@ -808,7 +808,7 @@
 				<eng>Regenerative Bionics</eng>
 			</Name>
 			<Desc>
-				<eng>Heals the character for [ff2bede6]1[/ff2bede6] HP for every [ff2bede6]10[/ff2bede6] Suppression point regained.</eng>
+				<eng>Heals the character for [ff2bede6]1.5[/ff2bede6] HP for every [ff2bede6]10[/ff2bede6] Suppression point regained.</eng>
 			</Desc>			
 		</Hpsuppress_Regenerative_bionics>
 		<Hpsuppress_Shock_stimulus>
@@ -1059,7 +1059,7 @@
 				<eng>Enhanced Range</eng>
 			</Name>
 			<Desc>
-				<eng>Effect range for Cone skills and Line skills increased by {area_extent_bonus,100}.</eng>
+				<eng>Effect range for Cone skills and Path skills increased by {area_extent_bonus,100}.</eng>
 			</Desc>			
 		</Aoedps_Enhanced_range>
 		<Aoedps_Area_denial>
@@ -1318,7 +1318,7 @@
 				<eng>Defensive Stance</eng>
 			</Name>
 			<Desc>
-				<eng>25% of incoming damage is substracted from Suppression Resistance instead of Health.</eng>
+				<eng>25% of Damage Reduction is added to Deflect.</eng>
 			</Desc>			
 		</Defense_Defensive_stance>
 

@@ -121,6 +121,7 @@
                 <div class="col-sm-12">
                     <div class="btn btn-dark" ng-click="ssc.resetSkills()">Reset Current</div>
                     <div class="btn btn-dark" ng-click="ssc.resetAllSkills()">Reset All</div>
+                    <a class="btn btn-dark" ng-show="ssc.fullLink" ng-href="https://tinyurl.com/create.php?source=indexpage&url={{ssc.fullLink|urlencode}}&submit=Make+TinyURL!">TinyURL.com Shortlink</a>
                 </div>
             </div>
             <div class="row mt-3" ng-show="ssc.currentSkill">

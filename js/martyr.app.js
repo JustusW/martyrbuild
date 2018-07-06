@@ -4,6 +4,11 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
             return $sce.trustAsHtml(val);
         };
     })
+    .filter('urlencode', function() {
+        return function(input) {
+            return window.encodeURIComponent(input);
+        }
+    })
     .controller('SkillSelectorController', function($scope, $location) {
         var ssc = this;
         ssc.description = {
@@ -16,6 +21,7 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
         
         ssc.currentCount = 0;
         ssc.currentHash = '';
+        ssc.fullLink = '';
         
         function getCategoryLang(cat) {
             var name = cat;
@@ -231,6 +237,7 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
             ssc.currentCount = lnk.length - 1;
             ssc.currentHash = lnk.join(';');
             $location.hash(ssc.currentHash);
+            ssc.fullLink = window.location.href;
         };
         
         ssc.initiateFromLink = function () {

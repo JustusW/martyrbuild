@@ -245,7 +245,7 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
             ssc.currentCount = 0;
             ssc.currentHash = lnk;
             if (lnk == 'parse') {
-                return getSkills();
+                return extractSkillTreeData();
             }
             ssc.currentType = lnk.split(';')[0];
             for (catName in ssc.currentCategory()) {
@@ -305,78 +305,8 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
             if($location.hash() != ssc.currentHash)
                 ssc.initiateFromLink();
         });
+        getSpellData();
     });
-
-    
-function getSkills() {
-    return $.get('gamefiles/data', null, function (data) {
-        var a = data.split("\r\n");
-        var category, subCategory = [], out = {};
-        a.forEach(function (e, i) {
-            var trimmedLine = $.trim(e);
-            if (e.match(/^[A-Z].*/)) {
-                category = e;
-                out[category] = {};
-                subCategory[0] = null;
-                return;
-            } else if (e.match(/^(\t|    )*{$/) || e.match(/^(\t|    )*}$/)) { // ignore {}
-            } else if (e.match(/^(\t|    )[A-Z].*/)) { // Create subCategory level 0. Add to category.
-                subCategory[1] = null;
-                subCategory[0] = {
-                    name: trimmedLine,
-                    data: {},
-                    overflow: []
-                };
-                if (trimmedLine == 'Effect' && out[category][trimmedLine]) {
-                    out[category]['BonusEffect'] = subCategory[0];
-                } else {
-                    out[category][trimmedLine] = subCategory[0];
-                }
-            } else if (e.match(/^(\t|    )(\t|    )[A-Z].*/)) { // Create subCategory level 1. Add to subCategory level 0.
-                subCategory[1] = {
-                    name: trimmedLine
-                    , data: []
-                };
-                subCategory[0].data[trimmedLine] = subCategory[1];
-            } else if (e.match(/^(\t|    )(\t|    )(\t|    )?.*=.*$/)) {
-                var tmp = trimmedLine.split("=");
-                if (tmp[0] == 'Requirements') tmp[1] = tmp[1].split(',');
-                if (tmp[0] == 'GUIPos') {
-                    tmp[1] = tmp[1].split(';');
-                    subCategory[1].col = tmp[1][0];
-                    subCategory[1].row = tmp[1][1];
-                } else if (subCategory[1]) {
-                    subCategory[1][tmp[0]] = tmp[1];
-                } else {
-                    subCategory[0][tmp[0]] = tmp[1];
-                }
-            } else if (subCategory[1]) {
-                subCategory[1].data.push(trimmedLine);
-            } else if (subCategory[0]) {
-                subCategory[0].overflow.push(trimmedLine);
-            } else {
-            };
-        });
-        console.log(out);
-        // console.log(out.Crusader.data);
-        // // console.log(JSON.stringify(out));
-        // var skills = {};
-        // for (name in out.Crusader.Zarvany_Melee.data) {
-            // var entry = out.Crusader.Zarvany_Melee.data[name];
-            // if (!entry.GUIPos) {continue;}
-            // skills[entry.name] = {
-                // selected: false,
-                // name: entry.name, 
-                // description: entry.Skill, 
-                // row: entry.row, 
-                // col: entry.col, 
-                // requires: entry.Requirements};
-        // }
-        // document.write(JSON.stringify(skills));
-        document.write(JSON.stringify(out));
-    }, 'text');
-}
-
 
 
 $.ajax({
@@ -386,3 +316,10 @@ $.ajax({
     },
     async: false
 });
+
+
+function getSpellData() {
+    $.get('gamefiles/data', null, function (data) {
+        
+    });
+}

@@ -108,6 +108,13 @@
                 background-image: url('Icons/Psyker/Rune_slot_empty_small.png');
             }
             
+            .spellslot {
+                border: 1px solid rgba(96, 182, 182, 1);
+                border-radius: 10px;
+                margin: 0 10px;
+                padding: 0 10px;
+            }
+            
             @media only screen and (min-width : 1800px) {
                 .class-select-vertical .class-select-header {
                     visibility: hidden;
@@ -136,7 +143,11 @@
                 </div>
                 <div class="col-sm-12" ng-show="ssc.currentType == 'Psyker'"><br /></div>
                 <div class="col-sm-12 row" ng-show="ssc.currentType == 'Psyker'">
-                    <div class="col text-center" ng-repeat="spell in ssc.spells">
+                    <div class="col-sm-1 row pt-2">
+                        <h3 ng-class="{'col-sm-12 btn text-center': true, 'btn-dark': ssc.spelltab, 'btn-secondary': !ssc.spelltab}" ng-click="ssc.spelltab=0;">I</h3>
+                        <h3 ng-class="{'col-sm-12 btn text-center': true, 'btn-dark': !ssc.spelltab, 'btn-secondary': ssc.spelltab}" ng-click="ssc.spelltab=1;">II</h3>
+                    </div>
+                    <div class="col text-center spellslot" ng-repeat="spell in ssc.spells | limitTo:5:5*ssc.spelltab">
                         <div class="col-12-sm" ng-show="!spell.name" ng-click="spell.selecting = true">
                             <img src="Icons/Psyker/power_empty.png" />
                         </div>
@@ -193,10 +204,11 @@
                                         </button>
                                     </div>
                                     <div class="modal-body row">
-                                        <div class="col" ng-repeat="class in ssc.spellClasses">
+                                        <div class="col-sm" ng-repeat="class in ssc.spellClasses">
                                             <h6>{{ class }}</h6>
                                             <img
-                                                class="col"
+                                                class="pull-left"
+                                                style="width: 60px; height: 60px;"
                                                 ng-repeat="s in ssc.spellData"
                                                 ng-click="ssc.selectSpell(s, spell);"
                                                 ng-show="s.Type[0] == class"
@@ -245,7 +257,8 @@
                     <div class="col-xl" style="height: 640px; overflow-y: scroll;">
                         <div class="card text-primary p-1 my-1">Total Skillpoints spent: {{ssc.currentCount}}</div>
                         <div class="card text-primary"
-                            ng-repeat="(name, data) in ssc.currentCategory()" ng-show="(ssc.getSkills(name) | toArray | filter:{selected: true}).length > 0">
+                            ng-repeat="(name, data) in ssc.currentCategory()"
+                            ng-show="(ssc.getSkills(name) | toArray | filter:{selected: true}).length > 0">
                             <div class="card-header" style="cursor: pointer;" ng-click="ssc.currentSkill = name">
                                 {{ssc.getCategoryLang(name)[1]}} ({{ssc.getCategoryLang(name)[2]}}) 
                                 <span class="badge badge-primary">{{(ssc.getSkills(name) | toArray | filter:{selected: true}).length}}</span>

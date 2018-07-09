@@ -373,7 +373,7 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
         });
         
         ssc.spellClasses = ['Biomancy', 'Pyromancy', 'Divination', 'Telekinesis'];
-        ssc.spells = [{}, {}, {}, {}, {}];
+        ssc.spells = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
         ssc.spellData = spells.data;
        
         ssc.initiateFromLink();

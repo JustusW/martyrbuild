@@ -1,4 +1,5 @@
 var lang = {};
+var spells = {};
 
 
 function extractSkillTreeData() {

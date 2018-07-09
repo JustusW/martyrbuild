@@ -23,10 +23,27 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
         ssc.currentHash = '';
         ssc.fullLink = '';
         
+        function getSpellLang(spell) {
+            var container = lang.skills.getElementsByTagName(spell)[0];
+            if (!container) {
+                return [spell, null];
+            }
+            var containerDescription = container.getElementsByTagName('Desc')[0];
+            var containerName = container.getElementsByTagName('Name')[0];
+            
+            var engDescription,engName;
+            if (containerDescription)
+                engDescription = containerDescription.getElementsByTagName("eng")[0].innerHTML;
+            if (containerName)
+                engName = containerName.getElementsByTagName("eng")[0].innerHTML;
+            
+            return [engName, engDescription];
+        }
+        
+        
         function getCategoryLang(cat) {
             var name = cat;
             var container = lang.data.getElementsByTagName(name)[0];
-            
             if (!container) {
                 return [null,null,null];
             }
@@ -108,6 +125,7 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
         
         ssc.getCategoryLang = getCategoryLang;
         ssc.getSkillLang = getSkillLang;
+        ssc.getSpellLang = getSpellLang;
         
         ssc.resetSkills = function () {
             for (name in ssc.currentSkills()) {
@@ -202,6 +220,16 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
             return line;
         }
         
+        ssc.setRawDescription = function (e, name) {
+            ssc.description.x = e.pageX;
+            ssc.description.y = e.pageY;
+            ssc.description.show = true;
+            
+            var lang = getSpellLang(name);
+            ssc.description.title = lang[0];
+            ssc.description.description = lang[1];
+        }
+        
         ssc.setDescription = function (skill, e, cat) {
             if (!skill) {
                 return ssc.description.show = false;
@@ -236,7 +264,15 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
             }
             ssc.currentCount = lnk.length - 1;
             ssc.currentHash = lnk.join(';');
-            $location.hash(ssc.currentHash);
+            
+            var spells = [];
+            
+            ssc.spells.forEach(function (spell) {
+                if (!spell.triac) {spell.triac = [{},{},{}];}
+                spells.push([spell.name, spell.triac[0].name, spell.triac[1].name, spell.triac[2].name].join(':'));
+            });
+            
+            $location.hash(ssc.currentHash + '|||' + JSON.stringify(spells));
             ssc.fullLink = window.location.href;
         };
         
@@ -247,16 +283,28 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
             if (lnk == 'parse') {
                 return extractSkillTreeData();
             }
-            ssc.currentType = lnk.split(';')[0];
+            lnk = lnk.split('|||');
+            
+            ssc.currentType = lnk[0].split(';')[0];
             for (catName in ssc.currentCategory()) {
                 for (name in ssc.getSkills(catName)) {
                     var s = ssc.getSkills(catName)[name];
                     s.selected = false;
-                    if (lnk.indexOf(catName + ',' + name) > -1) {
+                    if (lnk[0].indexOf(catName + ',' + name) > -1) {
                         s.selected = true;
                         ssc.currentCount++;
                     }
                 };
+            }
+            
+            if (ssc.currentType == 'Psyker' && lnk[1]) {
+                var spells = JSON.parse(lnk[1]);
+                spells.forEach(function (entry, i) {
+                    var spell = ssc.spells[i];
+                    entry = entry.split(':');
+                    spell.name = entry[0];
+                    spell.triac = [{name: entry[1]},{name: entry[2]},{name: entry[3]}];
+                });
             }
         };
         
@@ -285,9 +333,27 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
             skill.selected = !skill.selected;
             ssc.updateLink();
         };
-       
-        ssc.initiateFromLink();
         
+        ssc.selectSpell = function (spell, slot) {
+            slot.selecting = false;
+            slot.name = spell.name;
+            slot.triac = [{}, {}, {}];
+            
+            ssc.updateLink();
+            ssc.setDescription();
+        };
+        
+        ssc.selectRune = function (rune, slot) {
+            slot.selecting = false;
+            slot.name = rune;
+            
+            ssc.updateLink();
+            ssc.setDescription();
+        };
+        
+        $scope.$watch('ssc.spells', function () {
+            ssc.updateLink();
+        });
         $scope.$watch('ssc.currentType', function () {
             ssc.currentSkill = '';
             ssc.updateLink();
@@ -305,7 +371,13 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
             if($location.hash() != ssc.currentHash)
                 ssc.initiateFromLink();
         });
-        getSpellData();
+        
+        ssc.spellClasses = ['Biomancy', 'Pyromancy', 'Divination', 'Telekinesis'];
+        ssc.spells = [{}, {}, {}, {}, {}];
+        ssc.spellData = spells.data;
+       
+        ssc.initiateFromLink();
+        ssc.ready2Roll = true;
     });
 
 
@@ -317,9 +389,24 @@ $.ajax({
     async: false
 });
 
+$.ajax({
+    url: 'gamefiles/Lang_Skills.xml', 
+    success: function (result) {
+        lang.skills = result;
+    },
+    async: false
+});
+
 
 function getSpellData() {
-    $.get('gamefiles/data', null, function (data) {
-        
+    $.ajax({
+        url: 'gamefiles/spells.json', 
+        success: function (result) {
+            spells.data = result;
+        },
+        async: false
     });
 }
+
+
+getSpellData();

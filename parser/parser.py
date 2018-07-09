@@ -72,11 +72,11 @@ def extract_multi_file(target_file='gamefiles/Config/psykerspells.cfg'):
                 continue
             if current_target == '':
                 current_target = line
-                spells[current_target] = {}
+                spells[current_target] = {'name': line}
                 continue
             
-            if current_target.startswith('Force_'):
-                continue
+            # if current_target.startswith('Force_'):
+                # continue
             
             target, value = line.split('=', 1)
             spells[current_target][target] = value.split(',')

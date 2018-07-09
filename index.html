@@ -97,6 +97,17 @@
                 background: rgba(96, 182, 182, 1); /* Black fill */
             }
             
+            .modal.show {
+                display: block;
+            }
+            
+            .runeslot {
+                padding-top: 1px;
+                width: 30px;
+                height:30px;
+                background-image: url('Icons/Psyker/Rune_slot_empty_small.png');
+            }
+            
             @media only screen and (min-width : 1800px) {
                 .class-select-vertical .class-select-header {
                     visibility: hidden;
@@ -113,7 +124,7 @@
     <body class="bg-black text-light">
         <div class="container" ng-controller="SkillSelectorController as ssc">
             <div class="alert alert-light position-absolute p-1" ng-show="ssc.description.show"
-                style="width: 400px; top: {{ssc.description.y + 10}}px; left: {{ssc.description.x}}px; z-index: 1000;">
+                style="width: 400px; top: {{ssc.description.y + 10}}px; left: {{ssc.description.x}}px; z-index: 3000;">
                 <span class="col-sm-12 badge badge-primary vibro-regular text-large">{{ssc.description.title}}</span><br ng-show="ssc.description.title"/>
                 <span ng-bind-html="ssc.description.description | unsafe"></span>
             </div>
@@ -123,10 +134,86 @@
                     <div class="btn btn-dark" ng-click="ssc.resetAllSkills()">Reset All</div>
                     <a target="_blank" class="btn btn-dark" ng-show="ssc.fullLink" ng-href="https://tinyurl.com/create.php?source=indexpage&url={{ssc.fullLink|urlencode}}&submit=Make+TinyURL!">TinyURL.com Shortlink</a>
                 </div>
+                <div class="col-sm-12" ng-show="ssc.currentType == 'Psyker'"><br /></div>
+                <div class="col-sm-12 row" ng-show="ssc.currentType == 'Psyker'">
+                    <div class="col text-center" ng-repeat="spell in ssc.spells">
+                        <div class="col-12-sm" ng-show="!spell.name" ng-click="spell.selecting = true">
+                            <img src="Icons/Psyker/power_empty.png" />
+                        </div>
+                        <div 
+                            class="col-12-sm" 
+                            ng-show="spell.name" 
+                            ng-click="spell.selecting = true"
+                            ng-mouseover="ssc.setRawDescription($event, spell.name);"
+                            ng-mouseleave="ssc.setDescription();">
+                            <img ng-src="Icons/spells/{{ spell.name }}.png" />
+                        </div>
+                        <div class="col-12-sm row" ng-show="spell.name">
+                            <div class="col-sm" ng-repeat="triac in spell.triac">
+                                <div class="runeslot" ng-click="triac.selecting = true">
+                                    <img 
+                                        ng-src="Icons/Psyker/runes/small_{{ triac.name }}.png" 
+                                        ng-show="triac.name" 
+                                        ng-click="triac.selecting = true" 
+                                        ng-mouseover="ssc.setRawDescription($event, triac.name);"
+                                        ng-mouseleave="ssc.setDescription();"/>
+                                </div>
+                                <div class="modal show" ng-show="triac.selecting">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content text-dark">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Select Rune</h5>
+                                                <button type="button" class="close" ng-click="triac.selecting = false" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body row">
+                                                <div
+                                                    class="col"
+                                                    ng-repeat="s in ssc.spellData[spell.name].Runes" />
+                                                    <img 
+                                                        ng-click="ssc.selectRune(s, triac);"
+                                                        ng-mouseover="ssc.setRawDescription($event, s);"
+                                                        ng-mouseleave="ssc.setDescription();"
+                                                        ng-src="Icons/Psyker/runes/{{ s }}.png" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal show" ng-show="spell.selecting">
+                            <div class="modal-dialog">
+                                <div class="modal-content text-dark">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Select Spell</h5>
+                                        <button type="button" class="close" ng-click="spell.selecting = false;" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body row">
+                                        <div class="col" ng-repeat="class in ssc.spellClasses">
+                                            <h6>{{ class }}</h6>
+                                            <img
+                                                class="col"
+                                                ng-repeat="s in ssc.spellData"
+                                                ng-click="ssc.selectSpell(s, spell);"
+                                                ng-show="s.Type[0] == class"
+                                                ng-mouseover="ssc.setRawDescription($event, s.name);"
+                                                ng-mouseleave="ssc.setDescription();"
+                                                ng-src="Icons/spells/{{ s.name }}.png" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row mt-3" ng-show="ssc.currentSkill">
                 <div class="col-sm-12 row pb-2">
-                    <div class="col"><hr></div>
+                    <div class="col"><hr /></div>
                     <div class="col-6 text-center vibro-regular text-large">
                         {{ ssc.getCategoryLang(ssc.currentSkill)[1] }} ({{ ssc.getCategoryLang(ssc.currentSkill)[2] }})
                         <button type="button" class="close float-right" aria-label="Close" ng-click="ssc.currentSkill = ''">
@@ -225,6 +312,7 @@
                 All copyrighted content is presented with express permission of the respective rightsholders. <br/>
                 Responsible for this site: Justus Wingert / Rolandstrasse 41 / 76135 Karlsruhe / justus_wingert@web.de / Imrahil on Discord <br/>
             </div>
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: black; z-index: 9999999;" ng-show="!ssc.ready2Roll">
         </div>
     </body>
 </html>

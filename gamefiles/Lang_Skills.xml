@@ -1,0 +1,3099 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<eng>English</eng>
+	</LanguageName>
+	<Languages>eng</Languages>
+	<Skills>
+		<Common>
+			<damagetype>
+				<kinetic>
+					<eng>[fffffaf0]Physical (Kinetic)[/fffffaf0]</eng>
+				</kinetic>
+				<explosive>
+					<eng>[fffffaf0]Physical (Explosive)[/fffffaf0]</eng>
+				</explosive>
+				<slash>
+					<eng>[fffffaf0]Physical (Slash)[/fffffaf0]</eng>
+				</slash>
+				<blunt>
+					<eng>[fffffaf0]Physical (Blunt)[/fffffaf0]</eng>
+				</blunt>
+				<toxic>
+					<eng>[fffffaf0]Physical (Toxic)[/fffffaf0]</eng>
+				</toxic>
+				<acid>
+					<eng>[fffffaf0]Physical (Acid)[/fffffaf0]</eng>
+				</acid>
+				<fire>
+					<eng>[ffdc143c]Heat (Fire)[/ffdc143c]</eng>
+				</fire>
+				<plasma>
+					<eng>[ffdc143c]Heat (Plasma)[/ffdc143c]</eng>
+				</plasma>
+				<laser>
+					<eng>[ffdc143c]Heat (Laser)[/ffdc143c]</eng>
+				</laser>
+				<melta>
+					<eng>[ffdc143c]Heat (Melta)[/ffdc143c]</eng>
+				</melta>
+				<electric>
+					<eng>[ffdc143c]Heat (Electric)[/ffdc143c]</eng>
+				</electric>
+				<frost>
+					<eng>[ffdc143c]Heta (Frost)[/ffdc143c]</eng>
+				</frost>
+				<warp>
+					<eng>[ff9932cc]Warp[/ff9932cc]</eng>
+				</warp>
+			</damagetype>
+			<resourcetype>
+				<zeal>
+					<eng>Focus</eng>
+				</zeal>
+				<adrenaline>
+					<eng>Adrenaline</eng>
+				</adrenaline>
+				<warpheat>
+					<eng>Warp Heat</eng>
+				</warpheat>
+			</resourcetype>
+			<Buffs>
+				<eng>Buffs</eng>
+			</Buffs>
+			<Debuffs>
+				<eng>Debuffs</eng>
+			</Debuffs>
+			<ParamedBuffs>
+				<eng>%s's Buffs</eng>
+			</ParamedBuffs>
+			<ParamedDebuffs>
+				<eng>%s's Debuffs</eng>
+			</ParamedDebuffs>
+			<Active>
+				<eng>Active Skill</eng>
+			</Active>
+			<Passive>
+				<eng>Passive Skill</eng>
+			</Passive>
+			<Melee>
+				<eng>Melee Attack</eng>
+			</Melee>
+			<Ranged>
+				<eng>Ranged Attack</eng>
+			</Ranged>
+			<melee_range>
+				<eng>Melee</eng>
+			</melee_range>
+			<long_range>
+				<eng>Long Range</eng>
+			</long_range>
+			<medium_range>
+				<eng>Medium Range</eng>
+			</medium_range>
+			<self_range>
+				<eng>Self</eng>
+			</self_range>
+			<CastTime>
+				<eng>Casting time</eng>
+			</CastTime>
+			<NextLevel>
+				<eng>Changes at next level</eng>
+			</NextLevel>
+			<Duration>
+				<eng>Duration</eng>
+			</Duration>
+			<DurationLeft>
+				<eng>Time left</eng>
+			</DurationLeft>
+			<Cooldown>
+				<eng>Cooldown</eng>
+			</Cooldown>
+			<DurationMeasure>
+				<eng>sec</eng>
+			</DurationMeasure>
+			<PerSec>
+				<eng>per sec</eng>
+			</PerSec>
+			<PerUse>
+				<eng>per use</eng>
+			</PerUse>
+			<PerHit>
+				<eng>per hit</eng>
+			</PerHit>
+			<Overheat>
+				<eng>Overheat</eng>
+			</Overheat>
+			<Ammo>
+				<eng>Ammo</eng>
+			</Ammo>
+			<Rounds>
+				<eng>Round(s)</eng>
+			</Rounds>
+			<LevelRequirement>
+				<eng>Minimum level required</eng>
+			</LevelRequirement>
+			<SkillLevelRequirement>
+				<eng>Minimum skill level required</eng>
+			</SkillLevelRequirement>
+			<LearnCost>
+				<eng>Skill Point Cost</eng>
+			</LearnCost>
+			<inoculator_skill>
+				<eng>Inoculator skill</eng>
+			</inoculator_skill>
+		</Common>
+		
+		<Common_Short_burst>
+			<Name>
+				<eng>Short Burst</eng>
+			</Name>
+			<Desc>
+				<eng>A short burst that fires 3 shots.</eng>
+			</Desc>
+		</Common_Short_burst>
+		<Common_Full_auto>
+			<Name>
+				<eng>Full Auto</eng>
+			</Name>
+			<Desc>
+				<eng>Continuous automatic fire until you release the button.</eng>
+			</Desc>
+		</Common_Full_auto>
+		<Plasma_cannon_Full_auto>
+			<Name>
+				<eng>Overdrive Discharge</eng>
+			</Name>
+			<Desc>
+				<eng>Automatic discharge, rate of fire increases to twice the starting rate under 3 seconds (by holding the attack button).</eng>
+			</Desc>
+		</Plasma_cannon_Full_auto>
+		<Heavy_bolter_Full_auto>
+			<Name>
+				<eng>Spin-up Salvo</eng>
+			</Name>
+			<Desc>
+				<eng>Automatic fire, rate of fire increases to three times the starting rate under 4 seconds (by holding the attack button).</eng>
+			</Desc>
+		</Heavy_bolter_Full_auto>	
+		<Common_Shoot_and_retreat>
+			<Name>
+				<eng>Shoot and Retreat</eng>
+			</Name>
+			<Desc>
+				<eng>Delivers automatic fire and keeps moving the character away from the target until you release the button.</eng>
+			</Desc>
+		</Common_Shoot_and_retreat>
+		<Common_Assault_Gunnery>
+			<Name>
+				<eng>Assault Gunnery</eng>
+			</Name>
+			<Desc>
+				<eng>Automatic fire while moving towards the target.</eng>
+			</Desc>
+		</Common_Assault_Gunnery>
+		<Common_Single_shot>
+			<Name>
+				<eng>Single Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Delivers a single shot at the target.</eng>
+			</Desc>
+		</Common_Single_shot>	
+		<Common_Flame_cone>
+			<Name>
+				<eng>Flame Cone</eng>
+			</Name>
+			<Desc>
+				<eng>Belches a continuous fire plume of burning promethium.</eng>
+			</Desc>
+		</Common_Flame_cone>
+		<Common_Scorched_earth>
+			<Name>
+				<eng>Scorched Earth</eng>
+			</Name>
+			<Desc>
+				<eng>Area denial attack, ignites the ground upon impact.</eng>
+			</Desc>
+		</Common_Scorched_earth>
+		<Common_Wide_spray>
+			<Name>
+				<eng>Wide Spray</eng>
+			</Name>
+			<Desc>
+				<eng>Short-ranged promethium spray.</eng>
+			</Desc>
+		</Common_Wide_spray>
+		<Heavy_flamer_Wide_spray>
+			<Name>
+				<eng>Disengaging Stream</eng>
+			</Name>
+			<Desc>
+				<eng>Continuous fire stream while disengaging from the target (by holding the attack button)</eng>
+			</Desc>
+		</Heavy_flamer_Wide_spray>
+		<Common_Focused_bolt>
+			<Name>
+				<eng>Focused Bolt</eng>
+			</Name>
+			<Desc>
+				<eng>Concentrated energy discharge for increased destruction.</eng>
+			</Desc>
+		</Common_Focused_bolt>
+		<Common_Aimed_shot>
+			<Name>
+				<eng>Aimed Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Single target attack that can be used to deliver precision attacks (by holding down the attack button).</eng>
+			</Desc>
+		</Common_Aimed_shot>
+		<Common_Temporal_anomaly>
+			<Name>
+				<eng>Temporal Anomaly</eng>
+			</Name>
+			<Desc>
+				<eng>Unleashes a temporal distortion that stuns armoured targets and slows soft targets.</eng>
+			</Desc>
+		</Common_Temporal_anomaly>
+		<Common_Melta_blast>
+			<Name>
+				<eng>Melta Blast</eng>
+			</Name>
+			<Desc>
+				<eng>Violent heat pulse discharge with area effect.</eng>
+			</Desc>
+		</Common_Melta_blast>
+		<Common_Melting_ray>
+			<Name>
+				<eng>Melting Ray</eng>
+			</Name>
+			<Desc>
+				<eng>Heat pulse, reduces armor by 50% for 2 seconds.</eng>
+			</Desc>
+		</Common_Melting_ray>
+		<Common_Inferno_beam>
+			<Name>
+				<eng>Inferno Beam</eng>
+			</Name>
+			<Desc>
+				<eng>Releases a sustained twin matter excitement beam. Pierces and damages all objects and enemies in its path.</eng>
+			</Desc>
+		</Common_Inferno_beam>
+		<Inferno_pistol_Melting_ray>
+			<Name>
+				<eng>Inferno Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Heat discharge, reduces armor by 50% for 2 seconds.</eng>
+			</Desc>
+		</Inferno_pistol_Melting_ray>
+		<Common_Compressed_plasma>
+			<Name>
+				<eng>Compressed Plasma</eng>
+			</Name>
+			<Desc>
+				<eng>Overpressurised plasma discharge with an area effect.</eng>
+			</Desc>
+		</Common_Compressed_plasma>
+		<Common_Sword_flurry>
+			<Name>
+				<eng>Blade Flurry</eng>
+			</Name>
+			<Desc>
+				<eng>Single target attack that can be chained into an attack combination with a devastating final blow.</eng>
+			</Desc>
+		</Common_Sword_flurry>
+		<Common_Wide_strike>
+			<Name>
+				<eng>Wide Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Sweeping close-quarters attack, hits multiple enemies.</eng>
+			</Desc>
+		</Common_Wide_strike>
+		<Common_Strike>
+			<Name>
+				<eng>Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Single, powerful close-quarters blow.</eng>
+			</Desc>
+		</Common_Strike>
+		<Common_Shock_wave>
+			<Name>
+				<eng>Shockwave</eng>
+			</Name>
+			<Desc>
+				<eng>Releases an energy wave that can hit multiple targets.</eng>
+			</Desc>
+		</Common_Shock_wave>
+		<Common_Mutilate>
+			<Name>
+				<eng>Eviscerate</eng>
+			</Name>
+			<Desc>
+				<eng>Sustained, disemboweling Melee attack (by holding the attack button).</eng>
+			</Desc>
+		</Common_Mutilate>
+		<Common_Whirling_attack>
+			<Name>
+				<eng>Spinning Blow</eng>
+			</Name>
+			<Desc>
+				<eng>Single attack that hits multiple targets around the character in melee range.</eng>
+			</Desc>
+		</Common_Whirling_attack>
+
+		<Autopistol_Crippling_salvo>
+			<Name>
+				<eng>Crippling Salvo</eng>
+			</Name>
+			<Desc>
+				<eng>Continuous automatic fire until you release the button. Hinders enemy movement.</eng>
+			</Desc>
+		</Autopistol_Crippling_salvo>
+		<Bolt_pistol_Concussive_shot>
+			<Name>
+				<eng>Concussive Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Delivers a single shot at the target with increased damage.</eng>
+			</Desc>
+		</Bolt_pistol_Concussive_shot>
+		<Bolt_pistol_Suppressive_fire>
+			<Name>
+				<eng>Suppressive Fire</eng>
+			</Name>
+			<Desc>
+				<eng>Fires 10 shots in rapid succession. The shots land in a 3m radius circle around the target, each dealing damage to all enemies within 1 meter.</eng>
+			</Desc>
+		</Bolt_pistol_Suppressive_fire>
+		<Hand_flamer_Flame_surge>
+			<Name>
+				<eng>Flame Surge</eng>
+			</Name>
+			<Desc>
+				<eng>Rolling fireball, hits multiple targets.</eng>
+			</Desc>
+		</Hand_flamer_Flame_surge>
+		<Plasma_pistol_Piercing_shot>
+			<Name>
+				<eng>Piercing Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Superheated plasma discharge, hits multiple targets in a line.</eng>
+			</Desc>
+		</Plasma_pistol_Piercing_shot>
+		<Plasma_pistol_Overcharge>
+			<Name>
+				<eng>Overcharge</eng>
+			</Name>
+			<Desc>
+				<eng>Single shot, increased effect. Can be charged up to 3 seconds for increased damage (by holding the attack button). The damage increases by 100% damage/second.</eng>
+			</Desc>
+		</Plasma_pistol_Overcharge>
+		<Laspistol_Dual_beams>
+			<Name>
+				<eng>Dual Beams</eng>
+			</Name>
+			<Desc>
+				<eng>Twin laser beams. Pierces all obstacles and damages all objects and enemies in its path.</eng>
+			</Desc>
+		</Laspistol_Dual_beams>
+		<Grav_pistol_Gravity_well>
+			<Name>
+				<eng>Gravity Well</eng>
+			</Name>
+			<Desc>
+				<eng>Area gravity attack, light damage, hinders movement.</eng>
+			</Desc>
+		</Grav_pistol_Gravity_well>
+		<Grav_pistol_Gravity_flare>
+			<Name>
+				<eng>Gravity Flare</eng>
+			</Name>
+			<Desc>
+				<eng>Gravity distortion wave with knockdown effect.</eng>
+			</Desc>
+		</Grav_pistol_Gravity_flare>
+		<Shotgun_Manstopper_round>
+			<Name>
+				<eng>Manstopper Round</eng>
+			</Name>
+			<Desc>
+				<eng>Single shotgun discharge with heavy kinetic impact.</eng>
+			</Desc>
+		</Shotgun_Manstopper_round>
+		<Shotgun_Flechette_round>
+			<Name>
+				<eng>Flechette Round</eng>
+			</Name>
+			<Desc>
+				<eng>Fires multiple, high-velocity penetrator rounds. Can be charged (by holding the attack button) for a maximum of 3 seconds, which tightens the area effect cone.</eng>
+			</Desc>
+		</Shotgun_Flechette_round>
+		<Boltgun_Frag_burst>
+			<Name>
+				<eng>Frag Burst</eng>
+			</Name>
+			<Desc>
+				<eng>Continuous attack with slow rate of fire. Sprays anti-personnel frag rounds in the direction of the target with a wide shot spread.</eng>
+			</Desc>
+		</Boltgun_Frag_burst>
+		<Grav_gun_Gravity_surge>
+			<Name>
+				<eng>Gravity Surge</eng>
+			</Name>
+			<Desc>
+				<eng>Gravity distortion attack, damages multiple subjects around a primary target.</eng>
+			</Desc>
+		</Grav_gun_Gravity_surge>
+		<Grav_gun_Gravity_implosion>
+			<Name>
+				<eng>Gravity Implosion</eng>
+			</Name>
+			<Desc>
+				<eng>Savage gravitational area blast with a persistent secondary effect.</eng>
+			</Desc>
+		</Grav_gun_Gravity_implosion>
+		<Lasgun_Hot_shot>
+			<Name>
+				<eng>Hot Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Sustained, cumulative laser beam with increasing damage yield. Pierces all obstacles and damages all objects and enemies in its path.</eng>
+			</Desc>
+		</Lasgun_Hot_shot>
+		<Heavy_bolter_Concentrated_salvo>
+			<Name>
+				<eng>Concentrated Salvo</eng>
+			</Name>
+			<Desc>
+				<eng>Automatic fire, shot pattern improves over time.</eng>
+			</Desc>
+		</Heavy_bolter_Concentrated_salvo>
+		<Heavy_bolter_Disengage>
+			<Name>
+				<eng>Disengage</eng>
+			</Name>
+			<Desc>
+				<eng>Automatic fire while disengaging from the target.</eng>
+			</Desc>
+		</Heavy_bolter_Disengage>
+		<Heavy_bolter_Hellstorm>
+			<Name>
+				<eng>Hellstorm</eng>
+			</Name>
+			<Desc>
+				<eng>Area denial automatic fire with explosive munitions.</eng>
+			</Desc>
+		</Heavy_bolter_Hellstorm>
+		<Heavy_flamer_Phosphorous_splash>
+			<Name>
+				<eng>Phosphorous Splash</eng>
+			</Name>
+			<Desc>
+				<eng>Liquid promethium stream, ingites the targets upon impact.</eng>
+			</Desc>
+		</Heavy_flamer_Phosphorous_splash>
+		<Grenade_launcher_Proximity_grenade>
+			<Name>
+				<eng>Proximity Mine</eng>
+			</Name>
+			<Desc>
+				<eng>Launches a proximity mine to the designated location. The mine detonates and deals damage upon direct impact with an enemy or when proximity fuse is activated.</eng>
+			</Desc>
+		</Grenade_launcher_Proximity_grenade>
+		<Grenade_launcher_Airburst_grenade>
+			<Name>
+				<eng>Airburst Grenade</eng>
+			</Name>
+			<Desc>
+				<eng>Fragmentation grenade, explodes mid-air, mangles soft targets.</eng>
+			</Desc>
+		</Grenade_launcher_Airburst_grenade>
+		<Plasma_cannon_Plasma_barrage>
+			<Name>
+				<eng>Plasma Barrage</eng>
+			</Name>
+			<Desc>
+				<eng>Ballistic volley of explosive plasma discharges.</eng>
+			</Desc>
+		</Plasma_cannon_Plasma_barrage>
+		<Multi_melta_Overcharged_shot>
+			<Name>
+				<eng>Overcharged Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Armor penetrating heat pulse. Can be charged up to 3 seconds for increased damage (by holding the attack button). The damage increases by 100% damage/second.</eng>
+			</Desc>
+		</Multi_melta_Overcharged_shot>
+		<Multi_melta_Rad_charge>
+			<Name>
+				<eng>Rad Charge</eng>
+			</Name>
+			<Desc>
+				<eng>A heat pulse that can degrade targets to radioactive slag. Killed enemies leave behind a 3 meter large area effect damage zone for 5 seconds.</eng>
+			</Desc>
+		</Multi_melta_Rad_charge>
+		<Shock_maul_Voltaic_arc>
+			<Name>
+				<eng>Voltaic Arc</eng>
+			</Name>
+			<Desc>
+				<eng>Smites multiple enemies with a bouncing electric arc.</eng>
+			</Desc>
+		</Shock_maul_Voltaic_arc>
+		<Storm_shield_Shield_charge>
+			<Name>
+				<eng>Shield Charge</eng>
+			</Name>
+			<Desc>
+				<eng>Forward dash finished with a devastating area strike.</eng>
+			</Desc>
+		</Storm_shield_Shield_charge>
+		<Storm_shield_Block>
+			<Name>
+				<eng>Block</eng>
+			</Name>
+			<Desc>
+				<eng>Shield mounted defensive field. Absorbs all frontal damage for a split second.</eng>
+			</Desc>
+		</Storm_shield_Block>
+		<Suppression_shield_Shield_bash>
+			<Name>
+				<eng>Shield Bash</eng>
+			</Name>
+			<Desc>
+				<eng>Lacerating, sweeping shield strike.</eng>
+			</Desc>
+		</Suppression_shield_Shield_bash>
+		<Suppression_shield_Discharge>
+			<Name>
+				<eng>Discharge</eng>
+			</Name>
+			<Desc>
+				<eng>Releases a disruptive, kinetic blast.</eng>
+			</Desc>
+		</Suppression_shield_Discharge>
+		<Thunder_hammer_Thundering_leap>
+			<Name>
+				<eng>Thundering Leap</eng>
+			</Name>
+			<Desc>
+				<eng>The caster jumps to the targeted point and executes a strike that hits multiple enemies. The maximum jump distance is 20 meters.</eng>
+			</Desc>
+		</Thunder_hammer_Thundering_leap>
+		<Thunder_hammer_Pulverize>
+			<Name>
+				<eng>Pulverize</eng>
+			</Name>
+			<Desc>
+				<eng>Combination attack with three swift strikes.</eng>
+			</Desc>
+		</Thunder_hammer_Pulverize>
+		<Eviscerator_Savage_assault>
+			<Name>
+				<eng>Savage Assault</eng>
+			</Name>
+			<Desc>
+				<eng>Forward move with a combination of three wide-arc strikes.</eng>
+			</Desc>
+		</Eviscerator_Savage_assault>
+		<Greataxe_Execute>
+			<Name>
+				<eng>Execute</eng>
+			</Name>
+			<Desc>
+				<eng>Forward dash finished with a devastating strike. The maximum dash distance is 20 meters.</eng>
+			</Desc>
+		</Greataxe_Execute>
+		<Greatsword_Tactical_strike>
+			<Name>
+				<eng>Crippling Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Single, devastating close-quarters blow.</eng>
+			</Desc>
+		</Greatsword_Tactical_strike>
+		<Frag_grenade>
+			<Name>
+				<eng>Frag Grenade</eng>
+			</Name>
+			<Desc>
+				<eng>Throws an Anti-personnel frag grenade to the designated location.</eng>
+			</Desc>
+		</Frag_grenade>
+		<Renegade_stationary_cannon_Blast_barrage>
+			<Name>
+				<eng>Explosive Barrage</eng>
+			</Name>
+			<Desc>
+				<eng>Suppressive HE shell barrage with 2 meter blast radius.</eng>
+			</Desc>
+		</Renegade_stationary_cannon_Blast_barrage>
+		<Renegade_stationary_cannon_AP_barrage>
+			<Name>
+				<eng>Anti-armour Barrage</eng>
+			</Name>
+			<Desc>
+				<eng>Barrage of armour penetrating shells.</eng>
+			</Desc>
+		</Renegade_stationary_cannon_AP_barrage>
+		<Renegade_heavy_flamer_Flame_gout>
+			<Name>
+				<eng>Gout of Immolation</eng>
+			</Name>
+			<Desc>
+				<eng>Gout of burning promethium. 15 meters long.</eng>
+			</Desc>
+		</Renegade_heavy_flamer_Flame_gout>
+		<Renegade_heavy_flamer_Flame_blast>
+			<Name>
+				<eng>Flame Belch</eng>
+			</Name>
+			<Desc>
+				<eng>Long range blast, 3 meter radius area effect for 5 seconds. Minimum range is 10 meters.</eng>
+			</Desc>
+		</Renegade_heavy_flamer_Flame_blast>
+		<Rebel_tarantula_hyperios_Shoot>
+			<Name>
+				<eng>Hyperios Missile</eng>
+			</Name>
+			<Desc>
+				<eng>Fires an unguided missile dealing explosive area damage</eng>
+			</Desc>
+		</Rebel_tarantula_hyperios_Shoot>
+		<Rebel_Tarantula_Autocannon_Shoot>
+			<Name>
+				<eng>Autocannon Barrage</eng>
+			</Name>
+			<Desc>
+				<eng>Fires a salvo of autocannon shells dealing explosive damage</eng>
+			</Desc>
+		</Rebel_Tarantula_Autocannon_Shoot>
+		<Demolition_armor_Cyclon_missile_launcher>
+			<Name>
+				<eng>Cyclon Missile Launcher</eng>
+			</Name>
+			<Desc>
+				<eng>Launches a barrage of unguided missiles that deal area damage.</eng>
+			</Desc>
+		</Demolition_armor_Cyclon_missile_launcher>
+		<Assault_armor_Assault_jump>
+			<Name>
+				<eng>Assault Jump</eng>
+			</Name>
+			<Desc>
+				<eng>Performs an aerial assault with the Jump Pack. Landing deals area damage.</eng>
+			</Desc>
+		</Assault_armor_Assault_jump>
+		<Sentinel_armor_Tactical_cogitator>
+			<Name>
+				<eng>Deploy Tarantula Sentry</eng>
+			</Name>
+			<Desc>
+				<eng>Deploys a stationary sentry gun (maximum 3). It self-destructs after 60 seconds.</eng>
+			</Desc>
+		</Sentinel_armor_Tactical_cogitator>
+		<Stun_grenade>
+			<Name>
+				<eng>Stun Grenade</eng>
+			</Name>
+			<Desc>
+				<eng>Anti-personnel Stun grenade.</eng>
+			</Desc>
+		</Stun_grenade>
+		<Flash_grenade>
+			<Name>
+				<eng>Flash Grenade</eng>
+			</Name>
+			<Desc>
+				<eng>Anti-personnel Blind grenade.</eng>
+			</Desc>
+		</Flash_grenade>
+		<Haywire_grenade>
+			<Name>
+				<eng>Haywire Grenade</eng>
+			</Name>
+			<Desc>
+				<eng>Anti-shield electromagnetic pulse grenade. Instantly reduces the targets' shield to zero.</eng>
+			</Desc>
+		</Haywire_grenade>
+		<Refractor_field>
+			<Name>
+				<eng>Refractor Field</eng>
+			</Name>
+			<Desc>
+				<eng>Protective energy field, grants +20 Damage Reduce bonus for 30 seconds.\nAlso restores 100 Suppression Resist per second for 30 seconds.</eng>
+			</Desc>
+		</Refractor_field>
+		<Rosarius_force_field>
+			<Name>
+				<eng>Rosarius Force Field</eng>
+			</Name>
+			<Desc>
+				<eng>Protective conversion field, grants immunity to all damage and all negative effects for 5 seconds.</eng>
+			</Desc>
+		</Rosarius_force_field>
+		<Personal_void_shield>
+			<Name>
+				<eng>Personal Void Shield</eng>
+			</Name>
+			<Desc>
+				<eng>Protective energy shield. It can take 2000 HP damage before collapsing.\nRestores Suppression Resist to maximum at activation.\nDoes not expire.</eng>
+			</Desc>
+		</Personal_void_shield>
+		<Fabricator_scatter_field>
+			<Name>
+				<eng>Fabricator Scatter Field</eng>
+			</Name>
+			<Desc>
+				<eng>Xenotech scatter field, deals area damage around the caster with Knockback and Knockdown effect.</eng>
+			</Desc>
+		</Fabricator_scatter_field>
+		<Digital_weapons>
+			<Name>
+				<eng>Digital Weapons</eng>
+			</Name>
+			<Desc>
+				<eng>Xenotech enhancement, grants +30% Critical Hit Chance for 30 seconds.</eng>
+			</Desc>
+		</Digital_weapons>
+		<Personal_teleporter>
+			<Name>
+				<eng>Personal Teleporter</eng>
+			</Name>
+			<Desc>
+				<eng>Teleports the caster to the cursor. Maximum range is 35 meters.</eng>
+			</Desc>
+			<Desc_controller>
+				<eng>Teleports the caster to the selected area. Maximum range is 35 meters.</eng>
+			</Desc_controller>
+		</Personal_teleporter>
+		<Fabricator_distortion_armour_Temporal_distortion_field>
+			<Name>
+				<eng>Temporal Distortion Field</eng>
+			</Name>
+			<Desc>				
+				<eng>Creates a 10 meter radius area around the caster, that slows down all kinetic projectiles, as well as enemy movement and attack speed by 95%. The caster's attacks are counted as Surprise for the duration. The distortion field remains for 10 seconds.</eng>
+			</Desc>
+		</Fabricator_distortion_armour_Temporal_distortion_field>
+		<Stealth_bodysuit_Stealth_field>
+			<Name>
+				<eng>Stealth Field</eng>
+			</Name>
+			<Desc>
+				<eng>On/Off skill. Can only be activated when not being attacked for 5 seconds.\nActivation puts the character in stealth mode which lasts until spotted (moving within 5 meters of an enemy), until attacking or until running out of Adrenaline. \nStealth mode drains Adrenaline at a rate of 1 point per second while standing still, movement costs 2x. \nComing out of stealth mode bestows a Surprise bonus to attacks for 6 seconds (the duration is halved if stealth mode ends with you being spotted).</eng>
+			</Desc>
+		</Stealth_bodysuit_Stealth_field>
+		<Hololithic_armour_Holo_field>
+			<Name>
+				<eng>Holo-field</eng>
+			</Name>
+			<Desc>
+				<eng>Projects hololithic duplicates of the agent as a diversion. The duplicates can fight for 60 seconds or until the destroyed, dealing Suppression damage only.</eng>
+			</Desc>
+		</Hololithic_armour_Holo_field>		
+		<Common_Bladestorm>
+			<Name>
+				<eng>Bladestorm</eng>
+			</Name>
+			<Desc>
+				<eng>Single target attack that can be chained into a ritualistic combination attack, creating a Death Cult Combo.</eng>
+			</Desc>
+		</Common_Bladestorm>
+		<Death_cult_blade_Phasing_assault>
+			<Name>
+				<eng>Phasing Assault</eng>
+			</Name>
+			<Desc>
+				<eng>Single target phasing attack, executed from close to long range. The caster can phase through creatures, but not obstacles. Carves a Death Mark into the target.</eng>
+			</Desc>
+		</Death_cult_blade_Phasing_assault>
+		<Death_cult_blade_Killing_blow>
+			<Name>
+				<eng>Killing Blow</eng>
+			</Name>
+			<Desc>
+				<eng>Single target combination attack. Removes all Death Marks from the target, grants +10% bonus damage per mark for every successful hit.</eng>
+			</Desc>
+		</Death_cult_blade_Killing_blow>
+		<Arc_blade_Voltaic_arc>
+			<Name>
+				<eng>Voltaic Arc</eng>
+			</Name>
+			<Desc>
+				<eng>Attacks a single opponent, but deals electric damage to secondary targets.</eng>
+			</Desc>
+		</Arc_blade_Voltaic_arc>
+		<Arc_blade_Whirlwind_attack>
+			<Name>
+				<eng>Whirlwind Attack</eng>
+			</Name>
+			<Desc>
+				<eng>Channeled spinning attack, deals damage in 360 degrees on multiple targets while moving towards the cursor (at 50% movement speed). The attack is disrupted when the caster loses more than 30% of max HP.</eng>
+			</Desc>
+		</Arc_blade_Whirlwind_attack>
+		<Arc_blade_Voltaic_leap>
+			<Name>
+				<eng>Voltaic Leap</eng>
+			</Name>
+			<Desc>
+				<eng>Long range jumping attack, deals electric damage in a large area upon impact.</eng>
+			</Desc>
+		</Arc_blade_Voltaic_leap>
+		<Null_rod_Null_strike>
+			<Name>
+				<eng>Null Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Single, powerful close-quarters blow.</eng>
+			</Desc>
+		</Null_rod_Null_strike>
+		<Null_rod_Null_wave>
+			<Name>
+				<eng>Null Wave</eng>
+			</Name>
+			<Desc>
+				<eng>Releases an energy blast that can hit multiple targets.</eng>
+			</Desc>
+		</Null_rod_Null_wave>
+		<Null_rod_Annullment>
+			<Name>
+				<eng>Annullment</eng>
+			</Name>
+			<Desc>
+				<eng>Long range jumping attack, deals electric damage in a large area upon impact.</eng>
+			</Desc>
+		</Null_rod_Annullment>
+		<Common_Sniper_shot>
+			<Name>
+				<eng>Sniper Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Long range, single target attack.Can target specific bodyparts and damage can be increased by charging.</eng>
+			</Desc>
+		</Common_Sniper_shot>
+		<Sniper_rifle_Sniper_shot>
+			<Name>
+				<eng>Sniper Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Long range, single target attack. Can target specific bodyparts and damage can be increased by charging.</eng>
+			</Desc>
+		</Sniper_rifle_Sniper_shot>
+		<Sniper_rifle_Explosive_shot>
+			<Name>
+				<eng>Explosive Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Long range, single target attack, deals explosive damage in a small area.</eng>
+			</Desc>
+		</Sniper_rifle_Explosive_shot>
+		<Needler_sniper_rifle_Sniper_shot>
+			<Name>
+				<eng>Sniper Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Long range, single target attack. Removes all Needler Toxin marks from the target and grants +2% Critical Hit Chance and +2% Critical Hit Strength for each Needler Toxin mark removed. Can target specific bodyparts and damage can be increased by charging.</eng>
+			</Desc>
+		</Needler_sniper_rifle_Sniper_shot>
+		<Needler_sniper_rifle_Needle_burst>
+			<Name>
+				<eng>Needle Blast</eng>
+			</Name>
+			<Desc>
+				<eng>Long range attack. The projectile explodes upon impact spraying the area with poisoned needles.</eng>
+			</Desc>
+		</Needler_sniper_rifle_Needle_burst>
+		<Exitus_rifle_Hellfire_shot>
+			<Name>
+				<eng>Hellfire Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Area attack, deals heat damage around the target.</eng>
+			</Desc>
+		</Exitus_rifle_Hellfire_shot>
+		<Exitus_rifle_Pervasive_shot>
+			<Name>
+				<eng>Pervasive Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Overpenetrating shot, deals damage to multiple targets in its path.</eng>
+			</Desc>
+		</Exitus_rifle_Pervasive_shot>
+		<Longlas_rifle_Prismatic_shot>
+			<Name>
+				<eng>Prismatic Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Overpenetrating shot, hits multiple targets, deals 30% secondary damage within 6 meters (up to 3 targets).</eng>
+			</Desc>
+		</Longlas_rifle_Prismatic_shot>
+		<Remote_mine>
+			<Name>
+				<eng>Remote Mine</eng>
+			</Name>
+			<Desc>
+				<eng>The character moves to the designated position and places a mine on the ground. Only one mine can be deployed at a time. The mine can be detonated by activating the skill a second time, dealing explosive damage in a large area.</eng>
+			</Desc>
+		</Remote_mine>
+		<Stun_mine>
+			<Name>
+				<eng>Stun Mine</eng>
+			</Name>
+			<Desc>
+				<eng>The character moves to the designated position and places a mine on the ground. Only one mine can be deployed at a time. The mine detonates when an enemy moves close to it, dealing electric damage in a large area.</eng>
+			</Desc>
+		</Stun_mine>
+		<Fuse_delayed_grenade>
+			<Name>
+				<eng>Fuse-Delayed Grenade</eng>
+			</Name>
+			<Desc>
+				<eng>Throws a delayed blast grenade to the designated location, which deals explosive damage in a large area. The grenade explodes 2 seconds after impacting the ground.</eng>
+			</Desc>
+		</Fuse_delayed_grenade>
+		<Deflector_field>
+			<Name>
+				<eng>Deflector Shield</eng>
+			</Name>
+			<Desc>
+				<eng>Protective energy shield with a maximum of 1000 HP, that remains active for 60 seconds.\nIt reflects damage back the to the attacker and stuns or slows them.\nIt regenerates 200 HP/second, but only when not under attack (regeneration starts if 3 seconds pass without enemy attacks).\nAlso restores 50 Suppression Resistance per second while active.</eng>
+			</Desc>
+		</Deflector_field>
+
+		<Assassin_power_sword_Ceremonial_cuts>
+			<Name>
+				<eng>Ceremonial Cuts</eng>
+			</Name>
+			<Desc>
+				<eng>Single attack that gains a bonus to attack speed and Critical Chance with each strike as long as the attacks are continuous and target the same enemy. Carves a Death Mark into the target.</eng>
+			</Desc>
+		</Assassin_power_sword_Ceremonial_cuts>
+		<Assassin_power_sword_Blade_bite>
+			<Name>
+				<eng>Blade Bite</eng>
+			</Name>
+			<Desc>
+				<eng>Area attack that gains a bonus to attack speed and Critical Chance with each strike as long as the attacks are continuous. Carves a Death Mark into the targets.</eng>
+			</Desc>
+		</Assassin_power_sword_Blade_bite>
+		<Assassin_power_sword_Phasing_assault>
+			<Name>
+				<eng>Phasing Assault</eng>
+			</Name>
+			<Desc>
+				<eng>Single target phasing attack, executed from close to long range. The agent can phase through creatures, but not obstacles. Removes all Death Marks from the target, grants +10% bonus damage per mark.</eng>
+			</Desc>
+		</Assassin_power_sword_Phasing_assault>
+		<Assassin_power_sword_Serpent_strike>
+			<Name>
+				<eng>Serpent Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Long range jumping attack, deals poison damage in a large area upon impact. Carves a Death Mark into the targets.</eng>
+			</Desc>
+		</Assassin_power_sword_Serpent_strike>
+		<Carthean_sword_Carthean_strike>
+			<Name>
+				<eng>Carthean Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Single target attack that can be chained into a ritualistic combination attack, creating a Death Cult Combo. Places a Needler Toxin mark on the target with each hit.</eng>
+			</Desc>
+		</Carthean_sword_Carthean_strike>
+		<Carthean_sword_Blade_dance>
+			<Name>
+				<eng>Blade Dance</eng>
+			</Name>
+			<Desc>
+				<eng>Single attack that jumps to a maximum of 6 other enemies within 10 meters of the first target. Places a Needler Toxin mark on the target with each hit.</eng>
+			</Desc>
+		</Carthean_sword_Blade_dance>
+		<Carthean_sword_Severance>
+			<Name>
+				<eng>Severance</eng>
+			</Name>
+			<Desc>
+				<eng>Single attack that hits the target 3 times. Removes all Needler Toxin marks from the target, grants +10% bonus damage per mark.</eng>
+			</Desc>
+		</Carthean_sword_Severance>
+		<Carthean_sword_Crimson_path>
+			<Name>
+				<eng>Crimson Path</eng>
+			</Name>
+			<Desc>
+				<eng>Channeled attack, deals damage on multiple targets in a cone while moving towards the cursor (at 50% movement speed). The attack is disrupted when the caster loses more than 30% of max HP.</eng>
+			</Desc>
+		</Carthean_sword_Crimson_path>
+		<Arc_sword_Voltaic_strike>
+			<Name>
+				<eng>Voltaic Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Single target attack that can be chained into a ritualistic combination attack, creating a Lightning Combo.</eng>
+			</Desc>
+		</Arc_sword_Voltaic_strike>
+		<Arc_sword_Shock_nova>
+			<Name>
+				<eng>Shock Nova</eng>
+			</Name>
+			<Desc>
+				<eng>Knocks down and deals electric damage in 360° to enemies within 10 meters of the character.</eng>
+			</Desc>
+		</Arc_sword_Shock_nova>
+		<Arc_sword_Voltaic_backflip>
+			<Name>
+				<eng>Voltaic Backflip</eng>
+			</Name>
+			<Desc>
+				<eng>The character performs a long distance backflip and creates an explosion at the starting position.</eng>
+			</Desc>
+		</Arc_sword_Voltaic_backflip>
+		<Arc_sword_Thunder_slide>
+			<Name>
+				<eng>Thunder Slide</eng>
+			</Name>
+			<Desc>
+				<eng>The character slides to the designated position. Enemies hit by the slide are knocked down and take elecric damage.</eng>
+			</Desc>
+		</Arc_sword_Thunder_slide>
+
+		<Force_staff_Force_bolt>
+			<Name>
+				<eng>Force Bolt</eng>
+			</Name>
+			<Desc>
+				<eng>Long range, single target attack that deals Kinetic damage.</eng>
+			</Desc>
+		</Force_staff_Force_bolt>
+		<Force_rod_Fire_bolt>
+			<Name>
+				<eng>Fire Bolt</eng>
+			</Name>
+			<Desc>
+				<eng>Long range, single target attack that deals Heat damage.</eng>
+			</Desc>
+		</Force_rod_Fire_bolt>
+		<Force_rod_Witchfire>
+			<Name>
+				<eng>Witchfire</eng>
+			</Name>
+			<Desc>
+				<eng>Long range area attack that deals Heat damage.</eng>
+			</Desc>
+		</Force_rod_Witchfire>
+		<Force_sword_Force_strike>
+			<Name>
+				<eng>Force Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Single target, psy-enhanced Melee strike.</eng>
+			</Desc>
+		</Force_sword_Force_strike>
+		<Force_sword_2_force_smite>
+			<Name>
+				<eng>Force Smite</eng>
+			</Name>
+			<Desc>
+				<eng>Single target, chain bio-lightning discharge that hits up to 3 more enemies within 5 meters.</eng>
+			</Desc>
+		</Force_sword_2_force_smite>
+		<Force_sword_3_aether_strike>
+			<Name>
+				<eng>Aether Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Single target, long range phasing attack.</eng>
+			</Desc>
+		</Force_sword_3_aether_strike>
+		<Force_rod_2_warp_blast>
+			<Name>
+				<eng>Warp Blast</eng>
+			</Name>
+			<Desc>
+				<eng>Long range area attack that deals Physical and Warp damage.</eng>
+			</Desc>
+		</Force_rod_2_warp_blast>
+		<Force_rod_3_kinetic_wave>
+			<Name>
+				<eng>Kinetic Shockwave</eng>
+			</Name>
+			<Desc>
+				<eng>Kinetic blast that penetrates and knocks back multiple targets (10 meters long).</eng>
+			</Desc>
+		</Force_rod_3_kinetic_wave>
+		<Force_Staff_2_Pyro_Blast>
+			<Name>
+				<eng>Pyro Blast</eng>
+			</Name>
+			<Desc>
+				<eng>Long range area attack that deals Heat and Warp damage.</eng>
+			</Desc>
+		</Force_Staff_2_Pyro_Blast>
+		<Force_staff_3_Wyrdvane_Seekers>
+			<Name>
+				<eng>Wyrdvane Seekers</eng>
+			</Name>
+			<Desc>
+				<eng>Launches 3 homing force bolts at the target dealing Warp damage.</eng>
+			</Desc>
+		</Force_staff_3_Wyrdvane_Seekers>
+		<Biomancy_Endurance>
+			<Name>
+				<eng>Endurance</eng>
+			</Name>
+			<Desc>
+				<eng>Grants +15% damage reduction to the caster for 30 seconds.</eng>
+			</Desc>
+		</Biomancy_Endurance>
+		<Rabble_slayer>
+			<Name>
+				<eng>Rabble-slayer</eng>
+			</Name>
+			<Desc>
+				<eng>+20% Melee damage</eng>
+			</Desc>			
+		</Rabble_slayer>
+		<Biomancy_Endurance__buff>
+			<Name>
+				<eng>Endurance</eng>
+			</Name>
+			<Desc>
+				<eng>Grants +15% damage reduction to the caster for {duration} seconds.</eng>
+			</Desc>
+		</Biomancy_Endurance__buff>
+		<Physicaldamage_Kinetic_exorcism>
+			<Name>
+				<eng>Concussive Trauma</eng>
+			</Name>
+			<Desc>
+				<eng>+10% damage bonus</eng>
+			</Desc>
+		</Physicaldamage_Kinetic_exorcism>
+		<Melee_Overwhelm__buff>
+			<Name>
+				<eng>Overwhelm</eng>
+			</Name>
+			<Desc>
+				<eng>+[ff2bede6]5%[/ff2bede6] damage bonus to Melee skills.</eng>
+			</Desc>			
+		</Melee_Overwhelm__buff>
+		<Puritan_Holy_conclave>
+			<Name>
+				<eng>Holy Conclave</eng>
+			</Name>
+			<Desc>
+				<eng>+4% Maximum Health and +2% Damage to you and nearby allies (stacks with other players' Holy Conclave).</eng>
+			</Desc>
+		</Puritan_Holy_conclave>
+		<Melee_Riposte>
+			<Name>
+				<eng>Riposte</eng>
+			</Name>
+			<Desc>
+				<eng>Successful Deflects provide a stacking [ff2bede6]5%[/ff2bede6] damage bonus to the next attack (maximum 50%).</eng>
+			</Desc>			
+		</Melee_Riposte>
+		<Warp_anomaly_astral_blessing__aoe>
+			<Name>
+				<eng>Astral Blessing</eng>
+			</Name>
+			<Desc>
+				<eng>+50% damage.</eng>
+			</Desc>
+		</Warp_anomaly_astral_blessing__aoe>
+		<Biomancy_Warp_speed>
+			<Name>
+				<eng>Warp Speed</eng>
+			</Name>
+			<Desc>
+				<eng>+25% damage and -25% cooldown to all weapon attacks for {duration} seconds (does not stack).</eng>
+			</Desc>
+		</Biomancy_Warp_speed>
+		<Biomancy_Warp_speed__buff>
+			<Name>
+				<eng>Warp Speed</eng>
+			</Name>
+			<Desc>
+				<eng>+25% damage and -25% cooldown to all weapon attacks for 15 seconds (does not stack).</eng>
+			</Desc>
+		</Biomancy_Warp_speed__buff>
+		<Biomancy_Constrict>
+			<Name>
+				<eng>Constrict</eng>
+			</Name>
+			<Desc>
+				<eng>Deals Warp damage to a single enemy if the target has no Suppression bar or its Suppression status is red.</eng>
+			</Desc>
+		</Biomancy_Constrict>
+		<Biomancy_Bio_lightning>
+			<Name>
+				<eng>Bio-Lightning</eng>
+			</Name>
+			<Desc>
+				<eng>Medium range force discharge that deals Warp damage.</eng>
+			</Desc>
+		</Biomancy_Bio_lightning>
+		<Biomancy_Enfeeble>
+			<Name>
+				<eng>Enfeeble</eng>
+			</Name>
+			<Desc>
+				<eng>Long range area attack that Stuns or Slows enemies.</eng>
+			</Desc>
+		</Biomancy_Enfeeble>
+		<Biomancy_Haemorrhage>
+			<Name>
+				<eng>Haemorrhage</eng>
+			</Name>
+			<Desc>
+				<eng>Long range area attack that deals Warp damage and causes Bleeding.</eng>
+			</Desc>
+		</Biomancy_Haemorrhage>
+
+		<Pyromancy_Holocaust>
+			<Name>
+				<eng>Extermination</eng>
+			</Name>
+			<Desc>
+				<eng>Summons 3 columns of fire on the nearest enemies. The columns follow their targets and deal Heat damage for 5 seconds. Holding the attack button creates 2 additional columns per second on the nearest enemies not yet targeted by one. The caster suffers additional Warp Heat and instant Warp damage for each extra column created.</eng>
+			</Desc>
+		</Pyromancy_Holocaust>
+		<Pyromancy_Firestorm>
+			<Name>
+				<eng>Firestorm</eng>
+			</Name>
+			<Desc>
+				<eng>Long range area attack that deals Heat damage and ignites targets.</eng>
+			</Desc>
+		</Pyromancy_Firestorm>
+		<Pyromancy_Inferno>
+			<Name>
+				<eng>Inferno</eng>
+			</Name>
+			<Desc>
+				<eng>Creates a column of fire for 20 seconds that seeks out enemies and deals Heat damage.</eng>
+			</Desc>
+		</Pyromancy_Inferno>
+		<Pyromancy_Molten_beam>
+			<Name>
+				<eng>Molten Beam</eng>
+			</Name>
+			<Desc>
+				<eng>Channeled beam attack that deals Heat damage.</eng>
+			</Desc>
+		</Pyromancy_Molten_beam>
+		<Pyromancy_Fiery_form>
+			<Name>
+				<eng>Fiery Form</eng>
+			</Name>
+			<Desc>
+				<eng>Creates a fiery aura around the character for 10 seconds that deals continuous Heat damage to enemies it touches. It also provides +15% Damage Reduction, +50% damage to Heat attacks and +20% damage to other attacks.</eng>
+			</Desc>
+		</Pyromancy_Fiery_form>
+		<Pyromancy_Fiery_form__eot>
+			<Name>
+				<eng>Fiery Form</eng>
+			</Name>
+			<Desc>
+				<eng>A fiery aura for 10 seconds that deals Heat damage, provides +15% Damage Reduction, +50% damage to Heat attacks and +20% damage to other attacks.</eng>
+			</Desc>
+		</Pyromancy_Fiery_form__eot>
+		<Pyromancy_Spontaneous_combustion>
+			<Name>
+				<eng>Spontaneous Combustion</eng>
+			</Name>
+			<Desc>
+				<eng>Long range attack that ignites a single enemy, dealing Heat damage. If the target is killed by the initial attack, an explosion occurs that deals damage to enemies within 3 meters.</eng>
+			</Desc>
+		</Pyromancy_Spontaneous_combustion>
+
+		<Divination_Precognition>
+			<Name>
+				<eng>Precognition</eng>
+			</Name>
+			<Desc>
+				<eng>100% Damage Reduction bonus for 60 seconds. Each hit suffered reduces the duration by 5 seconds and generates 2 Warp Heat.</eng>
+			</Desc>
+		</Divination_Precognition>
+		<Divination_Precognition__eot>
+			<Name>
+				<eng>Precognition</eng>
+			</Name>
+			<Desc>
+				<eng>100% Damage Reduction bonus for 60 seconds. Each hit suffered reduces the bonus by 5%.</eng>
+			</Desc>
+		</Divination_Precognition__eot>
+		<Divination_Foreboding>
+			<Name>
+				<eng>Foreboding</eng>
+			</Name>
+			<Desc>
+				<eng>+50% damage bonus to kinetic attacks for 30 seconds. Also reduces shot spread.</eng>
+			</Desc>
+		</Divination_Foreboding>
+		<Divination_Foreboding__eot>
+			<Name>
+				<eng>Foreboding</eng>
+			</Name>
+			<Desc>
+				<eng>+50% damage bonus to kinetic attacks for 20 seconds. Also reduces shot spread.</eng>
+			</Desc>
+		</Divination_Foreboding__eot>
+		<Divination_Misfortune>
+			<Name>
+				<eng>Misfortune</eng>
+			</Name>
+			<Desc>
+				<eng>Changes the armour category of Heavily Armored enemies to Armoured and Armoured enemies to Unarmoured against the caster's attacks for 30 seconds.</eng>
+			</Desc>
+		</Divination_Misfortune>
+		<Divination_Misfortune__eot>
+			<Name>
+				<eng>Misfortune</eng>
+			</Name>
+			<Desc>
+				<eng>-40 to enemy armour</eng>
+			</Desc>
+		</Divination_Misfortune__eot>
+		<Divination_Death_augury>
+			<Name>
+				<eng>Death Augury</eng>
+			</Name>
+			<Desc>
+				<eng>A protective ward that remains active until triggered by an attack that would kill the character. It averts the death blow, heals the character to 50% Health and 50% Suppression Resistance, but also adds 65 Warp Heat (does not stack).</eng>
+			</Desc>
+		</Divination_Death_augury>
+		<Divination_Death_augury__eot>
+			<Name>
+				<eng>Death Augury</eng>
+			</Name>
+			<Desc>
+				<eng>A protective ward that remains active until triggered by an attack that would kill the character. It averts the death blow, heals the character to 50% Health and 50% Suppression Resistance, but also adds 65 Warp Heat (does not stack).</eng>
+			</Desc>
+		</Divination_Death_augury__eot>
+		<Divination_Precognitive_dodge>
+			<Name>
+				<eng>Precognitive Dodge</eng>
+			</Name>
+			<Desc>
+				<eng>+25 Dodge against all Ranged attacks for 30 seconds.</eng>
+			</Desc>
+		</Divination_Precognitive_dodge>
+		<Divination_Precognitive_dodge__eot>
+			<Name>
+				<eng>Precognitive Dodge</eng>
+			</Name>
+			<Desc>
+				<eng>+40 Dodge against all Ranged attacks for 20 seconds.</eng>
+			</Desc>
+		</Divination_Precognitive_dodge__eot>
+		<Divination_Divine_shot>
+			<Name>
+				<eng>Divine Shot</eng>
+			</Name>
+			<Desc>
+				<eng>For the duration of 30 seconds, the first hit on each target deals +100% damage.</eng>
+			</Desc>
+		</Divination_Divine_shot>
+		<Divination_Divine_shot__eot>
+			<Name>
+				<eng>Divine Shot</eng>
+			</Name>
+			<Desc>
+				<eng>The first hit on each target deals +100% damage.</eng>
+			</Desc>
+		</Divination_Divine_shot__eot>
+
+		<Telekinesis_Assail>
+			<Name>
+				<eng>Assail</eng>
+			</Name>
+			<Desc>
+				<eng>Long range attack that deals kinetic damage in a 2 meter wide streak and destroys cover.</eng>
+			</Desc>
+		</Telekinesis_Assail>
+		<Telekinesis_Crush>
+			<Name>
+				<eng>Crush</eng>
+			</Name>
+			<Desc>
+				<eng>Long range single target attack that deals Warp damage.</eng>
+			</Desc>
+		</Telekinesis_Crush>
+		<Telekinesis_Shockwave>
+			<Name>
+				<eng>Shockwave</eng>
+			</Name>
+			<Desc>
+				<eng>Knocks targets down and deals Warp damage in 360° around the character within a 6 meter radius.</eng>
+			</Desc>
+		</Telekinesis_Shockwave>
+		<Telekinesis_Telekine_dome>
+			<Name>
+				<eng>Telekine Dome</eng>
+			</Name>
+			<Desc>
+				<eng>Creates a 6 meter radius force dome that moves with the caster. Allies under the dome have +30% damage reduction bonus against Ranged attacks. The bonus does not apply against attackers inside the dome. Duration: {duration} sec</eng>
+			</Desc>
+		</Telekinesis_Telekine_dome>
+		<Telekinesis_Maelstrom>
+			<Name>
+				<eng>Maelstrom</eng>
+			</Name>
+			<Desc>
+				<eng>Channeled area effect attack that deals continuous Warp damage to enemies around the caster, regardless of cover.</eng>
+			</Desc>
+		</Telekinesis_Maelstrom>
+		<Telekinesis_Levitation>
+			<Name>
+				<eng>Levitation</eng>
+			</Name>
+			<Desc>
+				<eng>Toggle on/off levitation skill. Provides +25% Movement speed and the ability to bypass traps and mines undetected. Using any other skill automatically turns levitation off.</eng>
+			</Desc>
+		</Telekinesis_Levitation>
+		<Psyker_armor_Time_stop>
+			<Name>
+				<eng>Time Warp</eng>
+			</Name>
+			<Desc>
+				<eng>Conjures an immobile aura that stops time for 30 seconds. The psyker can move normally, but every meter traveled reduces the duration by 0.5 seconds. Attacking an enemy stuck in the aura reduces duration by 5 seconds (channeled attacks cost the same, but per second). DoT durations are unaffected.</eng>
+			</Desc>
+		</Psyker_armor_Time_stop>
+		<Psyker_armor_teleport>
+			<Name>
+				<eng>Aetheral Phasing</eng>
+			</Name>
+			<Desc>
+				<eng>Teleports the psyker to the designated location.</eng>
+			</Desc>
+		</Psyker_armor_teleport>
+		<Psyker_armor_Scrier_s_gaze>
+			<Name>
+				<eng>Scrier's Gaze</eng>
+			</Name>
+			<Desc>
+				<eng>Projects the psyker's presence over the physical world for 10 seconds. In this disembodied form, the psyker can move around, passing through doors, obstacles (but not walls) before returning to the body he left behind. Enemies within 3 meters are marked and suffer +100% damage penalty for 30 seconds when the Scrier's Gaze is over.</eng>
+			</Desc>
+		</Psyker_armor_Scrier_s_gaze>
+				
+		<World_Orbital_strike>
+			<Name>
+				<eng>Orbital Strike</eng>
+			</Name>
+			<Desc>
+				<eng>A heavy laser beam strikes the designated location, deals massive damage and knocks surviving enemies down.</eng>
+			</Desc>
+		</World_Orbital_strike>
+		<World_Artillery_strike>
+			<Name>
+				<eng>Artillery Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Several artillery strikes the designated location, deals massive damage on enemies.</eng>
+			</Desc>
+		</World_Artillery_strike>
+		<World_Tarantula_turret>
+			<Name>
+				<eng>Deploy Tarantula Turret</eng>
+			</Name>
+			<Desc>
+				<eng>Deploys a sentry gun. Automatically targets enemies and deals area damage.</eng>
+			</Desc>
+		</World_Tarantula_turret>
+		<World_Minefield>
+			<Name>
+				<eng>Deploy Minefield</eng>
+			</Name>
+			<Desc>
+				<eng>Deploys a cluster of 10 mines. The mines explode and deal area damage to proximity targets.</eng>
+			</Desc>
+		</World_Minefield>
+		<World_Bless>
+			<Name>
+				<eng>Bless</eng>
+			</Name>
+			<Desc>
+				<eng>Grants +50 % damage boost for you and for all allies in 10 m range for 10 seconds.</eng>
+			</Desc>
+		</World_Bless>
+		<World_Summon_space_marine>
+			<Name>
+				<eng>Call Astartes</eng>
+			</Name>
+			<Desc>
+				<eng>Teleports a Space Marine to your location as reinforcement.</eng>
+			</Desc>
+		</World_Summon_space_marine>
+		<pvp_world_bless>
+			<Name>
+				<eng>Bless</eng>
+			</Name>
+			<Desc>
+				<eng>Grants +25% bonus to movement speed and attack speed for you and for all allies in 10 m range for 10 seconds.</eng>
+			</Desc>
+		</pvp_world_bless>
+		<pvp_world_bless_buff>
+			<Name>
+				<eng>Bless</eng>
+			</Name>
+			<Desc>
+				<eng>Grants +25% bonus to movement speed and attack speed for you and for all allies in 10 m range for 10 seconds.</eng>
+			</Desc>
+		</pvp_world_bless_buff>
+		<pvp_World_Minefield>
+			<Name>
+				<eng>Deploy Minefield</eng>
+			</Name>
+			<Desc>
+				<eng>Deploys a cluster of 10 mines. The mines explode and deal area damage to proximity targets.</eng>
+			</Desc>
+		</pvp_World_Minefield>
+
+		<mission_hot_pursuit_target>
+			<Name>
+				<eng>Target Marker</eng>
+			</Name>
+			<Desc>
+				<eng>Designates the target for teleportation. Channeled.</eng>
+			</Desc>
+		</mission_hot_pursuit_target>
+
+	
+		<Inoculator>
+			<Name>
+				<eng>Inoculator</eng>
+			</Name>
+			<Desc>
+				<eng>Activates the listed effects.</eng>
+			</Desc>
+		</Inoculator>
+		
+		<Shotgun_Single_shot>
+			<Name>
+				<eng>Single Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Fires a shot of shotgun pellets, damaging all enemies in a cone in front of the character.</eng>
+			</Desc>
+		</Shotgun_Single_shot>	
+		<Shotgun_Short_burst>
+			<Name>
+				<eng>Burst Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Fires several shots in quick succession, damaging all enemies in a cone in front of the character.</eng>
+			</Desc>
+		</Shotgun_Short_burst>
+
+		<massacre_killstreak>
+			<Name>
+				<eng>Kill Streak</eng>
+			</Name>
+			<Desc>
+				<eng>Increases the Damage by 15%.</eng>
+			</Desc>
+		</massacre_killstreak>
+		<massacre_massacre>
+			<Name>
+				<eng>Massacre</eng>
+			</Name>
+			<Desc>
+				<eng>Increases the Damage by 30%.</eng>
+			</Desc>
+		</massacre_massacre>
+		<massacre_angel_of_death>
+			<Name>
+				<eng>Angel of Death</eng>
+			</Name>
+			<Desc>
+				<eng>Grants invulnerability and increases the Critical Strength by 30%.</eng>
+			</Desc>
+		</massacre_angel_of_death>
+		<massacre_unbreakable>
+			<Name>
+				<eng>Unbreakable</eng>
+			</Name>
+			<Desc>
+				<eng>Restores 10 HP and 10 Suppression Resist per second.</eng>
+			</Desc>
+		</massacre_unbreakable>
+		<massacre_tactical_strike>
+			<Name>
+				<eng>Tactical Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Increases the Suppression Damage by 50%. Stun, Freeze, Slow and Shock effects created by the player remain active 2 seconds longer.</eng>
+			</Desc>
+		</massacre_tactical_strike>
+		<massacre_bloodbath>
+			<Name>
+				<eng>Bloodbath</eng>
+			</Name>
+			<Desc>
+				<eng>Increases the Damage by 10% against all enemies and by 30% against Blinded enemies.</eng>
+			</Desc>
+		</massacre_bloodbath>
+
+		<Rebel_veteran_specialist_Melting_ray_beam>
+			<Name>
+				<eng>Melting Ray Beam</eng>
+			</Name>
+			<Desc>
+				<eng>A continuous beam that decreases your Damage Reduction by 50%.</eng>
+			</Desc>
+		</Rebel_veteran_specialist_Melting_ray_beam>
+		<Rogue_psyker_Curse__debuff>
+			<Name>
+				<eng>Curse</eng>
+			</Name>
+			<Desc>
+				<eng>Grants Slow and Vulnerability and decreases your Damage by 30%.</eng>
+			</Desc>
+		</Rogue_psyker_Curse__debuff>
+		<Shrine_Damage_Buff>
+			<Name>
+				<eng>Tech-shrine: Power</eng>
+			</Name>
+			<Desc>
+				<eng>Increases your Damage by 50% for the duration.</eng>
+			</Desc>
+		</Shrine_Damage_Buff>
+		<Shrine_Defense_Buff>
+			<Name>
+				<eng>Tech-shrine: Protection</eng>
+			</Name>
+			<Desc>
+				<eng>Increases your Damage Reduction by 20% for the duration.</eng>
+			</Desc>
+		</Shrine_Defense_Buff>
+		<Shrine_Speed_Buff>
+			<Name>
+				<eng>Tech-shrine: Haste</eng>
+			</Name>
+			<Desc>
+				<eng>Increases your Movement Speed by 25% for the duration.</eng>
+			</Desc>
+		</Shrine_Speed_Buff>
+		<Damage_after_deflect__buff>
+			<Name>
+				<eng>Deflector</eng>
+			</Name>
+			<Desc>
+				<eng>{damage,100} damage</eng>
+			</Desc>
+		</Damage_after_deflect__buff>
+		<Warp_Resonance__eot>
+			<Name>
+				<eng>Warp Resonance</eng>
+			</Name>
+			<Desc>
+				<eng>+20% damage, and +5% damage/stack.</eng>
+			</Desc>			
+		</Warp_Resonance__eot>
+		<Keen_fury__buff>
+			<Name>
+				<eng>Keen Fury</eng>
+			</Name>
+			<Desc>
+				<eng>+ {keen_fury_crit_hit_tag} Critical Hit Chance and + {keen_fury_crit_str_tag} Critical Hit Strength.</eng>
+			</Desc>
+		</Keen_fury__buff>
+		<Force_weapon_mastery__buff>
+            <Name>
+                <eng>Force Weapon Mastery</eng>
+            </Name>
+            <Desc>
+                <eng>Increases damage done by force weapon attacks by {force_weapon_mastery_tag}</eng>
+            </Desc>
+        </Force_weapon_mastery__buff>
+		<Psychic_escalation__buff>
+            <Name>
+                <eng>Psychic Escalation</eng>
+            </Name>
+            <Desc>
+                <eng>Increases damage done by psychic powers by {psychic_escalation_tag}</eng>
+            </Desc>
+        </Psychic_escalation__buff>
+		<Psychic_sequence__buff>
+            <Name>
+                <eng>Psychic Sequence</eng>
+            </Name>
+            <Desc>
+                <eng>Reduces the cooldown of psychic powers by {psychic_sequence_tag}</eng>
+            </Desc>
+        </Psychic_sequence__buff>
+		<evasive_ambush__buff>
+			<Name>
+				<eng>Evasive Ambush</eng>
+			</Name>
+			<Desc>
+				<eng>+ 3 to Dodge.</eng>
+			</Desc>
+		</evasive_ambush__buff>
+		<Exalted_by_murder__buff>
+			<Name>
+				<eng>Exalted by Murder</eng>
+			</Name>
+			<Desc>
+				<eng>+ {exalted_by_murder_tag} to All damage.</eng>
+			</Desc>
+		</Exalted_by_murder__buff>
+		<Executioner__buff>
+			<Name>
+				<eng>Executioner</eng>
+			</Name>
+			<Desc>
+				<eng>Increases your Damage and highly increases your Suppression Damage for the duration.</eng>
+			</Desc>
+		</Executioner__buff>
+		<Surprise>
+			<Name>
+				<eng>Surprise</eng>
+			</Name>
+			<Desc>
+				<eng>Increases your Damage, Critical Hit Chance and Dodge for the duration.</eng>
+			</Desc>
+		</Surprise>
+
+		<Knight_Cannon_Single_shot>
+			<Name>
+				<eng>Battlecannon Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Fires a long-range shot at the designated location, dealing damage to enemies within 4 meters of the impact point.</eng>
+			</Desc>
+		</Knight_Cannon_Single_shot>
+		<Knight_Multi_Melta_Single_shot>
+			<Name>
+				<eng>Multi-melta Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Fires a focused heat pulse at a single target.</eng>
+			</Desc>
+		</Knight_Multi_Melta_Single_shot>
+		<Knight_Multi_Melta_Channeled_shot>
+			<Name>
+				<eng>Multi-melta Beam</eng>
+			</Name>
+			<Desc>
+				<eng>Fires a continuous energy beam that deals damage to all enemies near the impact point.</eng>
+			</Desc>
+		</Knight_Multi_Melta_Channeled_shot>
+		<Knight_Shield>
+			<Name>
+				<eng>Void Shield</eng>
+			</Name>
+			<Desc>
+				<eng>Ignites the knight's void shield, that absorbs attacks from a 180° frontal arc. Can absorb a total of 15000 points damage before collapsing.</eng>
+			</Desc>
+		</Knight_Shield>
+
+		<Vulcano_cannon_Single_shot>
+			<Name>
+				<eng>Volcano Cannon Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Single shot from the main cannon of the Shadowsword in the direction the tank faces. Utterly demolishes all targets in a straight line.</eng>
+			</Desc>
+		</Vulcano_cannon_Single_shot>
+		<Lascannon_Single_shot>
+			<Name>
+				<eng>Lascannon Shot</eng>
+			</Name>
+			<Desc>
+				<eng>Continuous pulsed shots from the sponson lascannons of the tank.</eng>
+			</Desc>
+		</Lascannon_Single_shot>
+		<Shadowsword_Repair>
+			<Name>
+				<eng>Field Repair</eng>
+			</Name>
+			<Desc>
+				<eng>The crew of the tank repairs 500 health/second over 10 seconds.</eng>
+			</Desc>
+		</Shadowsword_Repair>
+
+		<Warp_heat_conversion__buff>
+			<Name>
+				<eng>Warp Heat Conversion</eng>
+			</Name>
+			<Desc>
+				<eng>+50% Damage to Force weapons</eng>
+			</Desc>
+		</Warp_heat_conversion__buff>
+		<Regenerative_booster_gland__buff>
+			<Name>
+				<eng>Regenerative Booster Gland</eng>
+			</Name>
+			<Desc>
+				<eng>Bonus Melee Damage</eng>
+			</Desc>
+		</Regenerative_booster_gland__buff>
+		<Fluid_attack_strategy__buff>
+			<Name>
+				<eng>Fluid Attack Strategy</eng>
+			</Name>
+			<Desc>
+				<eng>+50% Melee Damage</eng>
+			</Desc>
+		</Fluid_attack_strategy__buff>
+		<Singledps_Neuro_stimulation__buff>
+			<Name>
+				<eng>Neuro Stimulation</eng>
+			</Name>
+			<Desc>
+				<eng>+20% Damage and +10% Damage Reduce</eng>
+			</Desc>
+		</Singledps_Neuro_stimulation__buff>
+		<Movement_Quickening__buff>
+			<Name>
+				<eng>Quickening</eng>
+			</Name>
+			<Desc>
+				<eng>+20% Movement Speed</eng>
+			</Desc>
+		</Movement_Quickening__buff>
+		<Movement_Biomantic_haste__buff>
+			<Name>
+				<eng>Biomantic Haste</eng>
+			</Name>
+			<Desc>
+				<eng>+10% Movement Speed</eng>
+			</Desc>
+		</Movement_Biomantic_haste__buff>
+		<Melee_Hasten__buff>
+			<Name>
+				<eng>Hasten</eng>
+			</Name>
+			<Desc>
+				<eng>+20% Movement Speed</eng>
+			</Desc>
+		</Melee_Hasten__buff>
+		<Melee_Battle_dance__buff>
+			<Name>
+				<eng>Battle Dance</eng>
+			</Name>
+			<Desc>
+				<eng>+20% Damage</eng>
+			</Desc>
+		</Melee_Battle_dance__buff>
+		<Defense_Reanimator_glands__buff>
+			<Name>
+				<eng>Reanimator Gland</eng>
+			</Name>
+			<Desc>
+				<eng>+200 Hp/sec and +20% Damage</eng>
+			</Desc>
+		</Defense_Reanimator_glands__buff>
+		<Defense_Bulwark_of_zeal__buff>
+			<Name>
+				<eng>Bulwark of Zeal</eng>
+			</Name>
+			<Desc>
+				<eng>+5% Damage Reduce</eng>
+			</Desc>
+		</Defense_Bulwark_of_zeal__buff>
+		<Rosarius_force_field_on_Crit_buff>
+			<Name>
+				<eng>Rosarius Force Field</eng>
+			</Name>
+			<Desc>
+				<eng>Immune to damage</eng>
+			</Desc>
+		</Rosarius_force_field_on_Crit_buff>
+
+
+		<Warzone_Orbital_strike>
+			<Name>
+				<eng>Artillery Strike</eng>
+			</Name>
+			<Desc>
+				<eng>Several artillery strikes the designated location, deals massive damage on enemies.</eng>
+			</Desc>
+		</Warzone_Orbital_strike>
+		<Warzone_Summon_ranged>
+			<Name>
+				<eng>Stormwatcher Tactical Marine</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]Teleports in a Stormwatcher space marine who fights on your side with ranged combat style. (Only one can be present at a time.)[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_Summon_ranged>
+		<Warzone_Summon_melee>
+			<Name>
+				<eng>Stormwatcher Assault Marine</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]Teleports in a Stormwatcher space marine who fights on your side with melee combat style. (Only one can be present at a time.)[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_Summon_melee>
+		<Warzone_minefield>
+			<Name>
+				<eng>Deploy Minefield</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc][ff99cccc]Deploys a cluster of 10 mines. The mines explode and deal area damage to proximity targets.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_minefield>
+
+		<Warzone_mission_DOT>
+			<Name>
+				<eng>Attrition Enhancement</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]+50% Duration and +50% Damage to all DoT effects.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_DOT>
+		<Warzone_mission_Overheat>
+			<Name>
+				<eng>Improved Heat Management</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]The Overheat bar is increased by 50%.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Overheat>
+		<Warzone_mission_Magasine>
+			<Name>
+				<eng>Special Issue Magazines</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]+50% magazine size and -50% reload time to all weapons with a magazine.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Magasine>
+		<Warzone_mission_Warp_Heat_reduction>
+			<Name>
+				<eng>Psychic Choir</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]-50% Warp Heat to all psychic powers.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Warp_Heat_reduction>
+		<Warzone_mission_Instakill>
+			<Name>
+				<eng>Special Issue Ammunition</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]Weapons with a magazine have a +10 % to instantly kill the target with each shot (excluding Boss, Villains and Elite enemies).[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Instakill>
+		<Warzone_mission_Shock>
+			<Name>
+				<eng>Shock Maneuvering</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]50% chance to apply Shock to the target with each hit.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Shock>
+
+		<Warzone_mission_general_damage>
+			<Name>
+				<eng>Assault Doctrine</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]+15% Damage[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_general_damage>
+		<Warzone_mission_general_hp>
+			<Name>
+				<eng>Combat Injections</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]+500 HP[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_general_hp>
+		<Warzone_mission_Area_effect_increase>
+			<Name>
+				<eng>Unrestricted Demolition Protocols</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]10% Increased area for all Area of Effect skills.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Area_effect_increase>
+		<Warzone_mission_Enhanced_range>
+			<Name>
+				<eng>Purification Doctrine</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]Effect range for Cone and Path skills is increased by 50%.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Enhanced_range>
+		<Warzone_mission_Single_Target_Cooldown_reduction>
+			<Name>
+				<eng>Unrestricted Firing Protocols</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]Reduces single target skill cooldown by 25% (excluding salvo skills).[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Single_Target_Cooldown_reduction>
+		<Warzone_mission_Spread_reduction>
+			<Name>
+				<eng>Targeting Discipline</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]Reduces bullet spread of all ranged skills by 3.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Spread_reduction>
+		<Warzone_mission_General_damage_reduction>
+			<Name>
+				<eng>Survival Doctrine</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]Incoming damage is maximised in 750 Hp/hit.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_General_damage_reduction>
+		<Warzone_mission_inoculator_charge_regeneration>
+			<Name>
+				<eng>Medicae Resupply Service</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]50% chance to regain 1 charge after each innoculator use.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_inoculator_charge_regeneration>
+		<Warzone_mission_Support_charge_regeneration>
+			<Name>
+				<eng>Combat Resupply Service</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]50% chance to regain 1 charge after each Support skill use.[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Support_charge_regeneration>
+		<Warzone_mission_Ranged_weapon_skill_enhancer>
+			<Name>
+				<eng>Archeotech Ammunition</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]20% chance to deal double damage with each hit (Pistols, Rifles, Heavy guns only)[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Ranged_weapon_skill_enhancer>
+
+		<Warzone_mission_Ranged_critical_hit_booster>
+			<Name>
+				<eng>Targeting Analysers</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]Critical hits have a 25% chance  to deal +50% Damage (Pistols, Rifles, Heavy guns only)[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Ranged_critical_hit_booster>
+		<Warzone_mission_Suppression_shield>
+			<Name>
+				<eng>Steel Resolve</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]+100% to Suppression Resistance[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Suppression_shield>
+		<Warzone_mission_Critical_damage_reflection>
+			<Name>
+				<eng>Retribution Doctrine</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]Critical hits have a 25% chance to activate a buff for 2 seconds that reflects 50% of incoming damage to enemies (non-stacking).[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_Critical_damage_reflection>
+		<Warzone_mission_emergency_hp_regeneration>
+			<Name>
+				<eng>Trauma Reinvigoration</eng>
+			</Name>
+			<Desc>
+				<eng>[ff99cccc]Each incoming hit that deals more than 500 Hp has a 25% chance to activate a buff that regenerates 200HP/second for 5 secseconds (non-stacking).[/ff99cccc]</eng>
+			</Desc>
+		</Warzone_mission_emergency_hp_regeneration>
+
+
+		<TAGs>
+			<sniper>
+				<Name>
+					<eng>Sniper</eng>
+				</Name>
+				<Desc>
+					<eng>Allows targeting weak spots. Activated by holding the attack button and selecting a bodypart in the appearing circular menu. Hitting different bodyparts provides various advantages. Damage can be increased by charging (by +100% per second, up to 3 seconds).</eng>
+				</Desc>
+			</sniper>
+			<needler_toxin>
+				<Name>
+					<eng>Needler Toxin</eng>
+				</Name>
+				<Desc>
+					<eng>-1% movement speed penalty for every needler hit (stacking). The penalties expire after 10 seconds.</eng>
+				</Desc>
+			</needler_toxin>
+			<blast>
+				<Name>
+					<eng>Mega Blast</eng>
+				</Name>
+				<Desc>
+					<eng>Instant overheat for increased damage. The colder was the weapon before the shot, the higher the damage bonus (up to +300% damage).</eng>
+				</Desc>
+			</blast>
+			<single_target>
+				<Name>
+					<eng>Single Target</eng>
+				</Name>
+				<Desc>
+					<eng>Each attack targets a single enemy.</eng>
+				</Desc>
+			</single_target>
+			<death_mark>
+				<Name>
+					<eng>Death Mark</eng>
+				</Name>
+				<Desc>
+					<eng>-1% attack damage penalty to the target for 10 seconds. Can be stacked.</eng>
+				</Desc>
+			</death_mark>
+			<death_cult_combo>
+				<Name>
+					<eng>Death Cult Combo</eng>
+				</Name>
+				<Desc>
+					<eng>Each attack delivered in the combo increases attack speed, Critical Hit Chance and Critical Hit power, up to a maximum of 5 attacks.</eng>
+				</Desc>
+			</death_cult_combo>
+			<traumatize>
+				<Name>
+					<eng>Traumatize</eng>
+				</Name>
+				<Desc>
+					<eng>Paralyzes the target until the channeled attack is finished.</eng>
+				</Desc>
+			</traumatize>
+			<surprise>
+				<Name>
+					<eng>Surprise</eng>
+				</Name>
+				<Desc>
+					<eng>+30% damage, +5% Critical Hit Chance and +30 Dodge bonus for the duration.</eng>
+				</Desc>
+			</surprise>
+			<piercing>
+				<Name>
+					<eng>Piercing</eng>
+				</Name>
+				<Desc>
+					<eng>Penetrates multiple targets, stopped by obstacles.</eng>
+				</Desc>
+			</piercing>
+			<aimed>
+				<Name>
+					<eng>Aimed</eng>
+				</Name>
+				<Desc>
+					<eng>Allows targeting weak spots. Activated by holding the attack button and selecting a bodypart in the appearing circular menu. Hitting different bodyparts provides various advantages.</eng>
+				</Desc>
+			</aimed>
+			<grenade>
+				<Name>
+					<eng>Grenade</eng>
+				</Name>
+				<Desc>
+					<eng>Throws a grenade to the designated location, which deals explosive damage in a large area. The throw arc can be increased by holding down the button.</eng>
+				</Desc>
+			</grenade>
+			<materialize>
+				<Name>
+					<eng>Materialize</eng>
+				</Name>
+				<Desc>
+					<eng>The effect is created directly on the target.</eng>
+				</Desc>
+			</materialize>
+			<self>
+				<Name>
+					<eng>Self</eng>
+				</Name>
+				<Desc>
+					<eng>Effects the caster.</eng>
+				</Desc>
+			</self>
+			<aura>
+				<Name>
+					<eng>Aura</eng>
+				</Name>
+				<Desc>
+					<eng>The skill's area of effect is 5 meter radius circle, around the caster.</eng>
+				</Desc>
+			</aura>
+			<aura_small>
+				<Name>
+					<eng>Aura (Small)</eng>
+				</Name>
+				<Desc>
+					<eng>The skill's area of effect is 3 meter radius circle, around the caster.</eng>
+				</Desc>
+			</aura_small>
+			<aura_large>
+				<Name>
+					<eng>Aura (Large)</eng>
+				</Name>
+				<Desc>
+					<eng>The skill's area of effect is 10 meter radius circle, around the caster.</eng>
+				</Desc>
+			</aura_large>
+			<cone_wide>
+				<Name>
+					<eng>Cone Effect (Wide)</eng>
+				</Name>
+				<Desc>
+					<eng>The skill's area of effect is a 160° wide, 5 meters long cone.</eng>
+				</Desc>
+			</cone_wide>
+			<cone>
+				<Name>
+					<eng>Cone Effect</eng>
+				</Name>
+				<Desc>
+					<eng>The skill's area of effect is a 30° wide, 10 meters long cone.</eng>
+				</Desc>
+			</cone>
+			<cone_tight>
+				<Name>
+					<eng>Cone Effect (Tight)</eng>
+				</Name>
+				<Desc>
+					<eng>The skill's area of effect is a 60° wide, 3 meters long cone.</eng>
+				</Desc>
+			</cone_tight>
+			<line>
+				<Name>
+					<eng>Path</eng>
+				</Name>
+				<Desc>
+					<eng>2 meters wide, 10 meters long area attack.</eng>
+				</Desc>
+			</line>
+			<area_effect>
+				<Name>
+					<eng>Area Effect</eng>
+				</Name>
+				<Desc>
+					<eng>The skill's area of effect is 3 meter radius circle.</eng>
+				</Desc>
+			</area_effect>
+			<area_effect_small>
+				<Name>
+					<eng>Area Effect (Small)</eng>
+				</Name>
+				<Desc>
+					<eng>2 meter radius.</eng>
+				</Desc>
+			</area_effect_small>
+			<area_effect_large>
+				<Name>
+					<eng>Area Effect (Large)</eng>
+				</Name>
+				<Desc>
+					<eng>The skill's area of effect is 6 meter radius circle.</eng>
+				</Desc>
+			</area_effect_large>
+			<chain>
+				<Name>
+					<eng>Chain</eng>
+				</Name>
+				<Desc>
+					<eng>The damage jumps to secondary targets within 6 meters (up to 4 times).</eng>
+				</Desc>
+			</chain>
+			<rapid_fire>
+				<Name>
+					<eng>Rapid Fire</eng>
+				</Name>
+				<Desc>
+					<eng>Delivers a 3 shot burst to the target.</eng>
+				</Desc>
+			</rapid_fire>
+			<concentration>
+				<Name>
+					<eng>Concentration</eng>
+				</Name>
+				<Desc>
+					<eng>3 second charging time (by holding the attack button).</eng>
+				</Desc>
+			</concentration>
+			<slow_projectile>
+				<Name>
+					<eng>Slow Projectile</eng>
+				</Name>
+				<Desc>
+					<eng>Low velocity (10m/s).</eng>
+				</Desc>
+			</slow_projectile>
+			<channeled>
+				<Name>
+					<eng>Channeled</eng>
+				</Name>
+				<Desc>
+					<eng>Continuous effect (by holding the attack button).</eng>
+				</Desc>
+			</channeled>
+			<mine>
+				<Name>
+					<eng>Mine</eng>
+				</Name>
+				<Desc>
+					<eng>The character moves to the designated position and places a mine on the ground. A maximum of 3 mines can be deployed at any one time (deploying a fourth mine destroys the first one). The mine activates when an enemy moves close to it.</eng>
+				</Desc>
+			</mine>
+
+
+			<contact>
+				<Name>
+					<eng>Contact</eng>
+				</Name>
+				<Desc>
+					<eng>Activates upon impact.</eng>
+				</Desc>
+			</contact>
+			<bounce>
+				<Name>
+					<eng>Bounce</eng>
+				</Name>
+				<Desc>
+					<eng>Rebounds from obstacles, detonates on enemies. Self-destructs after 5 seconds.</eng>
+				</Desc>
+			</bounce>
+			<salvo>
+				<Name>
+					<eng>Salvo</eng>
+				</Name>
+				<Desc>
+					<eng>Sustained automatic fire until you release the button.</eng>
+				</Desc>
+			</salvo>
+			<barrage>
+				<Name>
+					<eng>Barrage</eng>
+				</Name>
+				<Desc>
+					<eng>While channeled (by holding the attack button), the damage increases by 40% damage/sec, (maximum +120%).</eng>
+				</Desc>
+			</barrage>
+			<block>
+				<Name>
+					<eng>Block</eng>
+				</Name>
+				<Desc>
+					<eng>+40% armour for 3 seconds.</eng>
+				</Desc>
+			</block>
+			<armor_breaking>
+				<Name>
+					<eng>Armour Breaking</eng>
+				</Name>
+				<Desc>
+					<eng>Ignores 50% of armour.</eng>
+				</Desc>
+			</armor_breaking>
+			<armor_piercing>
+				<Name>
+					<eng>Armour Piercing</eng>
+				</Name>
+				<Desc>
+					<eng>Completely ingores armour.</eng>
+				</Desc>
+			</armor_piercing>
+			<shred>
+				<Name>
+					<eng>Shred</eng>
+				</Name>
+				<Desc>
+					<eng>Damage decreases over distance (-5% per meter).</eng>
+				</Desc>
+			</shred>
+			<combo>
+				<Name>
+					<eng>Combo</eng>
+				</Name>
+				<Desc>
+					<eng>Activates when making continuous attacks. Every fifth attack deals +500% damage.</eng>
+				</Desc>
+			</combo>
+			<fleshbane>
+				<Name>
+					<eng>Fleshbane</eng>
+				</Name>
+				<Desc>
+					<eng>+30% damage to unarmoured targets.</eng>
+				</Desc>
+			</fleshbane>
+			<instant>
+				<Name>
+					<eng>Instant</eng>
+				</Name>
+				<Desc>
+				</Desc>
+					<eng>Instant activation, unaffected by Stun, Fear, etc.</eng>
+			</instant>
+			<persistent>
+				<Name>
+					<eng>Persistent</eng>
+				</Name>
+				<Desc>
+					<eng>5 second duration.</eng>
+				</Desc>
+			</persistent>
+			<shield_piercing>
+				<Name>
+					<eng>Shield Piercing</eng>
+				</Name>
+				<Desc>
+					<eng>Ignores the target's shield.</eng>
+				</Desc>
+			</shield_piercing>
+			<shieldbreaker>
+				<Name>
+					<eng>Shieldbreaker</eng>
+				</Name>
+				<Desc>
+					<eng>+100% damage to the target's shield.</eng>
+				</Desc>
+			</shieldbreaker>
+			<dot_burn>
+				<Name>
+					<eng>DoT (Burning)</eng>
+				</Name>
+				<Desc>
+					<eng>Deals fire damage equal to 20% of original hit damage per second, for 5 seconds.</eng>
+				</Desc>
+			</dot_burn>
+			<dot_poison>
+				<Name>
+					<eng>DoT (Poisoning)</eng>
+				</Name>
+				<Desc>
+					<eng>Deals toxic damage equal to 20% of original hit damage per second, for 5 seconds.</eng>
+				</Desc>
+			</dot_poison>
+			<dot_bleed>
+				<Name>
+					<eng>DoT (Bleeding)</eng>
+				</Name>
+				<Desc>
+					<eng>Deals slash damage equal to 20% of original hit damage per second, for 5 seconds.</eng>
+				</Desc>
+			</dot_bleed>
+			<dot_warp_bleed>
+				<Name>
+					<eng>DoT (Warped)</eng>
+				</Name>
+				<Desc>
+					<eng>Deals warp damage equal to 20% of original hit damage per second, for 5 seconds.</eng>
+				</Desc>
+			</dot_warp_bleed>
+			<knockback>
+				<Name>
+					<eng>Knockback</eng>
+				</Name>
+				<Desc>
+					<eng>Targets are forced back. Affects only against targets with yellow Suppression Resistance.</eng>
+				</Desc>
+			</knockback>
+			<stun>
+				<Name>
+					<eng>Stun</eng>
+				</Name>
+				<Desc>
+					<eng>Disables the target for 3 seconds. Affects only against targets with red Suppression Resistance.</eng>
+				</Desc>
+			</stun>
+			<pain>
+				<Name>
+					<eng>Pain</eng>
+				</Name>
+				<Desc>
+					<eng>Disables the target for a brief time.</eng>
+				</Desc>
+			</pain>
+			<shock>
+				<Name>
+					<eng>Shock</eng>
+				</Name>
+				<Desc>
+					<eng>Applies -40% movement and attack speed to the targets for 5 seconds. Affects only against targets with yellow Suppression Resistance.</eng>
+				</Desc>
+			</shock>
+			<hallucination>
+				<Name>
+					<eng>Hallucination</eng>
+				</Name>
+				<Desc>
+					<eng>Applies 40% miss chance and -20% movement speed to the targets for 5 seconds. Affects only against targets with yellow Suppression Resistance.</eng>
+				</Desc>
+			</hallucination>
+			<slow>
+				<Name>
+					<eng>Slow</eng>
+				</Name>
+				<Desc>
+					<eng>Applies -40% movement speed to the targets for 5 seconds. Affects only against targets with yellow Suppression Resistance.</eng>
+				</Desc>
+			</slow>
+			<freeze>
+				<Name>
+					<eng>Freeze</eng>
+				</Name>
+				<Desc>
+					<eng>Disables the target for 3 seconds. Affects only against targets with red Suppression Resistance.</eng>
+				</Desc>
+			</freeze>
+			<vulnerability_physical>
+				<Name>
+					<eng>Vulnerability (Physical)</eng>
+				</Name>
+				<Desc>
+					<eng>The target receives +10% physical damage for 5 seconds (stacks up to 10x).</eng>
+				</Desc>
+			</vulnerability_physical>
+			<vulnerability_heat>
+				<Name>
+					<eng>Vulnerability (Heat)</eng>
+				</Name>
+				<Desc>
+					<eng>The target receives +10% heat damage for 5 seconds (stacks up to 10x).</eng>
+				</Desc>
+			</vulnerability_heat>
+			<vulnerability_warp>
+				<Name>
+					<eng>Vulnerability (Warp)</eng>
+				</Name>
+				<Desc>
+					<eng>The target receives +10% warp damage for 5 seconds (stacks up to 10x).</eng>
+				</Desc>
+			</vulnerability_warp>
+			<flee>
+				<Name>
+					<eng>Flee</eng>
+				</Name>
+				<Desc>
+					<eng>The target flees for 3 seconds. Affects only against targets with red Suppression Resistance.</eng>
+				</Desc>
+			</flee>
+			<blind>
+				<Name>
+					<eng>Blind</eng>
+				</Name>
+				<Desc>
+					<eng>The target misses 80% of its attacks for 5 seconds. Affects only against targets with yellow Suppression Resistance.</eng>
+				</Desc>
+			</blind>
+			<better_critical>
+				<Name>
+					<eng>Critical Strike</eng>
+				</Name>
+				<Desc>
+					<eng>+10% Critical Hit Chance.</eng>
+				</Desc>
+			</better_critical>
+			<spread_tight>
+				<Name>
+					<eng>Spread (Tight)</eng>
+				</Name>
+				<Desc>
+					<eng>4° shot spread.</eng>
+				</Desc>
+			</spread_tight>
+			<spread>
+				<Name>
+					<eng>Spread (Moderate)</eng>
+				</Name>
+				<Desc>
+					<eng>8° shot spread.</eng>
+				</Desc>
+			</spread>
+			<spread_wide>
+				<Name>
+					<eng>Spread (Wide)</eng>
+				</Name>
+				<Desc>
+					<eng>12° shot spread.</eng>
+				</Desc>
+			</spread_wide>
+			<single_strike>
+				<Name>
+					<eng>Single Target</eng>
+				</Name>
+				<Desc>
+					<eng>Attacks a single target.</eng>
+				</Desc>
+			</single_strike>
+			<Compressed_Shot>
+				<Name>
+				<eng>Compressed Shot</eng>
+				</Name>
+				<Desc>
+				<eng>Can be charged up to 3 seconds for increased damage (by holding the attack button). The damage increases by 100% damage/second.</eng>
+				</Desc>
+			</Compressed_Shot>	
+			<weak_vs_armored>
+				<Name>
+					<eng>Weak vs Armoured</eng>
+				</Name>
+				<Desc>
+					<eng>-30% damage to armoured targets.</eng>
+				</Desc>
+			</weak_vs_armored>
+			<strong_vs_armored>
+				<Name>
+					<eng>Strong vs Armoured</eng>
+				</Name>
+				<Desc>
+					<eng>+30% damage to armoured targets.</eng>
+				</Desc>
+			</strong_vs_armored>
+			<giantkiller>
+				<Name>
+					<eng>Beast Stopper</eng>
+				</Name>
+				<Desc>
+					<eng>+50% damage to Elite and Champion creatures.</eng>
+				</Desc>
+			</giantkiller>
+			<nomelee>
+				<Name>
+					<eng>Minimum Range</eng>
+				</Name>
+				<Desc>
+					<eng>5 meters.</eng>
+				</Desc>
+			</nomelee>
+			<momentum>
+				<Name>
+					<eng>Momentum</eng>
+				</Name>
+				<Desc>
+					<eng>+10% damage for each meter travelled.</eng>
+				</Desc>
+			</momentum>
+			<whirling_attack>
+				<Name>
+					<eng>Whirling Attack</eng>
+				</Name>
+				<Desc>
+					<eng>Deals damage 360° around the character.</eng>
+				</Desc>
+			</whirling_attack>
+			<restrain>
+				<Name>
+					<eng>Restrain</eng>
+				</Name>
+				<Desc>
+					<eng>Prevents the use of abilities. Affects only against targets with red Suppression Resistance.</eng>
+				</Desc>
+			</restrain>
+			<temporary_cellrot>
+				<Name>
+					<eng>Cellrot</eng>
+				</Name>
+				<Desc>
+					<eng>Target cannot heal for 20 seconds. Affects only against targets with yellow Suppression Resistance.</eng>
+				</Desc>
+			</temporary_cellrot>
+			<low_powered>
+				<Name>
+					<eng>Low Powered</eng>
+				</Name>
+				<Desc>
+					<eng>Low damage to cover.</eng>
+				</Desc>
+			</low_powered>
+			<breacher>
+				<Name>
+					<eng>Breacher</eng>
+				</Name>
+				<Desc>
+					<eng>High damage to cover.</eng>
+				</Desc>
+			</breacher>
+			<demolisher>
+				<Name>
+					<eng>Demolisher</eng>
+				</Name>
+				<Desc>
+					<eng>Extreme damage to cover.</eng>
+				</Desc>
+			</demolisher>
+			<subtle>
+				<Name>
+					<eng>Low Suppression</eng>
+				</Name>
+				<Desc>
+					<eng>Minimal Suppression damage.</eng>
+				</Desc>
+			</subtle>
+			<high_suppression>
+				<Name>
+					<eng>High Suppression</eng>
+				</Name>
+				<Desc>
+					<eng>2x Suppression damage.</eng>
+				</Desc>
+			</high_suppression>
+			<extreme_suppression>
+				<Name>
+					<eng>Extreme Suppression</eng>
+				</Name>
+				<Desc>
+					<eng>5x Suppression damage.</eng>
+				</Desc>
+			</extreme_suppression>
+			<assault>
+				<Name>
+					<eng>Assault</eng>
+				</Name>
+				<Desc>
+					<eng>+30% damage on targets closer than 10 meters.</eng>
+				</Desc>
+			</assault>
+			<knockdown>
+				<Name>
+					<eng>Knockdown</eng>
+				</Name>
+				<Desc>
+					<eng>Targets are knocked to the ground. Affects only against targets with red Suppression Resistance.</eng>
+				</Desc>
+			</knockdown>
+			<spinupdamage>
+				<Name>
+					<eng>Spin Up</eng>
+				</Name>
+				<Desc>
+					<eng>Rate of fire increases gradually during sustained fire.</eng>
+				</Desc>
+			</spinupdamage>
+			<anti_psyker>
+				<Name>
+					<eng>Anti-psyker</eng>
+				</Name>
+				<Desc>
+					<eng>Deals double damage to psychic enemies and Restrains them (preventing them from using psychic abilities for 10 seconds).</eng>
+				</Desc>
+			</anti_psyker>
+			<lightning_combo>
+				<Name>
+					<eng>Lightning Combo</eng>
+				</Name>
+				<Desc>
+					<eng>Lightning jumps to other enemies within 10 meters of the target. The number of additional targets increases with each strike as long as the attacks are continuous and target the same enemy.</eng>
+				</Desc>
+			</lightning_combo>
+			<blessing>
+				<Name>
+					<eng>Blessing</eng>
+				</Name>
+				<Desc>
+					<eng>Blessing effect that bestows temporary bonuses.</eng>
+				</Desc>
+			</blessing>
+		</TAGs>
+		<RUNES>
+			<Rune_Enlarged_area>
+				<Name>
+					<eng>Enlarged Area</eng>
+				</Name>
+				<Desc>
+					<eng>Increases area of effect by 25% or adds 1 to the number of targets affected by the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>+25% effect area/+1 affected target</eng>
+				</Effect>
+			</Rune_Enlarged_area>
+			<Rune_Extra_duration>
+				<Name>
+					<eng>Extra Duration</eng>
+				</Name>
+				<Desc>
+					<eng>Increases skill duration by 50%</eng>
+				</Desc>
+				<Effect>
+					<eng>+50% Duration</eng>
+				</Effect>
+			</Rune_Extra_duration>
+			<Rune_Enhanced_effect>
+				<Name>
+					<eng>Enhanced Effect</eng>
+				</Name>
+				<Desc>
+					<eng>Increases skill effectiveness</eng>
+				</Desc>
+				<Effect>
+					<eng>Bonus varies</eng>
+				</Effect>
+			</Rune_Enhanced_effect>
+			<Rune_Reduced_cost>
+				<Name>
+					<eng>Reduced Cost</eng>
+				</Name>
+				<Desc>
+					<eng>Decreases Warp Heat cost of the skill by 25%.</eng>
+				</Desc>
+				<Effect>
+					<eng>-25% Warp Heat cost</eng>
+				</Effect>
+			</Rune_Reduced_cost>
+			<Rune_Reduced_cooldown>
+				<Name>
+					<eng>Reduced Cooldown</eng>
+				</Name>
+				<Desc>
+					<eng>Reduces skill cooldown by 25%.</eng>
+				</Desc>
+				<Effect>
+					<eng>-25% Cooldown</eng>
+				</Effect>
+			</Rune_Reduced_cooldown>
+			<Rune_Phase_through>
+				<Name>
+					<eng>Phase Through</eng>
+				</Name>
+				<Desc>
+					<eng>Adds the Armour Piercing tag to the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>Armour Piercing</eng>
+				</Effect>
+			</Rune_Phase_through>
+			<Rune_Matter_displacement>
+				<Name>
+					<eng>Matter Displacement</eng>
+				</Name>
+				<Desc>
+					<eng>Adds the Armour Breaking tag to the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>Armour Breaking</eng>
+				</Effect>
+			</Rune_Matter_displacement>
+			<Rune_Telekinetic_shock>
+				<Name>
+					<eng>Telekinetic Shock</eng>
+				</Name>
+				<Desc>
+					<eng>Adds the Knockback tag to the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>Knockback</eng>
+				</Effect>
+			</Rune_Telekinetic_shock>
+			<Rune_Telekinetic_blast>
+				<Name>
+					<eng>Telekinetic Blast</eng>
+				</Name>
+				<Desc>
+					<eng>Adds the Knockdown tag to the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>Knockdown</eng>
+				</Effect>
+			</Rune_Telekinetic_blast>
+			<Rune_Temporal_stasis>
+				<Name>
+					<eng>Temporal Stasis</eng>
+				</Name>
+				<Desc>
+					<eng>Adds the Stun tag to the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>Stun</eng>
+				</Effect>
+			</Rune_Temporal_stasis>
+			<Rune_Hinder_movement>
+				<Name>
+					<eng>Hinder Movement</eng>
+				</Name>
+				<Desc>
+					<eng>Adds the Slow tag to the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>Slow</eng>
+				</Effect>
+			</Rune_Hinder_movement>
+			<Rune_Psychic_shackles>
+				<Name>
+					<eng>Psychic Shackles</eng>
+				</Name>
+				<Desc>
+					<eng>Adds the Shock tag to the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>Shock</eng>
+				</Effect>
+			</Rune_Psychic_shackles>
+			<Rune_Blindness>
+				<Name>
+					<eng>Blindness</eng>
+				</Name>
+				<Desc>
+					<eng>Adds the Blind tag to the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>Blind</eng>
+				</Effect>
+			</Rune_Blindness>
+			<Rune_Vulnerability>
+				<Name>
+					<eng>Vulnerability</eng>
+				</Name>
+				<Desc>
+					<eng>Adds the Vulnerability tag to the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>Vulnerability</eng>
+				</Effect>
+			</Rune_Vulnerability>
+			<Rune_Damage_over_time>
+				<Name>
+					<eng>Damage Over Time</eng>
+				</Name>
+				<Desc>
+					<eng>Adds the Damage Over Time tag to the skill.</eng>
+				</Desc>
+				<Effect>
+					<eng>Damage Over Time</eng>
+				</Effect>
+			</Rune_Damage_over_time>
+			<Rune_Warp_scourge>
+				<Name>
+					<eng>Warp Scourge</eng>
+				</Name>
+				<Desc>
+					<eng>Converts half of the damage from the skill to Warp type.</eng>
+				</Desc>
+				<Effect>
+					<eng>Convert 50% damage to Warp type</eng>
+				</Effect>
+			</Rune_Warp_scourge>
+			<Rune_Exploit_weakness>
+				<Name>
+					<eng>Exploit Weakness</eng>
+				</Name>
+				<Desc>
+					<eng>Increases Critical Chance by 10%.</eng>
+				</Desc>
+				<Effect>
+					<eng>+10% Critical Chance</eng>
+				</Effect>
+			</Rune_Exploit_weakness>
+			<Rune_Dismantle>
+				<Name>
+					<eng>Dismantle</eng>
+				</Name>
+				<Desc>
+					<eng>Increases Suppression damage by 50%.</eng>
+				</Desc>
+				<Effect>
+					<eng>+50% Suppression damage</eng>
+				</Effect>
+			</Rune_Dismantle>
+			<Rune_Demolition>
+				<Name>
+					<eng>Demolition</eng>
+				</Name>
+				<Desc>
+					<eng>Increases damage dealt to covers by 50%.</eng>
+				</Desc>
+				<Effect>
+					<eng>+50% Cover damage</eng>
+				</Effect>
+			</Rune_Demolition>
+			<Rune_Health_stimulus>
+				<Name>
+					<eng>Health Stimulus</eng>
+				</Name>
+				<Desc>
+					<eng>Attaches health drain to the skill (10 HP per hit).</eng>
+				</Desc>
+				<Effect>
+					<eng>10 HP per hit</eng>
+				</Effect>
+			</Rune_Health_stimulus>
+			<Rune_Suppression_stimulus>
+				<Name>
+					<eng>Suppression Stimulus</eng>
+				</Name>
+				<Desc>
+					<eng>Attaches suppression drain to the skill (10 Suppression per hit).</eng>
+				</Desc>
+				<Effect>
+					<eng>10 Suppression per hit</eng>
+				</Effect>
+			</Rune_Suppression_stimulus>
+			<Rune_Symbiosis>
+				<Name>
+					<eng>Symbiosis</eng>
+				</Name>
+				<Desc>
+					<eng>Extends the effect of the skill to nearby allies as well.</eng>
+				</Desc>
+				<Effect>
+					<eng>Affect ally</eng>
+				</Effect>
+			</Rune_Symbiosis>
+			<Rune_Knit_flesh>
+				<Name>
+					<eng>Knit Flesh</eng>
+				</Name>
+				<Desc>
+					<eng>Attaches health regeneration to the skill (10 HP per second).</eng>
+				</Desc>
+				<Effect>
+					<eng>10 HP per second</eng>
+				</Effect>
+			</Rune_Knit_flesh>
+			<Rune_Regain_composure>
+				<Name>
+					<eng>Regain Composure</eng>
+				</Name>
+				<Desc>
+					<eng>Attaches suppression regeneration to the skill (10 Suppression per second).</eng>
+				</Desc>
+				<Effect>
+					<eng>10 Suppression per second</eng>
+				</Effect>
+			</Rune_Regain_composure>
+			<Rune_Deny_the_warp>
+				<Name>
+					<eng>Deny The Warp</eng>
+				</Name>
+				<Desc>
+					<eng>Increases Warp Resistance by 10.</eng>
+				</Desc>
+				<Effect>
+					<eng>+10 Warp Resistance</eng>
+				</Effect>
+			</Rune_Deny_the_warp>
+			<Rune_Speed_boost>
+				<Name>
+					<eng>Speed Boost</eng>
+				</Name>
+				<Desc>
+					<eng>Increases Movement Speed by 10.</eng>
+				</Desc>
+				<Effect>
+					<eng>+10 Movement Speed</eng>
+				</Effect>
+			</Rune_Speed_boost>
+			<Rune_Damage_boost>
+				<Name>
+					<eng>Damage Boost</eng>
+				</Name>
+				<Desc>
+					<eng>Increases all damage by 10%.</eng>
+				</Desc>
+				<Effect>
+					<eng>+10% Damage</eng>
+				</Effect>
+			</Rune_Damage_boost>
+		</RUNES>
+	</Skills>
+	
+	<Property>
+		<property_format>
+			<eng>$PROPERTYSTRING$ $TARGETNAME$</eng>
+		</property_format>
+	</Property>
+</Root>

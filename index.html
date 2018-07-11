@@ -163,7 +163,7 @@
                                             ng-show="n.startsWith(ssc.currentType) || ['General', 'Puritan', 'Radical'].indexOf(n) > -1"
                                             class="col-2-sm"
                                             style="width: 60px; height: 60px;"
-                                            ng-repeat="p in pd"
+                                            ng-repeat="p in pd|orderBy:p"
                                             ng-click="ssc.selectPerk(p, perk);"
                                             ng-mouseover="ssc.setRawDescription($event, 'perk_' + p, 'perks');"
                                             ng-mouseleave="ssc.setDescription();"

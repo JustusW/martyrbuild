@@ -284,7 +284,7 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
             
             var hash = ssc.currentHash + '|||' + JSON.stringify(spells);
             $location.hash(hash);
-            ssc.fullLink = window.location.href;
+            ssc.fullLink = $location.$$absUrl;
         };
         
         ssc.initiateFromLink = function () {

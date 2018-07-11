@@ -284,13 +284,14 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
                 return extractSkillTreeData();
             }
             lnk = lnk.split('|||');
+            lnkArr = lnk[0].split(';');
             
             ssc.currentType = lnk[0].split(';')[0];
             for (catName in ssc.currentCategory()) {
                 for (name in ssc.getSkills(catName)) {
                     var s = ssc.getSkills(catName)[name];
                     s.selected = false;
-                    if (lnk[0].indexOf(catName + ',' + name) > -1) {
+                    if (lnkArr.indexOf(catName + ',' + name) > -1) {
                         s.selected = true;
                         ssc.currentCount++;
                     }

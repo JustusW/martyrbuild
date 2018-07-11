@@ -141,6 +141,40 @@
                     <div class="btn btn-dark" ng-click="ssc.resetAllSkills()">Reset All</div>
                     <a target="_blank" class="btn btn-dark" ng-show="ssc.fullLink" ng-href="https://tinyurl.com/create.php?source=indexpage&url={{ssc.fullLink|urlencode}}&submit=Make+TinyURL!">TinyURL.com Shortlink</a>
                 </div>
+                <div class="col-sm-12" ng-show="ssc.currentType"><br /></div>
+                <div class="col-sm-12 row" ng-show="ssc.currentType">
+                    <div class="col-sm text-center" ng-repeat="perk in ssc.perks">
+                        <img src="Icons/Perks/icon_trait_slotemptyoff.png" ng-show="!perk.name" ng-click="perk.selecting = true" />
+                        <img src="Icons/Perks/{{ perk.name|lowercase }}on.png" ng-show="perk.name" ng-click="perk.selecting = true"
+                            ng-mouseover="ssc.setRawDescription($event, 'perk_' + perk.name, 'perks');"
+                            ng-mouseleave="ssc.setDescription();"/>
+                        <div class="modal show" ng-show="perk.selecting">
+                            <div class="modal-dialog">
+                                <div class="modal-content text-dark">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Select Perk</h5>
+                                        <button type="button" class="close" ng-click="perk.selecting = false" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body row">
+                                        <div ng-repeat-start="(n, pd) in ssc.perkData" ng-if="false"></div>
+                                        <img
+                                            ng-show="n.startsWith(ssc.currentType) || ['General', 'Puritan', 'Radical'].indexOf(n) > -1"
+                                            class="col-2-sm"
+                                            style="width: 60px; height: 60px;"
+                                            ng-repeat="p in pd"
+                                            ng-click="ssc.selectPerk(p, perk);"
+                                            ng-mouseover="ssc.setRawDescription($event, 'perk_' + p, 'perks');"
+                                            ng-mouseleave="ssc.setDescription();"
+                                            ng-src="Icons/Perks/{{ p|lowercase }}on.png" />
+                                        <div ng-repeat-end ng-if="false"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-12" ng-show="ssc.currentType == 'Psyker'"><br /></div>
                 <div class="col-sm-12 row" ng-show="ssc.currentType == 'Psyker'">
                     <div class="col-sm-1 row pt-2">
@@ -181,7 +215,7 @@
                                             <div class="modal-body row">
                                                 <div
                                                     class="col"
-                                                    ng-repeat="s in ssc.spellData[spell.name].Runes" />
+                                                    ng-repeat="s in ssc.spellData[spell.name].Runes" >
                                                     <img 
                                                         ng-click="ssc.selectRune(s, triac);"
                                                         ng-mouseover="ssc.setRawDescription($event, s);"
@@ -207,7 +241,7 @@
                                         <div class="col-sm" ng-repeat="class in ssc.spellClasses">
                                             <h6>{{ class }}</h6>
                                             <img
-                                                class="pull-left"
+                                                class="float-left"
                                                 style="width: 60px; height: 60px;"
                                                 ng-repeat="s in ssc.spellData"
                                                 ng-click="ssc.selectSpell(s, spell);"

@@ -4,6 +4,29 @@ from pprint import pprint
 import json
 
 
+def parse_perks():
+    file_path = 'gamefiles/data'
+    with open(file_path, 'rb') as f:
+        active = False
+        perks = {}
+        for line in f.readlines():
+            line = line.strip()
+            if line == 'Perks':
+                active = True
+            if line == '}':
+                active = False
+            if not active or line == '' or line.startswith('#'):
+                continue
+            if '=' in line:
+                name, value = line.split('=', 1)
+                perks[name] = value.split(',')
+        
+        with open('gamefiles/perks.json', 'w') as f:
+            f.write(json.dumps(
+                perks, sort_keys=True, indent=4, separators=(',', ': ')
+            ))
+
+
 def parse_single_config(data):
     out = {
         'action': []
@@ -89,3 +112,4 @@ def extract_multi_file(target_file='gamefiles/Config/psykerspells.cfg'):
 
 walker()
 extract_multi_file()
+parse_perks()

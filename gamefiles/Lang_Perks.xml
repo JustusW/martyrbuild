@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<eng>English</eng>
+	</LanguageName>
+	<Languages>eng</Languages>
+	<Perks>
+		<perk_Artifical_organs>
+			<Name>
+				<eng>Artifical Organs</eng>
+			</Name>
+			<Desc>
+				<eng>+50 HP regeneration per second\n-50% penalty to Inoculator effectiveness</eng>
+			</Desc>			
+		</perk_Artifical_organs>
+		<perk_Artifical_organs_II>
+			<Name>
+				<eng>Artifical Organs II</eng>
+			</Name>
+			<Desc>
+				<eng>+100 % HP regeneration\n+500 HP\n-50% penalty to Inoculator effectiveness</eng>
+			</Desc>			
+		</perk_Artifical_organs_II>
+		<perk_Grinder>
+			<Name>
+				<eng>Grinder</eng>
+			</Name>
+			<Desc>
+				<eng>+30% damage\nNo critical hits are dealt</eng>
+			</Desc>			
+		</perk_Grinder>
+		<perk_Tactical_mastery>
+			<Name>
+				<eng>Tactical Mastery</eng>
+			</Name>
+			<Desc>
+				<eng>Swapping weapons reduces skill Cooldown by 50% and reloads Ammo.</eng>
+			</Desc>			
+		</perk_Tactical_mastery>
+		<perk_Crisis_management>
+			<Name>
+				<eng>Crisis Management</eng>
+			</Name>
+			<Desc>
+				<eng>Above 50% HP you suffer 20% more damage\nBelow 50% HP you suffer 40% less damage</eng>
+			</Desc>			
+		</perk_Crisis_management>
+		<perk_Blessing_of_saint_victorius>
+			<Name>
+				<eng>Blessing of Saint Victorius</eng>
+			</Name>
+			<Desc>
+				<eng>Can't suffer more damage than 30% of your max HP from a single hit.</eng>
+			</Desc>			
+		</perk_Blessing_of_saint_victorius>
+		<perk_Tactician>
+			<Name>
+				<eng>Tactician</eng>
+			</Name>
+			<Desc>
+				<eng>+1 second to global Cooldown\n-30% Cooldown to all skills\n+20% damage to skills with 2 seconds cooldown or more.</eng>
+			</Desc>			
+		</perk_Tactician>
+		<perk_Eternal_warrior>
+			<Name>
+				<eng>Eternal Warrior</eng>
+			</Name>
+			<Desc>
+				<eng>Instant resurrection, knocking back and stunning enemies in a 3 meter radius. Activated once per Mission (does not count as a death).</eng>
+			</Desc>			
+		</perk_Eternal_warrior>
+		<perk_Augmented_Body>
+			<Name>
+				<eng>Augmented Body</eng>
+			</Name>
+			<Desc>
+				<eng>Suppression Resistance will never sink below medium level \nCharacter does not regenerate (can only be healed by the Inoculator or similar effects).</eng>
+			</Desc>			
+		</perk_Augmented_Body>
+		<perk_No_Mercy>
+			<Name>
+				<eng>No Mercy</eng>
+			</Name>
+			<Desc>
+				<eng>Focus does not recharge over time \n Suffering at least 5% of max HP from a single hit recharges +30 Focus.</eng>
+			</Desc>			
+		</perk_No_Mercy>
+		<perk_Subdermal_mesh>
+			<Name>
+				<eng>Subdermal mesh</eng>
+			</Name>
+			<Desc>
+				<eng>Grants +10% Damage Reduction against melee attacks and -3% Damage Reduction against Ranged attacks.</eng>
+			</Desc>			
+		</perk_Subdermal_mesh>
+		
+		<perk_Diversive_tactics>
+			<Name>
+				<eng>Diversive Tactics</eng>
+			</Name>
+			<Desc>
+				<eng>Hits bestow 5% stacking resistance on the enemy for 5 seconds (for the damage type of the attack). Against all other damage types the same opponent suffers +1 stacking Vulnerability.</eng>
+			</Desc>			
+		</perk_Diversive_tactics>
+		<perk_Self_flagellation>
+			<Name>
+				<eng>Self-Flagellation</eng>
+			</Name>
+			<Desc>
+				<eng>Regenerates Class Resource points per second instead of Hitpoints. The rate is 1/10th of the character's HP Regeneration per second.</eng>
+			</Desc>			
+		</perk_Self_flagellation>
+		<perk_Vanquisher_of_the_vile>
+			<Name>
+				<eng>Vanquisher of the Vile</eng>
+			</Name>
+			<Desc>
+				<eng>Restores +50% of maximum Suppression Resist when killing Medium or Elite creatures.</eng>
+			</Desc>			
+		</perk_Vanquisher_of_the_vile>
+		<perk_Subdermal_plating>
+			<Name>
+				<eng>Subdermal Plating</eng>
+			</Name>
+			<Desc>
+				<eng>+10% damage reduction bonus against Ranged attacks, -3% damage reduction penalty versus Melee attacks.</eng>
+			</Desc>			
+		</perk_Subdermal_plating>
+		<perk_Burnished_weaponry>
+			<Name>
+				<eng>Burnished Weaponry</eng>
+			</Name>
+			<Desc>
+				<eng>+100% Deflect bonus with Melee weapons, -20% to Armour based damage reduction.</eng>
+			</Desc>			
+		</perk_Burnished_weaponry>
+		<perk_Self_mortification>
+			<Name>
+				<eng>Self-Mortification</eng>
+			</Name>
+			<Desc>
+				<eng>Grants +2% bonus damage for every 10% of the Class Resource bar spent (up to +20% when the Class Resource is reduced to zero).</eng>
+			</Desc>			
+		</perk_Self_mortification>
+		<perk_Stride_of_the_blessed>
+			<Name>
+				<eng>Stride of the Blessed</eng>
+			</Name>
+			<Desc>
+				<eng>+10 Movement Speed bonus for -3% damage reduction penalty.</eng>
+			</Desc>			
+		</perk_Stride_of_the_blessed>
+		<perk_Martyrdom>
+			<Name>
+				<eng>Martyrdom</eng>
+			</Name>
+			<Desc>
+				<eng>Getting killed provides a stacking +10% damage, +10% Suppression Resist regeneration and +5% damage reduction bonus for the duration of the mission.</eng>
+			</Desc>			
+		</perk_Martyrdom>
+		<perk_Runic_armour>
+			<Name>
+				<eng>Runic Armour</eng>
+			</Name>
+			<Desc>
+				<eng>Armour skill use provides +10% damage reduction and +30% damage bonus for 5 seconds.</eng>
+			</Desc>			
+		</perk_Runic_armour>
+		<perk_Nephrine_monger>
+			<Name>
+				<eng>Nephrine-monger</eng>
+			</Name>
+			<Desc>
+				<eng>Grants +1% Dodge bonus for every 5% of the Class Resource bar present (up to +20% when the Class Resource is full).</eng>
+			</Desc>			
+		</perk_Nephrine_monger>
+		<perk_Fluidity>
+			<Name>
+				<eng>Fluid Nature</eng>
+			</Name>
+			<Desc>
+				<eng>+20 Dodge bonus during movement, -10 Dodge penalty for standing still longer than 3 second.</eng>
+			</Desc>			
+		</perk_Fluidity>
+		<perk_Forbidden_rites>
+			<Name>
+				<eng>Forbidden Rites</eng>
+			</Name>
+			<Desc>
+				<eng>Kills provide +40 HP Regeneration per second for 10 seconds (non-stacking).</eng>
+			</Desc>			
+		</perk_Forbidden_rites>
+		<perk_Bullet_dodger>
+			<Name>
+				<eng>Bullet Dodger</eng>
+			</Name>
+			<Desc>
+				<eng>+20 Dodge bonus against Ranged attacks with -10 Movement Speed penalty.</eng>
+			</Desc>			
+		</perk_Bullet_dodger>
+		<perk_Adrenal_valves>
+			<Name>
+				<eng>Adrenal Valves</eng>
+			</Name>
+			<Desc>
+				<eng>Class Resource cost is halved for Dodge moves and Armour skills, but Inoculator effect duration is also halved.</eng>
+			</Desc>			
+		</perk_Adrenal_valves>
+		<perk_Rabble_slayer>
+			<Name>
+				<eng>Rabble-slayer</eng>
+			</Name>
+			<Desc>
+				<eng>+20% Melee damage when surrounded by 3 or more enemies</eng>
+			</Desc>			
+		</perk_Rabble_slayer>
+		<perk_Run_and_gun>
+			<Name>
+				<eng>Run and Gun</eng>
+			</Name>
+			<Desc>
+				<eng>+20% Ranged damage when moving (the bonus lasts for 2 seconds after a stop)</eng>
+			</Desc>			
+		</perk_Run_and_gun>
+		<perk_Exalted_by_murder>
+			<Name>
+				<eng>Exalted by Murder</eng>
+			</Name>
+			<Desc>
+				<eng>+5% damage for every kill for 5 seconds (stacking)</eng>
+			</Desc>			
+		</perk_Exalted_by_murder>
+		<perk_Evasive_ambush>
+			<Name>
+				<eng>Evasive Ambush</eng>
+			</Name>
+			<Desc>
+				<eng>+3 Dodge for every Surprise kill for 10 seconds (stacking)</eng>
+			</Desc>			
+		</perk_Evasive_ambush>
+		<perk_Mind_rift>
+			<Name>
+				<eng>Mind Rift</eng>
+			</Name>
+			<Desc>
+				<eng>+20% damage at maximum Warp Heat</eng>
+			</Desc>			
+		</perk_Mind_rift>
+		<perk_Anointment>
+			<Name>
+				<eng>Anointment</eng>
+			</Name>
+			<Desc>
+				<eng>+10% damage for every buff effect on the character</eng>
+			</Desc>			
+		</perk_Anointment>
+		<perk_Blood_driven>
+			<Name>
+				<eng>Blood Driven</eng>
+			</Name>
+			<Desc>
+				<eng>+20 Movement speed for every kill for 5 seconds (non-stacking)</eng>
+			</Desc>			
+		</perk_Blood_driven>
+		<perk_Warp_attunement>
+			<Name>
+				<eng>Warp Attunement</eng>
+			</Name>
+			<Desc>
+				<eng>Increased chance for beneficial Warp Anomalies.</eng>
+			</Desc>			
+		</perk_Warp_attunement>
+
+
+		<perk_Artifical_organs2>
+			<Name>
+				<eng>Artifical Organs II</eng>
+			</Name>
+			<Desc>
+				<eng>+100% HP regeneration\n+500 bonus HP\n-50% penalty to Inoculator effectiveness</eng>
+			</Desc>			
+		</perk_Artifical_organs2>
+		<perk_Precognitive_evasion>
+			<Name>
+				<eng>Precognitive Evasion</eng>
+			</Name>
+			<Desc>
+				<eng>+10 to Dodge\nDodge move is permanently disabled</eng>
+			</Desc>			
+		</perk_Precognitive_evasion>
+		<perk_Augmented_Body_2>
+			<Name>
+				<eng>Augmented Body II</eng>
+			</Name>
+			<Desc>
+				<eng>Suppression Resistance will never decrease\nCharacter does not regenerate (can only be healed by the Inoculator or similar effects)</eng>
+			</Desc>			
+		</perk_Augmented_Body_2>
+		<perk_Utility_Harness>
+			<Name>
+				<eng>Utility Harness</eng>
+			</Name>
+			<Desc>
+				<eng>Belt abilities gain +2 charges, supply crates yield +1 charge</eng>
+			</Desc>			
+		</perk_Utility_Harness>
+		<perk_Feint_Mastery>
+			<Name>
+				<eng>Feint Mastery</eng>
+			</Name>
+			<Desc>
+				<eng>Damage bonus percent equal to your Deflect value (applies to all attacks)</eng>
+			</Desc>			
+		</perk_Feint_Mastery>
+		<perk_Berserker>
+			<Name>
+				<eng>Berserker</eng>
+			</Name>
+			<Desc>
+				<eng>+25% Damage and mobility skills gain -50% cooldown when HP drops below 50%</eng>
+			</Desc>			
+		</perk_Berserker>
+		<perk_Frenzon_Dispenser>
+			<Name>
+				<eng>Frenzon Dispenser</eng>
+			</Name>
+			<Desc>
+				<eng>+10% Critical hit chance\n-10% Maximum HP</eng>
+			</Desc>			
+		</perk_Frenzon_Dispenser>
+		<perk_Survival_Instinct_Override>
+			<Name>
+				<eng>Survival Instinct Override</eng>
+			</Name>
+			<Desc>
+				<eng>+10% Critical hit strength\n-3% Damage reduction</eng>
+			</Desc>			
+		</perk_Survival_Instinct_Override>
+		<perk_Keen_Fury>
+			<Name>
+				<eng>Keen Fury</eng>
+			</Name>
+			<Desc>
+				<eng>Each kill provides +1% Critical hit chance and +1% Critical hit strength for 5 seconds (stacks)</eng>
+			</Desc>			
+		</perk_Keen_Fury>
+		<perk_Terror_Tactics>
+			<Name>
+				<eng>Terror Tactics</eng>
+			</Name>
+			<Desc>
+				<eng>The Executioner bonus has a chance for double strength equal to your Critical hit chance</eng>
+			</Desc>			
+		</perk_Terror_Tactics>
+		<perk_Blood_Rush>
+			<Name>
+				<eng>Blood Rush</eng>
+			</Name>
+			<Desc>
+				<eng>+50% Executioner bonus strength and duration</eng>
+			</Desc>			
+		</perk_Blood_Rush>
+		<perk_AdHoc_Subjugation>
+			<Name>
+				<eng>Ad-Hoc Subjugation</eng>
+			</Name>
+			<Desc>
+				<eng>Each Critical hit puts vulnerability on the target with the damage type of the attack (stacks)</eng>
+			</Desc>			
+		</perk_AdHoc_Subjugation>
+		<perk_Stagger_Exploitment>
+			<Name>
+				<eng>Stagger Exploitment</eng>
+			</Name>
+			<Desc>
+				<eng>+5% Critical hit chance and +10% Critical hit strength against debuffed enemies</eng>
+			</Desc>			
+		</perk_Stagger_Exploitment>
+		<perk_Unfettered_Marksmanship>
+			<Name>
+				<eng>Unfettered Marksmanship</eng>
+			</Name>
+			<Desc>
+				<eng>Aimed and Sniper attacks deal +50% damage while your Suppression Resistance is in the green</eng>
+			</Desc>			
+		</perk_Unfettered_Marksmanship>
+		<perk_Unfettered_Maneuvering>
+			<Name>
+				<eng>Unfettered Maneuvering</eng>
+			</Name>
+			<Desc>
+				<eng>+20% Movement speed while your Suppression Resistance is in the green</eng>
+			</Desc>			
+		</perk_Unfettered_Maneuvering>
+		<perk_Mind_Fortress>
+			<Name>
+				<eng>Mind Fortress</eng>
+			</Name>
+			<Desc>
+				<eng>+3% Damage Reduction per second while standing still (maximum 15%)</eng>
+			</Desc>			
+		</perk_Mind_Fortress>
+		<perk_Adaptive_Efficiency>
+			<Name>
+				<eng>Adaptive Efficiency</eng>
+			</Name>
+			<Desc>
+				<eng>+50% magazine capacities and overheat threshold values for all weapons</eng>
+			</Desc>
+		</perk_Adaptive_Efficiency>
+		<perk_Attack_Anchor>
+			<Name>
+				<eng>Attack Anchor</eng>
+			</Name>
+			<Desc>
+				<eng>+5% Damage per second while standing still (maximum 50%)</eng>
+			</Desc>			
+		</perk_Attack_Anchor>
+		<perk_Armoury_of_Zeal>
+			<Name>
+				<eng>Armoury of Zeal</eng>
+			</Name>
+			<Desc>
+				<eng>Grenades and mines costs 20 Focus instead of charges and Supply crates fully recharge Focus (only with grenades and mines, other equipment skills like shields work normally)</eng>
+			</Desc>			
+		</perk_Armoury_of_Zeal>
+		<perk_Deadshot>
+			<Name>
+				<eng>Deadshot</eng>
+			</Name>
+			<Desc>
+				<eng>+20% Damage while attacking from Surprise</eng>
+			</Desc>			
+		</perk_Deadshot>
+		<perk_Fluid_Attack_Strategy>
+			<Name>
+				<eng>Fluid Attack Strategy</eng>
+			</Name>
+			<Desc>
+				<eng>+50% Melee Damage for 5 seconds after performing a Dodge move</eng>
+			</Desc>			
+		</perk_Fluid_Attack_Strategy>
+		<perk_Reign_of_Confusion>
+			<Name>
+				<eng>Reign of Confusion</eng>
+			</Name>
+			<Desc>
+				<eng>+10 Dodge for 5 seconds after each kill (non-stacking)</eng>
+			</Desc>			
+		</perk_Reign_of_Confusion>
+		<perk_Regenerative_Booster_Gland>
+			<Name>
+				<eng>Regenerative Booster Gland</eng>
+			</Name>
+			<Desc>
+				<eng>Melee Damage bonus equal to 50% of HP/second regeneration value, for 3 seconds after taking damage</eng>
+			</Desc>			
+		</perk_Regenerative_Booster_Gland>
+		<perk_Perfectly_Timed_Attacks>
+			<Name>
+				<eng>Perfectly Timed Attacks</eng>
+			</Name>
+			<Desc>
+				<eng>+50% Damage to skills with 3 second or longer cooldown rate but also +3 seconds cooldown to these skills</eng>
+			</Desc>			
+		</perk_Perfectly_Timed_Attacks>
+		<perk_Opportunist_Stance>
+			<Name>
+				<eng>Opportunist Stance</eng>
+			</Name>
+			<Desc>
+				<eng>33% chance to reset weapon skill after use for skills with 8 second or longer cooldown rate</eng>
+			</Desc>			
+		</perk_Opportunist_Stance>
+		<perk_Opportunist_Stance_2>
+			<Name>
+				<eng>Opportunist Stance II</eng>
+			</Name>
+			<Desc>
+				<eng>33% chance to reset weapon skill after use for skills with 5 second or longer cooldown rate</eng>
+			</Desc>			
+		</perk_Opportunist_Stance_2>
+		<perk_Mind_Rift_2>
+			<Name>
+				<eng>Mind Rift II</eng>
+			</Name>
+			<Desc>
+				<eng>+75% Damage while at maximum Warp Heat</eng>
+			</Desc>			
+		</perk_Mind_Rift_2>
+		<perk_Hazard_Stimulation>
+			<Name>
+				<eng>Hazard Stimulation</eng>
+			</Name>
+			<Desc>
+				<eng>+2 Adrenaline for each incoming attack that deals damage to the character (only +1 if the incoming attack is stopped by Dodge)</eng>
+			</Desc>			
+		</perk_Hazard_Stimulation>
+		<perk_Persistent_Attrition>
+			<Name>
+				<eng>Persistent Attrition</eng>
+			</Name>
+			<Desc>
+				<eng>+3 seconds DOT duration</eng>
+			</Desc>			
+		</perk_Persistent_Attrition>
+		<perk_Enhanced_Attrition>
+			<Name>
+				<eng>Enhanced Attrition</eng>
+			</Name>
+			<Desc>
+				<eng>+50% DOT damage</eng>
+			</Desc>			
+		</perk_Enhanced_Attrition>
+		<perk_Rapid_Elimination_Protocol>
+			<Name>
+				<eng>Rapid Elimination Protocol</eng>
+			</Name>
+			<Desc>
+				<eng>Killing an enemy with skills that have the sniper tag resets the Cooldown of that skill</eng>
+			</Desc>			
+		</perk_Rapid_Elimination_Protocol>
+		<perk_Optimized_Sniping_Pattern>
+			<Name>
+				<eng>Optimized Sniping Pattern</eng>
+			</Name>
+			<Desc>
+				<eng>Each sniper shot creates a Sniper Mark on the target for 30 seconds (stacks maximum 10 times). Each mark reduces the target's Movement Speed by 3% and increases damage for further sniper shots by 20%.</eng>
+			</Desc>			
+		</perk_Optimized_Sniping_Pattern>
+		<perk_Zealous_Displacement>
+			<Name>
+				<eng>Zealous Displacement</eng>
+			</Name>
+			<Desc>
+				<eng>Using the Personal Teleporter skill costs 30 Adremaline instead of charges and Supply crates fully recharge Adrenaline</eng>
+			</Desc>			
+		</perk_Zealous_Displacement>
+		<perk_Close_Quarters_Gunnery>
+			<Name>
+				<eng>Close Quarters Gunnery</eng>
+			</Name>
+			<Desc>
+				<eng>+25% ranged Damage against targets within medium range</eng>
+			</Desc>			
+		</perk_Close_Quarters_Gunnery>
+		<perk_Inverse_Warp_Attenuation>
+			<Name>
+				<eng>Inverse Warp Attenuation</eng>
+			</Name>
+			<Desc>
+				<eng>Using psychic powers while at maximum Warp Heat heals you instead of causing damage</eng>
+			</Desc>			
+		</perk_Inverse_Warp_Attenuation>
+		<perk_Warp_Heat_Dissipation>
+			<Name>
+				<eng>Warp Heat Dissipation</eng>
+			</Name>
+			<Desc>
+				<eng>Each kill reduces Warp Heat by one</eng>
+			</Desc>			
+		</perk_Warp_Heat_Dissipation>
+		<perk_Psychic_Supremacy>
+			<Name>
+				<eng>Psychic Supremacy</eng>
+			</Name>
+			<Desc>
+				<eng>+50% Damage to all psychic powers but +2 seconds to their Cooldown</eng>
+			</Desc>			
+		</perk_Psychic_Supremacy>
+		<perk_Retrograde_Psychic_Dominion>
+			<Name>
+				<eng>Retrograde Psychic Dominion</eng>
+			</Name>
+			<Desc>
+				<eng>Psychic powers gain a damage bonus inversely proportional to the current Warp Heat compared to maximum Warp Heat (+75% Damage at zero Warp Heat, no bonus at maximum Warp Heat)</eng>
+			</Desc>			
+		</perk_Retrograde_Psychic_Dominion>
+		<perk_Force_Weapon_Mastery>
+			<Name>
+				<eng>Force Weapon Mastery</eng>
+			</Name>
+			<Desc>
+				<eng>Each attack with force weapons bestows +15% Damage to further force weapon attacks for 5 seconds (stacks a maximum of 10 times)</eng>
+			</Desc>			
+		</perk_Force_Weapon_Mastery>
+		<perk_Psychic_Boon>
+			<Name>
+				<eng>Psychic Boon</eng>
+			</Name>
+			<Desc>
+				<eng>Bonuses from psychic powers last twice as long on the character</eng>
+			</Desc>			
+		</perk_Psychic_Boon>
+		<perk_Warp_Heat_Rejuvenation>
+			<Name>
+				<eng>Warp Heat Rejuvenation</eng>
+			</Name>
+			<Desc>
+				<eng>Decreasing Warp Heat regenerates 50 Hp and 50 Suppression for each point of Warp Heat removed</eng>
+			</Desc>			
+		</perk_Warp_Heat_Rejuvenation>
+		<perk_Psy_enhanced_Warfare>
+			<Name>
+				<eng>Psy-enhanced Warfare</eng>
+			</Name>
+			<Desc>
+				<eng>+2% Damage to weapon attacks for each point of Warp Heat</eng>
+			</Desc>			
+		</perk_Psy_enhanced_Warfare>
+		<perk_Warp_Heat_Conversion>
+			<Name>
+				<eng>Warp Heat Conversion</eng>
+			</Name>
+			<Desc>
+				<eng>Decreasing Warp Heat bestows +50% Damage to weapon skills for 3 seconds (except force weapons and psychic powers; non-stacking)</eng>
+			</Desc>			
+		</perk_Warp_Heat_Conversion>
+		<perk_Temporal_Efficiency>
+			<Name>
+				<eng>Temporal Efficiency</eng>
+			</Name>
+			<Desc>
+				<eng>Skill cooldowns are halved and psychic powers generate half the amount of Warp Heat during Time Warp</eng>
+			</Desc>			
+		</perk_Temporal_Efficiency>
+		<perk_Warp_Resonance>
+			<Name>
+				<eng>Warp Resonance</eng>
+			</Name>
+			<Desc>
+				<eng>Using psychic powers creates a Psychic Zone around the character (unless already standing in a Psychic Zone). While standing in the Psychic Zone, each subsequent psychic power gains an incremental damage bonus based on the number of psychic powers previously used in the zone. The Psychic Zone lasts for 20 seconds.</eng>
+			</Desc>			
+		</perk_Warp_Resonance>
+		<perk_Power_from_Anguish>
+			<Name>
+				<eng>Power from Anguish</eng>
+			</Name>
+			<Desc>
+				<eng>Psychic powers gain a damage bonus proportional to the amount of missing Health (+200% Damage on 0 HP, no bonus at maximum Health)</eng>
+			</Desc>			
+		</perk_Power_from_Anguish>
+		<perk_Psychic_Escalation>
+			<Name>
+				<eng>Psychic Escalation</eng>
+			</Name>
+			<Desc>
+				<eng>Each time a psychic power is used, all other psychic powers gain +5% Damage for 10 seconds (stacking)</eng>
+			</Desc>			
+		</perk_Psychic_Escalation>
+		<perk_Psychic_Sequence>
+			<Name>
+				<eng>Psychic Sequence</eng>
+			</Name>
+			<Desc>
+				<eng>Each time a psychic power is used further psychic powers gain -5% Cooldown for 10 seconds (stacking)</eng>
+			</Desc>			
+		</perk_Psychic_Sequence>
+		<perk_Psychic_Channeling>
+			<Name>
+				<eng>Psychic Channeling</eng>
+			</Name>
+			<Desc>
+				<eng>+8% Damage to all equipped psychic powers after each equipped damage dealing psychic power</eng>
+			</Desc>			
+		</perk_Psychic_Channeling>
+		<perk_Attrition_Feedback>
+			<Name>
+				<eng>Attrition Feedback</eng>
+			</Name>
+			<Desc>
+				<eng>Each time you deal damage with a DOT effect heals 0.3% of Maximum Health</eng>
+			</Desc>			
+		</perk_Attrition_Feedback>
+		<perk_Cull_the_Weak>
+			<Name>
+				<eng>Cull the Weak</eng>
+			</Name>
+			<Desc>
+				<eng>+50% Damage against enemies affected by debuffs</eng>
+			</Desc>			
+		</perk_Cull_the_Weak>
+		<perk_The_Art_of_Crippling>
+			<Name>
+				<eng>The Art of Crippling</eng>
+			</Name>
+			<Desc>
+				<eng>+50% duration to debuff effects on enemies</eng>
+			</Desc>			
+		</perk_The_Art_of_Crippling>
+		<perk_Warp_Heat_Diffusion>
+			<Name>
+				<eng>Warp Heat Diffusion</eng>
+			</Name>
+			<Desc>
+				<eng>-1 Warp Heat each time you create a debuff effect</eng>
+			</Desc>			
+		</perk_Warp_Heat_Diffusion>
+		<perk_Puritan>
+			<Name>
+				<eng>Puritan</eng>
+			</Name>
+			<Desc>
+				<eng>+10 Suppression Resistance for each point on the Puritan morality axis</eng>
+			</Desc>			
+		</perk_Puritan>
+		<perk_Radical>
+			<Name>
+				<eng>Radical</eng>
+			</Name>
+			<Desc>
+				<eng>Each 3 point on the Radical morality axis increases the class resource generation rate by 1% (Crusaders and Assassins gain Focus and Adrenaline faster, Psykers lose Warp Heat faster)</eng>
+			</Desc>			
+		</perk_Radical>
+	</Perks>
+</Root>

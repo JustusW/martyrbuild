@@ -1,0 +1,123 @@
+{
+    "Assassin": [
+        "Forbidden_rites",
+        "Adrenal_valves",
+        "Fluidity",
+        "Bullet_dodger",
+        "Nephrine_monger",
+        "Terror_tactics",
+        "Blood_rush",
+        "Perfectly_timed_attacks",
+        "Opportunist_stance_2",
+        "Hazard_stimulation",
+        "Zealous_displacement",
+        "Precognitive_Evasion",
+        "Unfettered_Marksmanship",
+        "Fluid_Attack_Strategy",
+        "Rapid_Elimination_Protocol",
+        "Reign_of_Confusion",
+        "Regenerative_booster_gland",
+        "Opportunist_stance",
+        "Optimized_sniping_pattern"
+    ],
+    "Assassin_exotic": [
+        "Deadshot"
+    ],
+    "Assassin_melee": [
+        "Evasive_ambush"
+    ],
+    "Assassin_sniper": [
+        "Run_and_gun"
+    ],
+    "Crusader": [
+        "Augmented_body",
+        "No_mercy",
+        "Stride_of_the_blessed",
+        "Runic_armour",
+        "Self_mortification",
+        "Burnished_weaponry",
+        "Martyrdom",
+        "Terror_tactics",
+        "Blood_rush",
+        "Berserker",
+        "Unfettered_Marksmanship",
+        "Armoury_of_Zeal",
+        "Feint_Mastery",
+        "Augmented_Body_2"
+    ],
+    "Crusader_heavy": [
+        "Exalted_by_murder"
+    ],
+    "Crusader_melee": [
+        "Rabble_slayer"
+    ],
+    "Crusader_rifle": [
+        "Run_and_gun"
+    ],
+    "General": [
+        "Artifical_organs",
+        "Grinder",
+        "Crisis_management",
+        "Blessing_of_saint_victorius",
+        "Tactician",
+        "Eternal_warrior",
+        "Subdermal_mesh",
+        "Subdermal_plating",
+        "Vanquisher_of_the_vile",
+        "Self_flagellation",
+        "Diversive_tactics",
+        "Tactical_mastery",
+        "Frenzon_dispenser",
+        "Survival_instinct_override",
+        "Keen_fury",
+        "Adhoc_subjugation",
+        "Close_Quarters_gunnery",
+        "Attrition_feedback",
+        "Mind_fortress",
+        "Utility_Harness",
+        "Unfettered_Maneuvering",
+        "Artifical_Organs_II",
+        "Adaptive_Efficiency",
+        "Enhanced_Attrition",
+        "Attack_Anchor",
+        "Persistent_Attrition",
+        "Stagger_Exploitment",
+        "Cull_the_Weak",
+        "The_Art_of_Crippling"
+    ],
+    "Psyker": [
+        "Warp_attunement",
+        "Warp_heat_dissipation",
+        "Psy_enhanced_warfare",
+        "Warp_resonance",
+        "Power_from_anguish",
+        "Psychic_channeling",
+        "Warp_heat_diffusion",
+        "Retrograde_Psychic_Dominion",
+        "Mind_Rift_2",
+        "Force_Weapon_Mastery",
+        "Inverse_warp_attenuation",
+        "Psychic_supremacy",
+        "Psychic_boon",
+        "Warp_heat_conversion",
+        "Temporal_efficiency",
+        "Psychic_escalation",
+        "Psychic_sequence",
+        "Warp_heat_rejuvenation"
+    ],
+    "Psyker_melee": [
+        "Anointment"
+    ],
+    "Psyker_pistol": [
+        "Blood_driven"
+    ],
+    "Psyker_staff": [
+        "Mind_rift"
+    ],
+    "Puritan": [
+        "Puritan"
+    ],
+    "Radical": [
+        "Radical"
+    ]
+}

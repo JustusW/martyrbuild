@@ -1,5 +1,6 @@
 var lang = {};
 var spells = {};
+var perks = {};
 
 
 function extractSkillTreeData() {
@@ -51,22 +52,6 @@ function extractSkillTreeData() {
             } else {
             };
         });
-        console.log(out);
-        // console.log(out.Crusader.data);
-        // // console.log(JSON.stringify(out));
-        // var skills = {};
-        // for (name in out.Crusader.Zarvany_Melee.data) {
-            // var entry = out.Crusader.Zarvany_Melee.data[name];
-            // if (!entry.GUIPos) {continue;}
-            // skills[entry.name] = {
-                // selected: false,
-                // name: entry.name, 
-                // description: entry.Skill, 
-                // row: entry.row, 
-                // col: entry.col, 
-                // requires: entry.Requirements};
-        // }
-        // document.write(JSON.stringify(skills));
         document.write(JSON.stringify(out));
     }, 'text');
 }

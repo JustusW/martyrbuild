@@ -309,6 +309,9 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
                 };
             }
             lnkArr.slice(-3).forEach(function (perk, index) {
+                for (pc in ssc.perkData) {
+                    var pc_ = ssc.perkData[pc];
+                }
                 ssc.perks[index].name = perk;
             });
             

@@ -4,6 +4,32 @@ from pprint import pprint
 import json
 
 
+def parse_enchants():
+    file_path = 'gamefiles/artifacts.n2pk'
+    with open(file_path, 'rb') as f:
+        active = False
+        enchantments = []
+        for line in f.readlines():
+            line = line.strip()
+            if line == 'Enchantment':
+                active = True
+                enchantment = {}
+                enchantments.append(enchantment)
+            if line == '}':
+                active = False
+            if not active or line == '' or line.startswith('#'):
+                continue
+                
+            if '=' in line:
+                name, value = line.split('=', 1)
+                enchantment[name] = value.split(',')
+        
+        with open('gamefiles/enchantments.json', 'w') as f:
+            f.write(json.dumps(
+                enchantments, sort_keys=True, indent=4, separators=(',', ': ')
+            ))
+
+
 def parse_perks():
     file_path = 'gamefiles/data'
     with open(file_path, 'rb') as f:
@@ -113,3 +139,4 @@ def extract_multi_file(target_file='gamefiles/Config/psykerspells.cfg'):
 walker()
 extract_multi_file()
 parse_perks()
+parse_enchants()

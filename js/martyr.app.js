@@ -24,99 +24,193 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
         ssc.currentHash = '';
         ssc.fullLink = '';
         
-        function getSpellLang(spell, lng) {
-            if (!lng) {lng = 'skills';}
-            var container = $(lang[lng]).find('*').filter(function(index,elm) {
-                return elm.nodeName.toLowerCase() == spell.toLowerCase();
-            })[0];
-            if (!container) {
-                return [spell, null];
+        var langCache = {};
+
+        function union_arrays (x, y) {
+            var obj = {};
+            for (var i = x.length-1; i >= 0; -- i)
+                obj[x[i]] = x[i];
+            for (var i = y.length-1; i >= 0; -- i)
+                obj[y[i]] = y[i];
+            var res = []
+            for (var k in obj) {
+                if (obj.hasOwnProperty(k))  // <-- optional
+                    res.push(obj[k]);
             }
-            var containerDescription = container.getElementsByTagName('Desc')[0];
-            var containerName = container.getElementsByTagName('Name')[0];
+            return res;
+        }
+
+        function replaceEffect(input, name, value, scale) {
+            if (!scale) scale = 1;
+            var search = new RegExp('{' + name + '[^}]*}', 'g')
+            var matches = input.match(search);
+            
+            if (isNaN(value)) {
+                if (matches) {
+                    input = input.replace(matches[0], value);
+                }
+            } else {
+            
+                value = value * scale;
+                if (-1 < value && value < 1) {
+                    value = Math.round(value * 1000) / 10. + '%';
+                }
+                if (matches) {
+                    input = input.replace(matches[0], value);
+                }
+            }
+            return input;
+        }
+
+        function getLangContainer(search) {
+            for (name in lang) {
+                var result = lang[name].getElementsByTagName(search);
+                if (result.length == 1) {
+                    return result[0];
+                }
+            }
+            for (name in lang) {
+                var result = $(lang[name]).find('*').filter(function(index,elm) {
+                    return elm.nodeName.toLowerCase() == search.toLowerCase();
+                });
+                if (result.length == 1) {
+                    return result[0];
+                }
+                if (result.length >= 1) {
+                    for (r in result) {
+                        if (result[r].children.length > 0)
+                            return result[r];
+                    };
+                }
+            }
+        }
+
+        function decorateLang(string) {
+            return string.split('[ff2bede6]').join('<b class="text-danger">').split('[/ff2bede6]').join('</b>').split('\\n').join('\n');
+        }
+
+        function getLang(search) {
+            search = search.toLowerCase();
+            if (langCache[search]) return langCache[search];
+            
+            container = getLangContainer(search);
+            var result = {name: search};
+            if (!container) {
+                langCache[search] = result;
+                return result;
+            }
+            
+            for (child in container.children) {
+                c = container.children[child];
+                if (c.nodeType != 1) continue;
+                
+                if (c.nodeName == 'eng') {
+                    value = c.innerHTML;
+                    result['name'] = decorateLang(value);
+                } else {
+                    var name = c.nodeName.toLowerCase();
+                    if (name.startsWith('desc')) name = 'desc';
+                    value = c.children[0].innerHTML;
+                    result[name] = decorateLang(value);
+                }
+            }
+            langCache[search] = result;
+            return result;
+        }
+
+
+        function getSpellLang(spell, lng) {
+            
+            var name = spell;
+            var langData = getLang(name);
+            
+            if (langData.name == name.toLowerCase()) {
+                return [name, null];
+            }
             
             var engDescription,engName;
-            if (containerDescription)
-                engDescription = containerDescription.getElementsByTagName("eng")[0].innerHTML;
-            if (containerName)
-                engName = containerName.getElementsByTagName("eng")[0].innerHTML;
+            if (langData.desc)
+                engDescription = langData.desc;
+            if (langData.name)
+                engName = langData.name;
             
-            engDescription = engDescription.split('\\n').join('\n');
+            engDescription = decorateLang(engDescription);
             
             return [engName, engDescription];
         }
         
-        
         function getCategoryLang(cat) {
             var name = cat;
-            var container = lang.data.getElementsByTagName(name)[0];
-            if (!container) {
+            var langData = getLang(name);
+            
+            if (langData.name == name.toLowerCase()) {
                 return [null,null,null];
             }
             
-            var containerDescription = container.getElementsByTagName('desc')[0];
-            var containerName = container.getElementsByTagName('name')[0];
-            var containerCategory = container.getElementsByTagName('category')[0];
-            
             var engDescription,engName, engCategory;
-            if (containerDescription)
-                engDescription = containerDescription.getElementsByTagName("eng")[0].innerHTML;
-            if (containerName)
-                engName = containerName.getElementsByTagName("eng")[0].innerHTML;
-            if (containerCategory)
-                engCategory = containerCategory.getElementsByTagName("eng")[0].innerHTML;
+            if (langData.desc)
+                engDescription = langData.desc;
+            if (langData.name)
+                engName = langData.name;
+            if (langData.category)
+                engCategory = langData.category;
             
-            engDescription = engDescription.replace('[ff2bede6]', '<b class="text-danger">').replace('[/ff2bede6]', '</b>');
+            engDescription = decorateLang(engDescription);
             
             return [engDescription, engName, engCategory];
         }
         
         function getSkillLang(skill, scale) {
-            if (!scale) scale = 1;
             var name = skill.Skill;
-            var skillData = data[name];
-            var container = lang.data.getElementsByTagName(name)[0];
-            var containerDescription = container.getElementsByTagName('Desc')[0];
-            var containerName = container.getElementsByTagName('Name')[0];
-            if (!containerDescription)
-                containerDescription = container.getElementsByTagName('Desc_' + ssc.currentType.toLowerCase())[0];
+            
+            var langData = getLang(name);
             
             var engDescription = 'If you can read this, something is broken. ' + name, engName = '';
-            if (containerDescription)
-                engDescription = containerDescription.getElementsByTagName("eng")[0].innerHTML;
-            if (containerName)
-                engName = containerName.getElementsByTagName("eng")[0].innerHTML;
             
+            if (langData.desc)
+                engDescription = langData.desc;
+            if (langData.name && langData.name != name.toLowerCase())
+                engName = langData.name;
+            
+            var skillData = data[name];
             var effect = skillData.Effect;
             var bonus_effect = skillData.BonusEffect;
+            
             if (effect) {
-                var search = new RegExp('{' + effect.property + '[^}]*}', 'g')
-                var matches = engDescription.match(search);
-                
-                var value = effect.value * scale;
-                if (-1 < value && value < 1) {
-                    value = Math.round(value * 1000) / 10. + '%';
-                }
-                if (matches) {
-                    engDescription = engDescription.replace(matches[0], value);
-                }
+                engDescription = replaceEffect(engDescription, effect.property, effect.value, scale);
             }
             if (bonus_effect) {
-                var search = new RegExp('{' + bonus_effect.property + '[^}]*}', 'g')
-                var matches = engDescription.match(search);
-                
-                var value = bonus_effect.value * scale;
-                if (-1 < value && value < 1) {
-                    value = Math.round(value * 1000) / 10. + '%';
-                }
-                if (matches) {
-                    engDescription = engDescription.replace(matches[0], value);
+                engDescription = replaceEffect(engDescription, bonus_effect.property, bonus_effect.value, scale);
+            }
+            
+            engDescription = decorateLang(engDescription);
+            
+            return [engDescription, engName];
+        }
+        
+        function getEnchantLang(enchant) {
+            var name = enchant.NameID[0];
+            
+            var langData = getLang(name);
+            
+            var engDescription = 'If you can read this, something is broken. ' + name, engName = '';
+            
+            if (langData.desc)
+                engDescription = langData.desc;
+            if (langData.name && langData.name != name.toLowerCase())
+                engName = langData.name;
+            
+            if (enchant.Property) {
+                var value = enchant.Values.slice(-1)[0].replace('(','').replace(')','').split(';')[1];
+                engDescription = replaceEffect(engDescription, enchant.Property[0], value);
+                if (['ability_offensive', 'ability_survival', 'ability_special'].indexOf(enchant.Property[0]) > -1) {
+                    engDescription = replaceEffect(engDescription, 'ability', enchant.Property[0]);
                 }
             }
             
-            engDescription = engDescription.split('[ff2bede6]').join('<b class="text-danger">').split('[/ff2bede6]').join('</b>');
+            engDescription = decorateLang(engDescription);
             
-            return [engDescription, engName];
+            return {desc: engDescription, name: engName};
         }
         
         function getSkill(row, col) {
@@ -132,6 +226,8 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
         ssc.getCategoryLang = getCategoryLang;
         ssc.getSkillLang = getSkillLang;
         ssc.getSpellLang = getSpellLang;
+        ssc.getEnchantLang = getEnchantLang;
+        ssc.getLang = getLang;
         
         ssc.resetSkills = function () {
             for (name in ssc.currentSkills()) {
@@ -379,6 +475,11 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
         
         ssc.spellClasses = ['Biomancy', 'Pyromancy', 'Divination', 'Telekinesis'];
         ssc.spells = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
+        ssc.enchantData = enchantments.data;
+        ssc.artifactTypes = [];
+        ssc.enchantData.forEach(function (enchant) {
+            ssc.artifactTypes = union_arrays(ssc.artifactTypes, enchant.ArtifactTypes);
+        });
         ssc.spellData = spells.data;
         ssc.perkData = perks.data;
         
@@ -415,7 +516,6 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
         
     });
 
-
 $.ajax({
     url: 'gamefiles/Lang_Skilltree.xml', 
     success: function (result) {
@@ -441,6 +541,14 @@ $.ajax({
 });
 
 $.ajax({
+    url: 'gamefiles/Lang_Artifacts.xml', 
+    success: function (result) {
+        lang.artifacts = result;
+    },
+    async: false
+});
+
+$.ajax({
     url: 'gamefiles/perks.json', 
     success: function (result) {
         perks.data = result;
@@ -448,11 +556,18 @@ $.ajax({
     async: false
 });
 
-
 $.ajax({
     url: 'gamefiles/spells.json', 
     success: function (result) {
         spells.data = result;
+    },
+    async: false
+});
+
+$.ajax({
+    url: 'gamefiles/enchantments.json', 
+    success: function (result) {
+        enchantments.data = result;
     },
     async: false
 });

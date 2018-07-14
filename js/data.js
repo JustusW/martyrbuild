@@ -1,6 +1,7 @@
 var lang = {};
 var spells = {};
 var perks = {};
+var enchantments = {};
 
 
 function extractSkillTreeData() {

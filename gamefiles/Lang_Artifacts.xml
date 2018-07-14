@@ -1,0 +1,2297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<eng>English</eng>
+	</LanguageName>
+	<Languages>eng</Languages>
+	<Artifacts>
+		<Pattern>
+			<Format>
+				<eng>$PATTERN$ $NAME$</eng>
+			</Format>
+			<Mars>
+				<eng>Mars</eng>
+				<Bonus1>
+					<eng>+20% All damage</eng>
+				</Bonus1>
+				<Bonus2>
+					<eng>-5% deflect</eng>
+				</Bonus2>
+			</Mars>
+			<Lucius>
+				<eng>Lucius</eng>
+			</Lucius>
+			<Ryza>
+				<eng>Ryza</eng>
+			</Ryza>
+			<Graia>
+				<eng>Graia</eng>
+			</Graia>
+			<Thule>
+				<eng>Thule</eng>
+				<Bonus1>
+					<eng>+8 Movement speed</eng>
+				</Bonus1>
+				<Bonus2>
+					<eng>-3% damage</eng>
+				</Bonus2>
+			</Thule>
+			<Temaxia>
+				<eng>Temaxia</eng>
+			</Temaxia>
+			<Scythe>
+				<eng>Scythe</eng>
+				<Bonus1>
+					<eng>+30% Damage against medium and elite</eng>
+				</Bonus1>
+				<Bonus2>
+					<eng>-5% HP</eng>
+				</Bonus2>
+			</Scythe>
+			<Koschei>
+				<eng>Koschei</eng>
+				<Bonus1>
+					<eng>+6% Critical hit chance</eng>
+				</Bonus1>
+				<Bonus2>
+					<eng>-3% damage reduce</eng>
+				</Bonus2>
+			</Koschei>
+			<bonus>
+				<eng>%s pattern bonus</eng>
+			</bonus>
+		</Pattern>
+		<Blueprint>
+			<Format>
+				<eng>Blueprint: $NAME$ $EXTRA$</eng>
+			</Format>
+			<ShortFormat>
+				<eng>$NAME$ $EXTRA$</eng>
+			</ShortFormat>
+			<Extra>
+				<Mark1>
+					<eng>Mark I</eng>
+				</Mark1>
+				<Mark2>
+					<eng>Mark II</eng>
+				</Mark2>
+				<Mark3>
+					<eng>Mark III</eng>
+				</Mark3>
+				<Mark4>
+					<eng>Mark IV</eng>
+				</Mark4>
+				<Mark5>
+					<eng>Mark V</eng>
+				</Mark5>
+			</Extra>
+		</Blueprint>
+		<Tags>
+			<melee>
+				<eng>Melee</eng>
+			</melee>
+			<ranged>
+				<eng>Ranged</eng>
+			</ranged>
+			<one_handed>
+				<eng>One-Handed</eng>
+			</one_handed>
+			<two_handed>
+				<eng>Two-Handed</eng>
+			</two_handed>
+			<offhand_only>
+				<eng>Offhand Only</eng>
+			</offhand_only>
+			<heavy>
+				<eng>Heavy</eng>
+			</heavy>
+			<exotic>
+				<eng>Exotic</eng>
+			</exotic>
+			<force>
+				<eng>Force</eng>
+			</force>
+			<ammo>
+				<eng>Ammo</eng>
+			</ammo>
+			<overheat>
+				<eng>Overheat</eng>
+			</overheat>
+			<gets_hot>
+				<eng>Gets Hot</eng>
+			</gets_hot>
+			<shield>
+				<eng>Shield</eng>
+			</shield>
+			<armor>
+				<eng>Armor</eng>
+			</armor>
+			<grenade>
+				<eng>Grenade</eng>
+			</grenade>
+			<forcefield>
+				<eng>Force Field</eng>
+			</forcefield>
+			<mine>
+				<eng>Mine</eng>
+			</mine>
+		</Tags>
+		<MainStat>
+			<damage>
+				<eng>Damage</eng>
+			</damage>
+			<damage_reduce>
+				<eng>Damage Reduction</eng>
+			</damage_reduce>
+			<all_resist>
+				<eng>All-Resist</eng>
+			</all_resist>
+			<deflect>
+				<eng>Deflect</eng>
+			</deflect>
+			<Medkit_Capacity>
+				<eng>Capacity</eng>
+			</Medkit_Capacity>
+		</MainStat>
+		<SetName>
+		</SetName>
+		<Colors>
+			<Mephiston_Red>
+				<eng>Mephiston Red</eng>
+			</Mephiston_Red>
+			<Waaagh_Flesh>
+				<eng>Waaagh! Flesh</eng>
+			</Waaagh_Flesh>
+			<Averland_Sunset>
+				<eng>Averland Sunset</eng>
+			</Averland_Sunset>
+			<Ceramite_White>
+				<eng>Ceramite White</eng>
+			</Ceramite_White>
+			<Armageddon_Dust>
+				<eng>Armageddon Dust</eng>
+			</Armageddon_Dust>
+			<Mournfang_Brown>
+				<eng>Mournfang Brown</eng>
+			</Mournfang_Brown>
+			<XV-88>
+				<eng>XV-88</eng>
+			</XV-88>
+			<Rhinox_Hide>
+				<eng>Rhinox Hide</eng>
+			</Rhinox_Hide>
+			<Dryad_Bark>
+				<eng>Dryad Bark</eng>
+			</Dryad_Bark>
+			<Zandri_Dust>
+				<eng>Zandri Dust</eng>
+			</Zandri_Dust>
+			<Steel_Legion_Drab>
+				<eng>Steel Legion Drab</eng>
+			</Steel_Legion_Drab>
+			<Castellan_Green>
+				<eng>Castellan Green</eng>
+			</Castellan_Green>
+			<Death_World_Forest>
+				<eng>Death World Forest</eng>
+			</Death_World_Forest>
+			<Stegadon_Scale_Green>
+				<eng>Stegadon Scale Green</eng>
+			</Stegadon_Scale_Green>
+			<Jokaero_Orange>
+				<eng>Jokaero Orange</eng>
+			</Jokaero_Orange>
+			<Ryza_Rust>
+				<eng>Ryza Rust</eng>
+			</Ryza_Rust>
+			<Ogryn_Camo>
+				<eng>Ogryn Camo</eng>
+			</Ogryn_Camo>
+			<Moot_Green>
+				<eng>Moot Green</eng>
+			</Moot_Green>
+			<Skarsnik_Green>
+				<eng>Skarsnik Green</eng>
+			</Skarsnik_Green>
+			<Loren_Forest>
+				<eng>Loren Forest</eng>
+			</Loren_Forest>
+			<Warpstone_Glow>
+				<eng>Warpstone Glow</eng>
+			</Warpstone_Glow>
+			<Lothern_Blue>
+				<eng>Lothern Blue</eng>
+			</Lothern_Blue>
+			<Sotek_Green>
+				<eng>Sotek Green</eng>
+			</Sotek_Green>
+			<Alaitoc_Blue>
+				<eng>Alaitoc Blue</eng>
+			</Alaitoc_Blue>
+			<Hoeth_Blue>
+				<eng>Hoeth Blue</eng>
+			</Hoeth_Blue>
+			<Warpfiend_Grey>
+				<eng>Warpfiend Grey</eng>
+			</Warpfiend_Grey>
+			<Wild_Rider_Red>
+				<eng>Wild Rider Red</eng>
+			</Wild_Rider_Red>
+			<Yriel_Yellow>
+				<eng>Yriel Yellow</eng>
+			</Yriel_Yellow>
+			<Ushabti_Bone>
+				<eng>Ushabti Bone</eng>
+			</Ushabti_Bone>
+			<Screaming_Skull>
+				<eng>Screaming Skull</eng>
+			</Screaming_Skull>
+			<Tallarn_Sand>
+				<eng>Tallarn Sand</eng>
+			</Tallarn_Sand>
+			<Tau_Light_Ochre>
+				<eng>Tau Light Ochre</eng>
+			</Tau_Light_Ochre>
+			<Tuskgor_Fur>
+				<eng>Tuskgor Fur</eng>
+			</Tuskgor_Fur>
+			<Ulthuan_Grey>
+				<eng>Ulthuan Grey</eng>
+			</Ulthuan_Grey>
+			<Russ_Grey>
+				<eng>Russ Grey</eng>
+			</Russ_Grey>
+			<Fenrisian_Grey>
+				<eng>Fenrisian Grey</eng>
+			</Fenrisian_Grey>
+			<Dark_Reaper>
+				<eng>Dark Reaper</eng>
+			</Dark_Reaper>
+			<Thunderhawk_Blue>
+				<eng>Thunderhawk Blue</eng>
+			</Thunderhawk_Blue>
+			<Skavenblight_Dinge>
+				<eng>Skavenblight Dinge</eng>
+			</Skavenblight_Dinge>
+			<Stormvermin_Fur>
+				<eng>Stormvermin Fur</eng>
+			</Stormvermin_Fur>
+			<Baneblade_Brown>
+				<eng>Baneblade Brown</eng>
+			</Baneblade_Brown>
+			<Stirland_Mud>
+				<eng>Stirland Mud</eng>
+			</Stirland_Mud>
+			<Blackfire_Earth>
+				<eng>Blackfire Earth</eng>
+			</Blackfire_Earth>
+			<Administratum_Grey>
+				<eng>Administratum Grey</eng>
+			</Administratum_Grey>
+			<Imperial_Primer>
+				<eng>Imperial Primer</eng>
+			</Imperial_Primer>
+			<Nurgles_Rot>
+				<eng>Nurgle's Rot</eng>
+			</Nurgles_Rot>
+			<Gauss_Blaster_Green>
+				<eng>Gauss Blaster Green</eng>
+			</Gauss_Blaster_Green>
+			<Dorn_Yellow>
+				<eng>Dorn Yellow</eng>
+			</Dorn_Yellow>
+			<Leadbelcher>
+				<eng>Leadbelcher</eng>
+			</Leadbelcher>
+			<Screaming_Bell>
+				<eng>Screaming Bell</eng>
+			</Screaming_Bell>
+			<Warplock_Bronze>
+				<eng>Warplock Bronze</eng>
+			</Warplock_Bronze>
+			<Drakenhof_Nightshade>
+				<eng>Drakenhof Nightshade</eng>
+			</Drakenhof_Nightshade>
+			<Seraphim_Sepia>
+				<eng>Seraphim Sepia</eng>
+			</Seraphim_Sepia>
+			<Reikland_Fleshshade>
+				<eng>Reikland Fleshshade</eng>
+			</Reikland_Fleshshade>
+			<Necron_Compound>
+				<eng>Necron Compound</eng>
+			</Necron_Compound>
+			<Golden_Griffon>
+				<eng>Golden Griffon</eng>
+			</Golden_Griffon>
+			<Brass_Scorpion>
+				<eng>Brass Scorpion</eng>
+			</Brass_Scorpion>
+			<Runelord_Brass>
+				<eng>Runelord Brass</eng>
+			</Runelord_Brass>
+			<Lementers_Yellow>
+				<eng>Lementer's Yellow</eng>
+			</Lementers_Yellow>
+			<Retributor_Armour>
+				<eng>Retributor Armour</eng>
+			</Retributor_Armour>
+		</Colors>
+		<Popup>
+			<Equipped>
+				<eng>EQUIPPED</eng>
+			</Equipped>
+			<Damage>
+				<eng>Damage</eng>
+			</Damage>			
+			<Cooldown>
+				<eng>Cooldown</eng>
+			</Cooldown>			
+			<Requirements>
+				<eng>Requirements</eng>
+			</Requirements>
+			<LevelRequirement>
+				<eng>Required level</eng>
+			</LevelRequirement>
+			<Class>
+				<eng>only</eng>
+			</Class>
+			<ClassException>
+				<eng>Not usable by</eng>
+			</ClassException>
+			<InactiveEnchantment>
+				<eng>Inactive</eng>
+			</InactiveEnchantment>			
+			<AccountBound>
+				<eng>Account Bound</eng>
+			</AccountBound>
+			<SlotName>
+				<signum1>
+					<eng>Slot 1</eng>
+				</signum1>
+				<signum2>
+					<eng>Slot 2</eng>
+				</signum2>
+				<mainhand>
+					<eng>Main Hand</eng>
+				</mainhand>
+				<offhand>
+					<eng>Off-Hand</eng>
+				</offhand>
+			</SlotName>
+		</Popup>
+		<Types>
+			<Format>
+				<eng>$RARITY$ $TYPE$</eng>
+			</Format>
+			<Autopistol>
+				<eng>Autopistol</eng>
+			</Autopistol>
+			<Bolt_pistol>
+				<eng>Bolt Pistol</eng>
+			</Bolt_pistol>
+			<Hand_flamer>
+				<eng>Hand Flamer</eng>
+			</Hand_flamer>
+			<Plasma_pistol>
+				<eng>Plasma Pistol</eng>
+			</Plasma_pistol>
+			<Laspistol>
+				<eng>Laspistol</eng>
+			</Laspistol>
+			<Grav_pistol>
+				<eng>Grav-Pistol</eng>
+			</Grav_pistol>
+			<Inferno_pistol>
+				<eng>Inferno Pistol</eng>
+			</Inferno_pistol>
+
+			<Power_Sword>
+				<eng>Power Sword</eng>
+			</Power_Sword>
+			<Power_axe>
+				<eng>Power Axe</eng>
+			</Power_axe>
+			<Power_hammer>
+				<eng>Power Hammer</eng>
+			</Power_hammer>
+			<Shock_maul>
+				<eng>Shock Maul</eng>
+			</Shock_maul>
+			<Chainsword>
+				<eng>Chainsword</eng>
+			</Chainsword>
+			<Storm_shield>
+				<eng>Storm Shield</eng>
+			</Storm_shield>
+			<Suppression_shield>
+				<eng>Suppression Shield</eng>
+			</Suppression_shield>
+			<Storm_shield_warzone>
+				<eng>War Shield</eng>
+			</Storm_shield_warzone>			
+
+			<Death_cult_blade>
+				<eng>Death Cult Blade</eng>
+			</Death_cult_blade>
+			<Arc_blade>
+				<eng>Arc Blade</eng>
+			</Arc_blade>
+			<Null_rod>
+				<eng>Null Rod</eng>
+			</Null_rod>
+			
+			<Autogun>
+				<eng>Autogun</eng>
+			</Autogun>
+			<Shotgun>
+				<eng>Shotgun</eng>
+			</Shotgun>
+			<Boltgun>
+				<eng>Boltgun</eng>
+			</Boltgun>
+			<Plasma_gun>
+				<eng>Plasma Gun</eng>
+			</Plasma_gun>
+			<Grav_gun>
+				<eng>Grav-Gun</eng>
+			</Grav_gun>
+			<Lasgun>
+				<eng>Lasgun</eng>
+			</Lasgun>
+			<Melta_gun>
+				<eng>Melta Gun</eng>
+			</Melta_gun>
+
+			<Sniper_rifle>
+				<eng>Sniper Rifle</eng>
+			</Sniper_rifle>
+			<Needler_sniper_rifle>
+				<eng>Needler Sniper Rifle</eng>
+			</Needler_sniper_rifle>
+			<Exitus_rifle>
+				<eng>Exitus Rifle</eng>
+			</Exitus_rifle>
+			<Longlas_rifle>
+				<eng>Longlas Rifle</eng>
+			</Longlas_rifle>
+			
+			<Assassin_power_sword>
+				<eng>Assassin Power Sword</eng>
+			</Assassin_power_sword>
+			<Carthean_sword>
+				<eng>Carthean Sword</eng>
+			</Carthean_sword>
+			<Arc_sword>
+				<eng>Arc Sword</eng>
+			</Arc_sword>
+			
+			<Thunder_hammer>
+				<eng>Thunder Hammer</eng>
+			</Thunder_hammer>
+			<Eviscerator>
+				<eng>Eviscerator</eng>
+			</Eviscerator>
+			<Greataxe>
+				<eng>Greataxe</eng>
+			</Greataxe>
+			<Greatsword>
+				<eng>Greatsword</eng>
+			</Greatsword>
+			<Terran_greatsword>
+				<eng>Terran Greatsword</eng>
+			</Terran_greatsword>
+
+			<Heavy_Bolter>
+				<eng>Heavy Bolter</eng>
+			</Heavy_Bolter>
+			<Heavy_flamer>
+				<eng>Heavy Flamer</eng>
+			</Heavy_flamer>
+			<Grenade_launcher>
+				<eng>Grenade Launcher</eng>
+			</Grenade_launcher>
+			<Plasma_cannon>
+				<eng>Plasma Cannon</eng>
+			</Plasma_cannon>
+			<Multi_melta>
+				<eng>Multi-Melta</eng>
+			</Multi_melta>
+			<Signum>
+				<eng>Signum</eng>
+			</Signum>
+			<Power_Armor>
+				<eng>Power Armour</eng>
+			</Power_Armor>
+			<Psyker_armor>
+				<eng>Light Armour</eng>
+			</Psyker_armor>
+			<Synskin_Armor>
+				<eng>Synskin Armour</eng>
+			</Synskin_Armor>
+			<Purity_Seal>
+				<eng>Purity Seal</eng>
+			</Purity_Seal>
+			<Belt_grenade>
+				<eng>Grenade</eng>
+			</Belt_grenade>
+			<Belt_forcefield>
+				<eng>Force Field</eng>
+			</Belt_forcefield>
+			<Belt_mine>
+				<eng>Mine</eng>
+			</Belt_mine>
+			<Belt>
+				<eng>Support Wargear</eng>
+			</Belt>
+			<Belt_psyker>
+				<eng>Psychic Focus</eng>
+			</Belt_psyker>
+			<Main_Implant>
+				<eng>Main Implant</eng>
+			</Main_Implant>
+			<Eye_Implant>
+				<eng>Eye Implant</eng>
+			</Eye_Implant>
+			<Neural_Implant>
+				<eng>Neural Implant</eng>
+			</Neural_Implant>
+
+			<Force_rod>
+				<eng>Force Rod</eng>
+			</Force_rod>
+			<Force_rod_2>
+				<eng>Warp Rod</eng>
+			</Force_rod_2>
+			<Force_rod_3>
+				<eng>Telekinetic Rod</eng>
+			</Force_rod_3>
+			<Force_sword>
+				<eng>Force Sword</eng>
+			</Force_sword>
+			<Force_sword_2>
+				<eng>Biomantic Sword</eng>
+			</Force_sword_2>
+			<Force_sword_3>
+				<eng>Aether Blade</eng>
+			</Force_sword_3>
+			<Force_staff>
+				<eng>Force Staff</eng>
+			</Force_staff>
+			<Force_staff_2>
+				<eng>Pyrokinetic Staff</eng>
+			</Force_staff_2>
+			<Force_staff_3>
+				<eng>Wyrdvane Staff</eng>
+			</Force_staff_3>
+			
+			<Inoculator>
+				<eng>Inoculator</eng>
+			</Inoculator>
+			<Inoculator_start>
+				<eng>Inoculator</eng>
+			</Inoculator_start>
+			<Exmachina>
+				<eng>Exmachina</eng>
+			</Exmachina>
+			
+			<Bag>
+				<eng>Lootbox</eng>
+			</Bag>
+			<Blueprint>
+				<eng>Blueprint</eng>
+			</Blueprint>
+			<Consumable>
+				<eng>Consumable</eng>
+			</Consumable>
+		</Types>
+		<Rarity>
+			<common>
+				<eng>Common</eng>
+			</common>
+			<uncommon>
+				<eng>Mastercrafted</eng>
+			</uncommon>
+			<rare1>
+				<eng>Rare</eng>
+			</rare1>
+			<rare2>
+				<eng>Artificer</eng>
+			</rare2>
+			<godlike>
+				<eng>Relic</eng>
+			</godlike>
+			<warzone>
+				<eng>Warzone Relic</eng>
+			</warzone>
+		</Rarity>
+		<ChangesOnEquip>
+			<Label>
+				<eng>Changes if Equipped:</eng>
+			</Label>
+			<base>
+				<eng>Base changes:</eng>
+			</base>
+			<actual>
+				<eng>Actual changes:</eng>
+			</actual>
+		</ChangesOnEquip>		
+		<Items>
+			<Autopistol>
+				<Name>
+					<eng>Autopistol</eng>
+				</Name>
+			</Autopistol>
+			<Bolt_Pistol>
+				<Name>
+					<eng>Bolt Pistol</eng>
+				</Name>
+			</Bolt_Pistol>
+			<Hand_flamer>
+				<Name>
+					<eng>Hand Flamer</eng>
+				</Name>
+			</Hand_flamer>
+			<Plasma_Pistol>
+				<Name>
+					<eng>Plasma Pistol</eng>
+				</Name>
+			</Plasma_Pistol>
+			<Laspistol>
+				<Name>
+					<eng>Laspistol</eng>
+				</Name>
+			</Laspistol>
+			<Grav_pistol>
+				<Name>
+					<eng>Grav-Pistol</eng>
+				</Name>
+			</Grav_pistol>
+			<Inferno_pistol>
+				<Name>
+					<eng>Inferno Pistol</eng>
+				</Name>
+			</Inferno_pistol>
+
+			<Power_Sword>
+				<Name>
+					<eng>Power Sword</eng>
+				</Name>
+			</Power_Sword>
+			<Power_axe>
+				<Name>
+					<eng>Power Axe</eng>
+				</Name>
+			</Power_axe>
+			<Power_hammer>
+				<Name>
+					<eng>Power Hammer</eng>
+				</Name>
+			</Power_hammer>
+			<Shock_maul>
+				<Name>
+					<eng>Shock Maul</eng>
+				</Name>
+			</Shock_maul>
+			<Chainsword>
+				<Name>
+					<eng>Chainsword</eng>
+				</Name>
+			</Chainsword>
+			<Storm_shield>
+				<Name>
+					<eng>Storm Shield</eng>
+				</Name>
+			</Storm_shield>
+			<Suppression_shield>
+				<Name>
+					<eng>Suppression Shield</eng>
+				</Name>
+			</Suppression_shield>
+
+			<Death_cult_blade>
+				<Name>
+					<eng>Death Cult Blade</eng>
+				</Name>
+			</Death_cult_blade>
+			<Arc_blade>
+				<Name>
+					<eng>Arc Blade</eng>
+				</Name>
+			</Arc_blade>
+			<Null_rod>
+				<Name>
+					<eng>Null Rod</eng>
+				</Name>
+			</Null_rod>
+			
+			<Autogun>
+				<Name>
+					<eng>Autogun</eng>
+				</Name>
+			</Autogun>
+			<Shotgun>
+				<Name>
+					<eng>Shotgun</eng>
+				</Name>
+			</Shotgun>
+			<Boltgun>
+				<Name>
+					<eng>Boltgun</eng>
+				</Name>
+			</Boltgun>
+			<Plasma_gun>
+				<Name>
+					<eng>Plasma Gun</eng>
+				</Name>
+			</Plasma_gun>
+			<Grav_gun>
+				<Name>
+					<eng>Grav-Gun</eng>
+				</Name>
+			</Grav_gun>
+			<Lasgun>
+				<Name>
+					<eng>Lasgun</eng>
+				</Name>
+			</Lasgun>
+			<Melta_gun>
+				<Name>
+					<eng>Melta Gun</eng>
+				</Name>
+			</Melta_gun>
+
+			<Sniper_rifle>
+				<Name>
+					<eng>Sniper Rifle</eng>
+				</Name>
+			</Sniper_rifle>
+			<Needler_sniper_rifle>
+				<Name>
+					<eng>Needler Sniper Rifle</eng>
+				</Name>
+			</Needler_sniper_rifle>
+			<Exitus_rifle>
+				<Name>
+					<eng>Exitus Rifle</eng>
+				</Name>
+			</Exitus_rifle>
+			<Longlas_rifle>
+				<Name>
+					<eng>Longlas Rifle</eng>
+				</Name>
+			</Longlas_rifle>
+			
+			<Assassin_power_sword>
+				<Name>
+					<eng>Assassin Power Sword</eng>
+				</Name>
+			</Assassin_power_sword>
+			<Carthean_sword>
+				<Name>
+					<eng>Carthean Sword</eng>
+				</Name>
+			</Carthean_sword>
+			<Arc_sword>
+				<Name>
+					<eng>Arc Sword</eng>
+				</Name>
+			</Arc_sword>
+			
+			<Thunder_hammer>
+				<Name>
+					<eng>Thunder Hammer</eng>
+				</Name>
+			</Thunder_hammer>
+			<Eviscerator>
+				<Name>
+					<eng>Eviscerator</eng>
+				</Name>
+			</Eviscerator>
+			<Greataxe>
+				<Name>
+					<eng>Greataxe</eng>
+				</Name>
+			</Greataxe>
+			<Greatsword>
+				<Name>
+					<eng>Greatsword</eng>
+				</Name>
+			</Greatsword>
+			<Terran_greatsword_warzone>
+				<Name>
+					<eng>Remembrance</eng>
+				</Name>
+			</Terran_greatsword_warzone>
+
+			<Heavy_Bolter>
+				<Name>
+					<eng>Heavy Bolter</eng>
+				</Name>
+			</Heavy_Bolter>
+			<Heavy_flamer>
+				<Name>
+					<eng>Heavy Flamer</eng>
+				</Name>
+			</Heavy_flamer>
+			<Grenade_launcher>
+				<Name>
+					<eng>Grenade Launcher</eng>
+				</Name>
+			</Grenade_launcher>
+			<Plasma_cannon>
+				<Name>
+					<eng>Plasma Cannon</eng>
+				</Name>
+			</Plasma_cannon>
+			<Multi_melta>
+				<Name>
+					<eng>Multi-Melta</eng>
+				</Name>
+			</Multi_melta>
+			<Signum>
+				<Name>
+					<eng>Signum</eng>
+				</Name>
+			</Signum>
+			<Demolition_Armor>
+				<Name>
+					<eng>Demolition Armor</eng>
+				</Name>
+			</Demolition_Armor>
+			<Assault_armor>
+				<Name>
+					<eng>Assault Armor</eng>
+				</Name>
+			</Assault_armor>
+			<Sentinel_armor>
+				<Name>
+					<eng>Sentinel Armor</eng>
+				</Name>
+			</Sentinel_armor>
+			<Stealth_Bodysuit>
+				<Name>
+					<eng>Stealth Bodysuit</eng>
+				</Name>
+			</Stealth_Bodysuit>
+			<Fabricator_Distortion_Armour>
+				<Name>
+					<eng>Fabricator Distortion Armour</eng>
+				</Name>
+			</Fabricator_Distortion_Armour>
+			<Hololithic_Armour>
+				<Name>
+					<eng>Hololithic Armour</eng>
+				</Name>
+			</Hololithic_Armour>
+			<Empyrean_Armour>
+				<Name>
+					<eng>Empyrean Armour</eng>
+				</Name>
+			</Empyrean_Armour>
+			<Aetherwalker_Armour>
+				<Name>
+					<eng>Aetherwalker Armour</eng>
+				</Name>
+			</Aetherwalker_Armour>
+			<Warpbound_Armour>
+				<Name>
+					<eng>Warpbound Armour</eng>
+				</Name>
+			</Warpbound_Armour>
+			<Purity_Seal>
+				<Name>
+					<eng>Purity Seal</eng>
+				</Name>
+			</Purity_Seal>
+
+			<Belt_stun_mine>
+				<Name>
+					<eng>Stun Mine</eng>
+				</Name>
+			</Belt_stun_mine>
+			<Belt_remote_mine>
+				<Name>
+					<eng>Remote Mine</eng>
+				</Name>
+			</Belt_remote_mine>
+			<Belt_fuse_delayed_grenade>
+				<Name>
+					<eng>Fuse-Delayed Grenade</eng>
+				</Name>
+			</Belt_fuse_delayed_grenade>
+			<Belt_deflector_field_generator>
+				<Name>
+					<eng>Deflector Field</eng>
+				</Name>
+			</Belt_deflector_field_generator>
+			<Belt_frag_grenade>
+				<Name>
+					<eng>Frag Grenade</eng>
+				</Name>
+			</Belt_frag_grenade>
+			<Belt_stun_grenade>
+				<Name>
+					<eng>Stun Grenade</eng>
+				</Name>
+			</Belt_stun_grenade>
+			<Belt_flash_grenade>
+				<Name>
+					<eng>Flash Grenade</eng>
+				</Name>
+			</Belt_flash_grenade>
+			<Belt_haywire_grenade>
+				<Name>
+					<eng>Haywire Grenade</eng>
+				</Name>
+			</Belt_haywire_grenade>
+			<Belt_refractor_field>
+				<Name>
+					<eng>Refractor Field</eng>
+				</Name>
+			</Belt_refractor_field>
+			<Belt_rosarius_force_field>
+				<Name>
+					<eng>Rosarius Force Field</eng>
+				</Name>
+			</Belt_rosarius_force_field>
+			<Belt_personal_void_shield>
+				<Name>
+					<eng>Personal Void Shield</eng>
+				</Name>
+			</Belt_personal_void_shield>
+			<Belt_fabricator_scatter_field>
+				<Name>
+					<eng>Fabricator Scatter Field</eng>
+				</Name>
+			</Belt_fabricator_scatter_field>
+			<Belt_Digital_weapons>
+				<Name>
+					<eng>Digital Weapons</eng>
+				</Name>
+			</Belt_Digital_weapons>
+			<Belt_Personal_teleporter>
+				<Name>
+					<eng>Personal Teleporter</eng>
+				</Name>
+			</Belt_Personal_teleporter>
+			<Belt_psyker>
+				<Name>
+					<eng>Psychic Focus</eng>
+				</Name>
+				<desc>
+					<eng>Adds an extra Skill slot for the Psychic Powers instead of your belt equipments.</eng>
+				</desc>
+			</Belt_psyker>
+			
+			<Main_Implant>
+				<Name>
+					<eng>Main Implant</eng>
+				</Name>
+			</Main_Implant>
+			<Eye_Implant>
+				<Name>
+					<eng>Eye Implant</eng>
+				</Name>
+			</Eye_Implant>
+			<Neural_Implant>
+				<Name>
+					<eng>Neural Implant</eng>
+				</Name>
+			</Neural_Implant>
+
+			<Force_rod>
+				<Name>
+					<eng>Force Rod</eng>
+				</Name>
+			</Force_rod>
+			<Force_rod_2>
+				<Name>
+					<eng>Warp Rod</eng>
+				</Name>
+			</Force_rod_2>
+			<Force_rod_3>
+				<Name>
+					<eng>Telekinetic Rod</eng>
+				</Name>
+			</Force_rod_3>
+			<Force_sword>
+				<Name>
+					<eng>Force Sword</eng>
+				</Name>
+			</Force_sword>
+			<Force_sword_2>
+				<Name>
+					<eng>Biomantic Sword</eng>
+				</Name>
+			</Force_sword_2>
+			<Force_sword_3>
+				<Name>
+					<eng>Aether Blade</eng>
+				</Name>
+			</Force_sword_3>
+			<Force_staff>
+				<Name>
+					<eng>Force Staff</eng>
+				</Name>
+			</Force_staff>
+			<Force_staff_2>
+				<Name>
+					<eng>Pyrokinetic Staff</eng>
+				</Name>
+			</Force_staff_2>
+			<Force_staff_3>
+				<Name>
+					<eng>Wyrdvane Staff</eng>
+				</Name>
+			</Force_staff_3>
+
+			<Wardrug_Basic>
+				<Name>
+					<eng>Inoculator</eng>
+				</Name>
+			</Wardrug_Basic>
+			<Wardrug_start>
+				<Name>
+					<eng>Inoculator</eng>
+				</Name>
+			</Wardrug_start>
+			
+			<Normal_Zacsi>
+				<Name>
+					<eng>Confiscated Items (Normal)</eng>
+				</Name>
+				<Desc>
+					<eng>A crate containing items confiscated or retrieved in the area of Inquisitorial operations.</eng>
+				</Desc>
+			</Normal_Zacsi>
+			<Premium_Zacsi>
+				<Name>
+					<eng>Confiscated Items (Premium)</eng>
+				</Name>
+				<Desc>
+					<eng>A crate containing premium items confiscated or retrieved in the area of Inquisitorial operations.</eng>
+				</Desc>
+			</Premium_Zacsi>
+			<GloryReward_Rank_50_Zacsi>
+				<Name>
+					<eng>Glory Reward</eng>
+				</Name>
+			</GloryReward_Rank_50_Zacsi>
+			<GloryReward_Rank_200_Zacsi>
+				<Name>
+					<eng>Great Glory Reward</eng>
+				</Name>
+			</GloryReward_Rank_200_Zacsi>
+			<GloryReward_Rank_800_Zacsi>
+				<Name>
+					<eng>Excellent Glory Reward</eng>
+				</Name>
+			</GloryReward_Rank_800_Zacsi>
+			<GloryReward_leaderboard_11_50_Zacsi>
+				<Name>
+					<eng>Leaderboard Top 50 Reward</eng>
+				</Name>
+			</GloryReward_leaderboard_11_50_Zacsi>
+			<GloryReward_leaderboard_2_10_Zacsi>
+				<Name>
+					<eng>Leaderboard Top 10 Reward</eng>
+				</Name>
+			</GloryReward_leaderboard_2_10_Zacsi>
+			<GloryReward_leaderboard_1_Zacsi>
+				<Name>
+					<eng>Leaderboard Winner Reward</eng>
+				</Name>
+			</GloryReward_leaderboard_1_Zacsi>
+			<Solar_50_signum_zacsi>
+				<Name>
+					<eng>Item Collection (Signum)</eng>
+				</Name>
+			</Solar_50_signum_zacsi>
+			<Solar_50_armour_zacsi>
+				<Name>
+					<eng>Item Collection (Armour)</eng>
+				</Name>
+			</Solar_50_armour_zacsi>
+			<Solar_100_armour_zacsi>
+				<Name>
+					<eng>Item Collection (Armour)</eng>
+				</Name>
+			</Solar_100_armour_zacsi>
+			<Solar_200_armour_zacsi>
+				<Name>
+					<eng>Item Collection (Armour)</eng>
+				</Name>
+			</Solar_200_armour_zacsi>
+			<Solar_400_ranged_zacsi>
+				<Name>
+					<eng>Item Collection (Ranged Weapon)</eng>
+				</Name>
+			</Solar_400_ranged_zacsi>
+			<Solar_400_melee_zacsi>
+				<Name>
+					<eng>Item Collection (Melee Weapon)</eng>
+				</Name>
+			</Solar_400_melee_zacsi>
+			<Solar_400_godlike_zacsi>
+				<Name>
+					<eng>1 Relic Item</eng>
+				</Name>
+			</Solar_400_godlike_zacsi>
+			<Solar_800_implant_zacsi>
+				<Name>
+					<eng>Item Collection (Implant)</eng>
+				</Name>
+			</Solar_800_implant_zacsi>
+			<Solar_800_godlike_zacsi>
+				<Name>
+					<eng>2 Relic Items</eng>
+				</Name>
+			</Solar_800_godlike_zacsi>
+			<Solar_ProtectorReward_Zacsi>
+				<Name>
+					<eng>System Protector Pack</eng>
+				</Name>
+			</Solar_ProtectorReward_Zacsi>
+			<Tarot_mission_Major_arcana_The_Traitor_Zacsi>
+				<Name>
+					<eng>Tarot Pack (The Traitor)</eng>
+				</Name>
+			</Tarot_mission_Major_arcana_The_Traitor_Zacsi>
+			<Tarot_mission_Major_arcana_The_Unclean_One_Zacsi>
+				<Name>
+					<eng>Tarot Pack (The Unclean One)</eng>
+				</Name>
+			</Tarot_mission_Major_arcana_The_Unclean_One_Zacsi>
+			<Tarot_mission_Major_arcana_Pestilence_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Pestilence)</eng>
+				</Name>
+			</Tarot_mission_Major_arcana_Pestilence_Zacsi>
+			<Tarot_mission_Major_arcana_Hoard_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Hoard)</eng>
+				</Name>
+			</Tarot_mission_Major_arcana_Hoard_Zacsi>
+			<Tarot_mission_Major_arcana_Execution_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Execution)</eng>
+				</Name>
+			</Tarot_mission_Major_arcana_Execution_Zacsi>
+			<Tarot_mission_Major_arcana_Reliquary_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Reliquary)</eng>
+				</Name>
+			</Tarot_mission_Major_arcana_Reliquary_Zacsi>
+			<Tarot_mission_Major_arcana_The_Rebellionist_Zacsi>
+				<Name>
+					<eng>Tarot Pack (The Rebellionist)</eng>
+				</Name>
+			</Tarot_mission_Major_arcana_The_Rebellionist_Zacsi>
+			<Tarot_mission_Major_arcana_Cleansing_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Cleansing)</eng>
+				</Name>
+			</Tarot_mission_Major_arcana_Cleansing_Zacsi>
+			<Tarot_mission_Major_arcana_Murder_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Murder)</eng>
+				</Name>
+			</Tarot_mission_Major_arcana_Murder_Zacsi>
+			<Tarot_mission_Minor_arcana_Hourglass_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Hourglass)</eng>
+				</Name>
+			</Tarot_mission_Minor_arcana_Hourglass_Zacsi>
+			<Tarot_mission_Minor_arcana_Unending_Duty_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Unending Duty)</eng>
+				</Name>
+			</Tarot_mission_Minor_arcana_Unending_Duty_Zacsi>
+			<Tarot_mission_Minor_arcana_Resilience_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Resilience)</eng>
+				</Name>
+			</Tarot_mission_Minor_arcana_Resilience_Zacsi>
+			<Tarot_mission_Minor_arcana_Momentum_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Momentum)</eng>
+				</Name>
+			</Tarot_mission_Minor_arcana_Momentum_Zacsi>
+			<Tarot_mission_Minor_arcana_Bloodshed_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Bloodshed)</eng>
+				</Name>
+			</Tarot_mission_Minor_arcana_Bloodshed_Zacsi>
+			<Tarot_mission_Minor_arcana_Taint_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Taint)</eng>
+				</Name>
+			</Tarot_mission_Minor_arcana_Taint_Zacsi>
+			<Tarot_mission_Minor_arcana_Possession_Zacsi>
+				<Name>
+					<eng>Tarot Pack (Possession)</eng>
+				</Name>
+			</Tarot_mission_Minor_arcana_Possession_Zacsi>
+			<Endless_mission_Extra_zacsi>
+				<Name>
+					<eng>Unholy Cathedral Reward</eng>
+				</Name>
+			</Endless_mission_Extra_zacsi>
+			<Gambling_major_armour_zacsi>
+				<Name>
+					<eng>Great Item Collection (Armour)</eng>
+				</Name>
+			</Gambling_major_armour_zacsi>
+			<Gambling_major_melee_zacsi>
+				<Name>
+					<eng>Great Item Collection (Melee Weapon)</eng>
+				</Name>
+			</Gambling_major_melee_zacsi>
+			<Gambling_major_ranged_zacsi>
+				<Name>
+					<eng>Great Item Collection (Ranged Weapon)</eng>
+				</Name>
+			</Gambling_major_ranged_zacsi>
+			<Gambling_major_implant_zacsi>
+				<Name>
+					<eng>Great Item Collection (Implant)</eng>
+				</Name>
+			</Gambling_major_implant_zacsi>
+			<Gambling_major_belt_and_inoculator_zacsi>
+				<Name>
+					<eng>Great Item Collection (Belts, Inoculator)</eng>
+				</Name>
+			</Gambling_major_belt_and_inoculator_zacsi>
+			<Gambling_major_purity_seal_and_signum_zacsi>
+				<Name>
+					<eng>Great Item Collection (Signum, Purity Seal)</eng>
+				</Name>
+			</Gambling_major_purity_seal_and_signum_zacsi>
+			<Gambling_minor_armour_zacsi>
+				<Name>
+					<eng>Item Collection (Armour)</eng>
+				</Name>
+			</Gambling_minor_armour_zacsi>
+			<Gambling_minor_melee_zacsi>
+				<Name>
+					<eng>Item Collection (Melee Weapon)</eng>
+				</Name>
+			</Gambling_minor_melee_zacsi>
+			<Gambling_minor_ranged_zacsi>
+				<Name>
+					<eng>Item Collection (Ranged Weapon)</eng>
+				</Name>
+			</Gambling_minor_ranged_zacsi>
+			<Gambling_minor_implant_zacsi>
+				<Name>
+					<eng>Item Collection (Implant)</eng>
+				</Name>
+			</Gambling_minor_implant_zacsi>
+			<Gambling_minor_belt_and_inoculator_zacsi>
+				<Name>
+					<eng>Item Collection (Belts, Inoculator)</eng>
+				</Name>
+			</Gambling_minor_belt_and_inoculator_zacsi>
+			<Gambling_minor_purity_seal_and_signum_zacsi>
+				<Name>
+					<eng>Item Collection (Signum, Purity Seal)</eng>
+				</Name>
+			</Gambling_minor_purity_seal_and_signum_zacsi>
+			<Event_Reward_small_Zacsi>
+				<Name>
+					<eng>Reward from the Ecclesiarchy</eng>
+				</Name>
+			</Event_Reward_small_Zacsi>
+			<Event_Reward_Zacsi>
+				<Name>
+					<eng>Boon from the Ecclesiarchy</eng>
+				</Name>
+			</Event_Reward_Zacsi>
+			<Event_Reward_big_Zacsi>
+				<Name>
+					<eng>Gift from the Ecclesiarchy</eng>
+				</Name>
+			</Event_Reward_big_Zacsi>
+
+			<Consumable_XpBonus>
+				<Name>
+					<eng>Meme Virus</eng>
+				</Name>
+				<desc>
+					<eng>Bestows +100% Experience bonus for the next 5 missions.</eng>
+				</desc>
+			</Consumable_XpBonus>
+			<Consumable_InstantCraft>
+				<Name>
+					<eng>Immediate Crafting</eng>
+				</Name>
+				<desc>
+					<eng>Completes all items in the crafting queue immediately.</eng>
+				</desc>
+			</Consumable_InstantCraft>
+			<Consumable_SkillReset>
+				<Name>
+					<eng>Mind Reset</eng>
+				</Name>
+				<desc>
+					<eng>Awards 1 Skill-Tree Reset point. One such point allows redistribution of all Skill points that were spent on one specific skill tree.</eng>
+				</desc>
+			</Consumable_SkillReset>
+			<Consumable_DamageBuff>
+				<Name>
+					<eng>Destruction Amplification</eng>
+				</Name>
+				<desc>
+					<eng>Bestows +50% Damage bonus for the next 5 missions.</eng>
+				</desc>
+			</Consumable_DamageBuff>
+			<Consumable_ExtraLife>
+				<Name>
+					<eng>Survival Enhancement</eng>
+				</Name>
+				<desc>
+					<eng>Bestows 1 additional Allowed Death for the next 5 missions.</eng>
+				</desc>
+			</Consumable_ExtraLife>
+			<Consumable_GodlikeChance>
+				<Name>
+					<eng>Extreme Fortune</eng>
+				</Name>
+				<desc>
+					<eng>Doubles the chance of finding a Relic item in the next 5 Tarot missions.</eng>
+				</desc>
+			</Consumable_GodlikeChance>
+		</Items>
+		<Enchantment>
+			<critical_hit_chance>
+				<desc>
+					<eng>{critical_hit_chance,100} Critical Hit Chance</eng>
+				</desc>
+			</critical_hit_chance>
+			<critical_hit_strength>
+				<desc>
+					<eng>{critical_hit_strength} Critical Hit Strength</eng>
+				</desc>
+			</critical_hit_strength>
+			<resistance_physical>
+				<desc>
+					<eng>{physical_resist} Physical Resistance</eng>
+				</desc>
+			</resistance_physical>
+			<resistance_heat>
+				<desc>
+					<eng>{heat_resist} Heat Resistance</eng>
+				</desc>
+			</resistance_heat>
+			<resistance_warp>
+				<desc>
+					<eng>{warp_resist} Warp Resistance</eng>
+				</desc>
+			</resistance_warp>
+			<Hp_fix>
+				<desc>
+					<eng>{hp_max} HP</eng>
+				</desc>
+			</Hp_fix>
+			<hp_per_hit>
+				<desc>
+					<eng>{hp_per_hit} HP per Hit</eng>
+				</desc>
+			</hp_per_hit>
+			<supression_resistance_max>
+				<desc>
+					<eng>{suppression_resist_max} Suppression</eng>
+				</desc>
+			</supression_resistance_max>
+			<zeal_max>
+				<desc>
+					<eng>{resource_max} {resource}</eng>
+				</desc>
+			</zeal_max>
+			<damage_reduce>
+				<desc>
+					<eng>{damage_reduce} Damage Reduction</eng>
+				</desc>
+			</damage_reduce>
+			<ability_offensive>
+				<desc>
+					<eng>{ability_offensive} {ability}</eng>
+				</desc>
+			</ability_offensive>
+			<ability_survival>
+				<desc>
+					<eng>{ability_survival} {ability}</eng>
+				</desc>
+			</ability_survival>
+			<ability_special>
+				<desc>
+					<eng>{ability_special} {ability}</eng>
+				</desc>
+			</ability_special>		
+			<weapon_skills_damage>
+				<desc>
+					<eng>{damage,100} Weapon skill Damage</eng>
+				</desc>
+			</weapon_skills_damage>
+			<armor_skill_damage>
+				<desc>
+					<eng>{damage,100} Armor skill Damage</eng>
+				</desc>
+			</armor_skill_damage>
+			<shield_skill_damage>
+				<desc>
+					<eng>{damage,100} Shield skill Damage</eng>
+				</desc>
+			</shield_skill_damage>
+			<ammo_capacity>
+				<desc>
+					<eng>{ammo_capacity,100} Magazine capacity</eng>
+				</desc>
+			</ammo_capacity>
+			<all_damage>
+				<desc>
+					<eng>{damage,100} to All Damage</eng>
+				</desc>
+			</all_damage>
+			<bonus_damage_biomancy>
+				<desc>
+					<eng>{damage,100} to the damage of Biomancy Psychic Powers</eng>
+				</desc>
+			</bonus_damage_biomancy>
+			<bonus_damage_pyromancy>
+				<desc>
+					<eng>{damage,100}  to the damage of Pyromancy Psychic Powers</eng>
+				</desc>
+			</bonus_damage_pyromancy>
+			<bonus_damage_telekinesis>
+				<desc>
+					<eng>{damage,100}  to the damage of Telekinesis Psychic Powers</eng>
+				</desc>
+			</bonus_damage_telekinesis>
+			
+			<overheat_capacity>
+				<desc>
+					<eng>{overheat_capacity,100} Overheat</eng>
+				</desc>
+			</overheat_capacity>
+			<melee_damage_percent>
+				<desc>
+					<eng>{damage,100} Melee Damage</eng>
+				</desc>
+			</melee_damage_percent>
+			<damage_against_elite>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage to Elite</eng>
+				</desc>
+			</damage_against_elite>
+			<ranged_damage_percent>
+				<desc>
+					<eng>{damage,100} Ranged Damage</eng>
+				</desc>
+			</ranged_damage_percent>
+			<hp_regeneration>
+				<desc>
+					<eng>{hp_regeneration} HP/sec</eng>
+				</desc>
+			</hp_regeneration>
+			<suppression_regeneration>
+				<desc>
+					<eng>{suppression_regeneration} Suppression regeneration per sec</eng>
+				</desc>
+			</suppression_regeneration>
+			<movement_speed>
+				<desc>
+					<eng>{movement_speed} Movement Speed</eng>
+				</desc>
+			</movement_speed>
+			<dot_duration_percent>
+				<desc>
+					<eng>{skill_duration,100} DOT duration</eng>
+				</desc>
+			</dot_duration_percent>
+			<skill_damage_percent>
+				<desc>
+					<eng>{damage,100} Damage for {skill}</eng>
+				</desc>
+			</skill_damage_percent>
+			<skill_cooldown_percent>
+				<desc>
+					<eng>{cooldown,100} Cooldown for {skill}</eng>
+				</desc>
+			</skill_cooldown_percent>
+			<deflect>
+				<desc>
+					<eng>{dodge_chance,100} Deflect</eng>
+				</desc>
+			</deflect>
+			<suppression_damage_percent>
+				<desc>
+					<eng>{suppression_damage,100} Suppression Damage</eng>
+				</desc>
+			</suppression_damage_percent>
+			<fleshbane_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (Fleshbane skill tag)</eng>
+				</desc>
+			</fleshbane_tag_skills_damage_percent>
+			<piercing_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (Piercing skill tag)</eng>
+				</desc>
+			</piercing_tag_skills_damage_percent>
+			<sniper_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (Sniper skill tag)</eng>
+				</desc>
+			</sniper_tag_skills_damage_percent>
+			<aimed_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (Aimed skill tag)</eng>
+				</desc>
+			</aimed_tag_skills_damage_percent>
+			<aimed_and_sniper_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (Aimed,Sniper skill tags)</eng>
+				</desc>
+			</aimed_and_sniper_tag_skills_damage_percent>
+			<channeled_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (Channeled skill tag)</eng>
+				</desc>
+			</channeled_tag_skills_damage_percent>
+			<dot_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (DOT skill tag)</eng>
+				</desc>
+			</dot_tag_skills_damage_percent>
+			<cone_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (Cone skill tag)</eng>
+				</desc>
+			</cone_tag_skills_damage_percent>
+			<salvo_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (Salvo skill tag)</eng>
+				</desc>
+			</salvo_tag_skills_damage_percent>
+			<knockback_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (Knockback skill tag)</eng>
+				</desc>
+			</knockback_tag_skills_damage_percent>
+			<whirling_attack_tag_skills_damage_percent>
+				<desc>
+					<eng>{damage,100} skill Damage (Whirling Attack skill tag)</eng>
+				</desc>
+			</whirling_attack_tag_skills_damage_percent>
+			<slow_group_duration_percent>
+				<desc>
+					<eng>{skill_duration,100} Duration (Slow, Freeze, Stun, Shock)</eng>
+				</desc>
+			</slow_group_duration_percent>
+			<single_target_skills_damage>
+				<desc>
+					<eng>{damage,100} skill Damage (Single Target skill tag)</eng>
+				</desc>
+			</single_target_skills_damage>
+			<area_and_large_area_tag_skills_damage>
+				<desc>
+					<eng>{damage,100} skill Damage (Area Effect skill tag)</eng>
+				</desc>
+			</area_and_large_area_tag_skills_damage>
+			<armour_breaking_and_armor_piercing_tag_skills_damage>
+				<desc>
+					<eng>{damage,100} skill Damage (Armor/Shield Piercing skill tag)</eng>
+				</desc>
+			</armour_breaking_and_armor_piercing_tag_skills_damage>
+			<combo_and_death_cult_combo_tag_skills_damage>
+				<desc>
+					<eng>{damage,100} skill Damage (Combo skill tag)</eng>
+				</desc>
+			</combo_and_death_cult_combo_tag_skills_damage>
+			<assault_tag_skills_damage>
+				<desc>
+					<eng>{damage,100} skill Damage (Assault skill tag)</eng>
+				</desc>
+			</assault_tag_skills_damage>
+			<cover_damage_bonus>
+				<desc>
+					<eng>{cover_damage,100} Damage on cover</eng>
+				</desc>
+			</cover_damage_bonus>
+			<vulnerability_duration>
+				<desc>
+					<eng>{skill_duration} sec Vulnerability duration</eng>
+				</desc>
+			</vulnerability_duration>
+			<knockdown_tag_skills_uncontrollable_time_bonus>
+				<desc>
+					<eng>{skill_duration} sec Knockdown duration</eng>
+				</desc>
+			</knockdown_tag_skills_uncontrollable_time_bonus>
+			<increased_damage_against_slow_group_enemies>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage against Slowed, Shocked, Stunned and Frozen</eng>
+				</desc>
+			</increased_damage_against_slow_group_enemies>
+			<damage_percent_against_chaos_cultist>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage against Chaos Cultists</eng>
+				</desc>
+			</damage_percent_against_chaos_cultist>
+			<damage_percent_against_chaos_daemon>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage against Chaos Daemons</eng>
+				</desc>
+			</damage_percent_against_chaos_daemon>
+			<damage_percent_against_chaos_space_marine>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage against Chaos Marines</eng>
+				</desc>
+			</damage_percent_against_chaos_space_marine>
+			<damage_percent_against_medium>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage against Medium enemies</eng>
+				</desc>
+			</damage_percent_against_medium>
+			<damage_percent_against_normal>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage against Regular enemies</eng>
+				</desc>
+			</damage_percent_against_normal>
+			<damage_percent_against_bleeding_enemies>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage against Bleeding enemies</eng>
+				</desc>
+			</damage_percent_against_bleeding_enemies>
+			<damage_bonus_in_crowd>
+				<desc>
+					<eng>{damage,100} Damage when surrounded</eng>
+				</desc>
+			</damage_bonus_in_crowd>
+			<Increase_all_warp_damage_percent>
+				<desc>
+					<eng>{warp_damage,100} Warp Damage</eng>
+				</desc>
+			</Increase_all_warp_damage_percent>
+			<Increase_all_physical_damage_percent>
+				<desc>
+					<eng>{physical_damage,100} Physical Damage</eng>
+				</desc>
+			</Increase_all_physical_damage_percent>
+			<Increase_all_heat_damage_percent>
+				<desc>
+					<eng>{heat_damage,100} Heat Damage</eng>
+				</desc>
+			</Increase_all_heat_damage_percent>
+			<suppression_per_kill>
+				<desc>
+					<eng>{suppression_resist_per_kill} Suppression Resistance per kill</eng>
+				</desc>
+			</suppression_per_kill>
+			<suppression_per_hit>
+				<desc>
+					<eng>{suppression_resist_per_hit} Suppression Resistance per hit</eng>
+				</desc>
+			</suppression_per_hit>
+			<hp_regen_in_cover>
+				<desc>
+					<eng>{hp_regeneration} HP Regeneration in cover</eng>
+				</desc>
+			</hp_regen_in_cover>
+			<suppression_regen_in_cover>
+				<desc>
+					<eng>{suppression_regeneration} Suppression Regeneration in cover</eng>
+				</desc>
+			</suppression_regen_in_cover>
+			<resist_all>
+				<desc>
+					<eng>{all_resist} to All Resistances</eng>
+				</desc>
+			</resist_all>
+			<hp_per_kill>
+				<desc>
+					<eng>{hp_per_kill} HP per kill</eng>
+				</desc>
+			</hp_per_kill>
+			<melee_damage_reduce>
+				<desc>
+					<eng>{damage_reduce} Damage Reduction (Melee)</eng>
+				</desc>
+			</melee_damage_reduce>
+			<ranged_damage_reduce>
+				<desc>
+					<eng>{damage_reduce} Damage Reduction (Ranged)</eng>
+				</desc>
+			</ranged_damage_reduce>
+			<inoculator_heal_percent>
+				<desc>
+					<eng>{medkit_heal,100} Healing bonus to Inoculator</eng>
+				</desc>
+			</inoculator_heal_percent>
+			<inoculator_cooldown_reduction>
+				<desc>
+					<eng>{medkit_cooldown,100} Inoculator cooldown</eng>
+				</desc>
+			</inoculator_cooldown_reduction>
+			<inoculator_duration_bonus>
+				<desc>
+					<eng>{medkit_duration,100} duration to Inoculator effects</eng>
+				</desc>
+			</inoculator_duration_bonus>
+			<kasztforras_cost_reduction>
+				<desc>
+					<eng>{resource_cost,100} reduction to Class Resource cost</eng>
+				</desc>
+			</kasztforras_cost_reduction>
+			<inoculator_refill_bonus>
+				<desc>
+					<eng>{medkit_resupply,100} more Supply box charges (Inoculator)</eng>
+				</desc>
+			</inoculator_refill_bonus>
+			<inoculator_capacity>
+				<desc>
+					<eng>{medkit_capacity} Inoculator capacity</eng>
+				</desc>
+			</inoculator_capacity>
+			<free_inoculator_use>
+				<desc>
+					<eng>{medkit_free_use,100} chance to free Inoculator use</eng>
+				</desc>
+			</free_inoculator_use>
+			<inoculator_cooldown_to_zero_per_kill>
+				<desc>
+					<eng>{medkit_reset_per_kill_chance,100} chance to reset Inoculator CD per kill</eng>
+				</desc>
+			</inoculator_cooldown_to_zero_per_kill>
+			<ammo_capacity_bonus>
+				<desc>
+					<eng>{ammo_capacity,100} Ammo</eng>
+				</desc>
+			</ammo_capacity_bonus>
+			<overheat_reduction>
+				<desc>
+					<eng>{overheat,100} Overheat</eng>
+				</desc>
+			</overheat_reduction>
+			<resource_cost_reduction>
+				<desc>
+					<eng>{resource_cost,100} {resource} Cost</eng>
+				</desc>
+			</resource_cost_reduction>
+			<accurate_shooting>
+				<desc>
+					<eng>{spread_angle} Spread</eng>
+				</desc>
+			</accurate_shooting>
+			<suffered_slow_stun_duration>
+				<desc>
+					<eng>{crowd_control_time_resist,100} duration for Slow and Stun suffered</eng>
+				</desc>
+			</suffered_slow_stun_duration>
+			<slow_shock_efficiency>
+				<desc>
+					<eng>{crowd_control,100} efficiency to Slow and Shock effects</eng>
+				</desc>
+			</slow_shock_efficiency>
+			<damage_reduce_from_salvo_channeled>
+				<desc>
+					<eng>{damage_reduce} Damage Reduce while using Salvo/Channeled skill</eng>
+				</desc>
+			</damage_reduce_from_salvo_channeled>
+			<dodge_against_ranged>
+				<desc>
+					<eng>{dodge_chance,100} Deflect Chance against Ranged attacks</eng>
+				</desc>
+			</dodge_against_ranged>
+			<dodge_against_melee>
+				<desc>
+					<eng>{dodge_chance,100} Deflect Chance against Melee attacks</eng>
+				</desc>
+			</dodge_against_melee>
+			<Movement_bonus_if_no_damage_received>
+				<desc>
+					<eng>{movement_speed} Movement speed, if no damage received in the last 5 seconds</eng>
+				</desc>
+			</Movement_bonus_if_no_damage_received>
+		
+			<Chance_to_enemies_explode>
+				<desc>
+					<eng>15% Explode on kill, dealing area damage for 50% of the slain opponent's max HP</eng>
+				</desc>
+			</Chance_to_enemies_explode>
+			<Bonus_damage_in_medium_range_and_damage_penalty_over_medium_range>
+				<desc>
+					<eng>+50% damage to Medium range targets (up to 10m), -20% damage at longer ranges</eng>
+				</desc>
+			</Bonus_damage_in_medium_range_and_damage_penalty_over_medium_range>
+			<Chance_to_Blind>
+				<desc>
+					<eng>20% to inflict Blind</eng>
+				</desc>
+			</Chance_to_Blind>
+			<Cast_rosarius_force_field_when_stun_or_knockdown_suffered>
+				<desc>
+					<eng>Triggers a Rosarius Force Field when Stunned or Knocked Down (for 50% of the normal duration)</eng>
+				</desc>
+			</Cast_rosarius_force_field_when_stun_or_knockdown_suffered>
+			<Heal_on_kill_daemon>
+				<desc>
+					<eng>10% of missing HP restored on a Daemon kill</eng>
+				</desc>
+			</Heal_on_kill_daemon>
+			<Bonus_damage_after_Blocking>
+				<desc>
+					<eng>+50% Damage to the next attack after a successful Block</eng>
+				</desc>
+			</Bonus_damage_after_Blocking>
+			<Shock_small_aura_on_kill>
+				<desc>
+					<eng>Kills trigger a Shock aura for 2 seconds (non-stacking)</eng>
+				</desc>
+			</Shock_small_aura_on_kill>
+			<Chance_to_cast_Rosarius_force_field_on_struck>
+				<desc>
+					<eng>2% to trigger a Rosarius Force Field when hit</eng>
+				</desc>
+			</Chance_to_cast_Rosarius_force_field_on_struck>
+			<Chance_to_cast_Fabricator_scatter_field_on_struck>
+				<desc>
+					<eng>10% to trigger a Fabricator Scatter Field when hit</eng>
+				</desc>
+			</Chance_to_cast_Fabricator_scatter_field_on_struck>
+			<Enemy_get_Death_Mark_on_struck>
+				<desc>
+					<eng>Hits suffered generate Death Marks on the attacker</eng>
+				</desc>
+			</Enemy_get_Death_Mark_on_struck>
+			<Enemy_get_Needler_Toxin_on_struck>
+				<desc>
+					<eng>Hits suffered generate Needler Toxin effect on the attacker</eng>
+				</desc>
+			</Enemy_get_Needler_Toxin_on_struck>
+			<Chance_to_shock_enemy_in_melee_on_struck>
+				<desc>
+					<eng>Incoming damage generates Shock effect on the attacker (25% chance, melee only)</eng>
+				</desc>
+			</Chance_to_shock_enemy_in_melee_on_struck>
+			<Shock_enemies_on_struck>
+				<desc>
+					<eng>Incoming damage generates Shock effect on the attacker (30% chance in melee, 10% against ranged enemies.)</eng>
+				</desc>
+			</Shock_enemies_on_struck>
+			<Chance_to_summon_on_kill>
+				<desc>
+					<eng>10% chance to Summon Nurgling on kill (ally, 2 minute duration)</eng>
+				</desc>
+			</Chance_to_summon_on_kill>
+			<Chance_to_give_vulnerability_on_hit>
+				<desc>
+					<eng>Hits bestow a random Vulnerability (Heat, Warp, Physical) upon the target (stacking)</eng>
+				</desc>
+			</Chance_to_give_vulnerability_on_hit>
+			<Area_damage_when_stunned_enemy_killed>
+				<desc>
+					<eng>Stunned enemies explode on kill, dealing area damage (for 10x of the killing blow)</eng>
+				</desc>
+			</Area_damage_when_stunned_enemy_killed>
+			<Chance_knockback_and_slow_on_hit>
+				<desc>
+					<eng>Hits deal Knockback and Slow to target (15% chance per hit)</eng>
+				</desc>
+			</Chance_knockback_and_slow_on_hit>
+			<Chance_to_shock_per_hit>
+				<desc>
+					<eng>Hits deal Shock to target (10% chance per hit)</eng>
+				</desc>
+			</Chance_to_shock_per_hit>
+			<Toxin_token_on_hit>
+				<desc>
+					<eng>Hits deal a Toxin Mark to target (10 sec duration, -5% damage, stacking)</eng>
+				</desc>
+			</Toxin_token_on_hit>
+			<Chance_to_avoid_enemy_attacks_and_reflect_damage>
+				<desc>
+					<eng>10% to evade attacks and Reflect damage back to the attacker</eng>
+				</desc>
+			</Chance_to_avoid_enemy_attacks_and_reflect_damage>
+			<Skill1_cost_reduction>
+				<desc>
+					<eng>-50% Class Resource cost to Armour skills</eng>
+				</desc>
+			</Skill1_cost_reduction>
+
+			<More_warp_damage_on_low_life>
+				<desc>
+					<eng>+60% more warp Damage when on Low Life (Below 25% maximum Health)</eng>
+				</desc>
+			</More_warp_damage_on_low_life>
+			<Chance_to_lightning_bolt_in_area>
+				<desc>
+					<eng>25% chance to create electric arcs when striking an enemy. The arcs hit the two nearest enemies to the target</eng>
+				</desc>
+			</Chance_to_lightning_bolt_in_area>
+			<Area_damage_after_10_kills>
+				<desc>
+					<eng>Every 10th killed enemy creates an explosion that deals damage equal to the maximum Health of the killed enemy</eng>
+				</desc>
+			</Area_damage_after_10_kills>
+			<Chance_to_Stun_After_killing>
+				<desc>
+					<eng>After killing an enemy, the next attack has 50% chance to stun its target</eng>
+				</desc>
+			</Chance_to_Stun_After_killing>
+			<Bonus_Movement_speed_based_on_suppression>
+				<desc>
+					<eng>+5 Movement speed in Suppressed state, +15 Movement speed in Overwhelmed state</eng>
+				</desc>
+			</Bonus_Movement_speed_based_on_suppression>
+			<Heal_on_deadly_strikes>
+				<desc>
+					<eng>Each killing blow heals an amount equal to the damage dealt</eng>
+				</desc>
+			</Heal_on_deadly_strikes>
+			<HP_regen_from_missing_HP>
+				<desc>
+					<eng>Increase your Life per Second by up to 100% based on your missing Life</eng>
+				</desc>
+			</HP_regen_from_missing_HP>
+			<Reflect_Deflected_Damage>
+				<desc>
+					<eng>Deflected attacks have 25% chance to be redirected to the attacker</eng>
+				</desc>
+			</Reflect_Deflected_Damage>
+			<Deflect_Bonus_after_Shield_Block>
+				<desc>
+					<eng>+40 to Deflect for 10 seconds after blocking an attack with Shield Block</eng>
+				</desc>
+			</Deflect_Bonus_after_Shield_Block>
+			<Chance_to_AP_Based_on_Deflect>
+				<desc>
+					<eng>Each attack has a chance to gain Armour Piercing equal to Deflect value</eng>
+				</desc>
+			</Chance_to_AP_Based_on_Deflect>
+			<Bonus_damage_based_on_deflect>
+				<desc>
+					<eng>Turns your Deflect Value into an equal percent of damage bonus</eng>
+				</desc>
+			</Bonus_damage_based_on_deflect>
+			<Chance_to_Flashbane_Based_on_Deflect>
+				<desc>
+					<eng>Each attack has a chance to gain Flashbane equal to Deflect value</eng>
+				</desc>
+			</Chance_to_Flashbane_Based_on_Deflect>
+			<Nova_after_deflect>
+				<desc>
+					<eng>Deflected attacks have 10% chance to create a shockwave, dealing Physical damage and slowing or stunning enemies</eng>
+				</desc>
+			</Nova_after_deflect>
+
+			<Damage_reduce_in_Green_suppression>
+				<desc>
+					<eng>Grants +10% Damage Reduction while Suppression Resistance is in the green</eng>
+				</desc>
+			</Damage_reduce_in_Green_suppression>
+			<Heal_on_Crit>
+				<desc>
+					<eng>Each Critical hit heals 3% of your Hitpoints</eng>
+				</desc>
+			</Heal_on_Crit>
+			<HP_regen_in_execution_bonus>
+				<desc>
+					<eng>Heal 10% of your Hitpoints per second while the Execution bonus is active</eng>
+				</desc>
+			</HP_regen_in_execution_bonus>
+			<Rosarius_force_field_on_Crit>
+				<desc>
+					<eng>Each Critical hit has a 20% chance to create a Rosarius force field</eng>
+				</desc>
+			</Rosarius_force_field_on_Crit>
+			<Damage_in_execution_bonus>
+				<desc>
+					<eng>+100% Damage bonus while the Execution bonus is active</eng>
+				</desc>
+			</Damage_in_execution_bonus>
+			<Zeal_on_Crit>
+				<desc>
+					<eng>Each Critical hit regenerates 1 point of Focus</eng>
+				</desc>
+			</Zeal_on_Crit>
+			<Shock_on_Crit>
+				<desc>
+					<eng>Each Critical Hit inflicts Shock on the target</eng>
+				</desc>
+			</Shock_on_Crit>
+			<Slow_on_Crit>
+				<desc>
+					<eng>Each Critical Hit inflicts Slow on the target</eng>
+				</desc>
+			</Slow_on_Crit>
+			<Bleed_on_Crit>
+				<desc>
+					<eng>Each Critical Hit causes Bleeding on the target</eng>
+				</desc>
+			</Bleed_on_Crit>
+
+			<Vulnerability_efficiency_bonus>
+				<desc>
+					<eng>{vulnerability_efficiency,100} to all Vulnerability effects</eng>
+				</desc>
+			</Vulnerability_efficiency_bonus>
+			<Damage_after_deflect>
+				<desc>
+					<eng>Each succesfully deflected attack bestows {artifact_enchant,100} damage to your next attack</eng>
+				</desc>
+			</Damage_after_deflect>
+			<Stun_after_deflect_in_melee>
+				<desc>
+					<eng>Each succesfully deflected melee attack has a {artifact_enchant,100} chance to stun the attacker</eng>
+				</desc>
+			</Stun_after_deflect_in_melee>
+			<Medium_and_Elite_drops_supply_percent>
+				<desc>
+					<eng>Medium and Elite kills have a 15% chance to drop a Supply pack</eng>
+				</desc>
+			</Medium_and_Elite_drops_supply_percent>
+			<Avoid_Knockback_Knockdown>
+				<desc>
+					<eng>20% chance to resist Knockback and Knockdown effects regardless of your Suppression Resistance</eng>
+				</desc>
+			</Avoid_Knockback_Knockdown>
+			<Suppression_per_stun>
+				<desc>
+					<eng>Succesfully stunning an enemy recharges {artifact_enchant} Suppression Resistance</eng>
+				</desc>
+			</Suppression_per_stun>
+			<Suppression_per_deflect>
+				<desc>
+					<eng>Succesfully deflecting an enemy attack recharges 5 Suppression Resistance</eng>
+				</desc>
+			</Suppression_per_deflect>
+			<Crit_chance_and_strenght_on_slow_group>
+				<desc>
+					<eng>+5% Critical Hit chance and +10% Critical Hit Strength against enemies affected by Slow, Stun, Shock or Freeze</eng>
+				</desc>
+			</Crit_chance_and_strenght_on_slow_group>
+
+			<Special_HP_and_Supression_regen>
+				<desc>
+					<eng>!Special_HP_and_Supression_regen!</eng>
+				</desc>
+			</Special_HP_and_Supression_regen>
+			<Chance_to_double_damage_and_healing>
+				<desc>
+					<eng>20% chance to deal double damage and heal that amount</eng>
+				</desc>
+			</Chance_to_double_damage_and_healing>
+			<Reflect_damage_based_on_missing_HP>
+				<desc>
+					<eng>50% chance to Reflect Damage. The amount of Reflected Damage is based on your missing HP (e.g. 30% Reflect Damage on 70% HP).</eng>
+				</desc>
+			</Reflect_damage_based_on_missing_HP>
+			<Damage_based_on_missing_hp>
+				<desc>
+					<eng>Extra Damage based on your missing HP (e.g. +30% Damage on 70% HP).</eng>
+				</desc>
+			</Damage_based_on_missing_hp>
+			<Damage_and_Chain_based_on_missing_HP>
+				<desc>
+					<eng>Damage bonus and chance to Chain equal to the proportion of your missing HP (e.g. +30% Damage and 30% chance to Chain on 70% HP)</eng>
+				</desc>
+			</Damage_and_Chain_based_on_missing_HP>
+			<Double_Suppression_damage_on_Crit>
+				<desc>
+					<eng>Each Critical hit deals double Suppression damage</eng>
+				</desc>
+			</Double_Suppression_damage_on_Crit>
+			<Damage_for_long_penalty_for_short_range>
+				<desc>
+					<eng>+50% Damage when targeting enemies over medium range, -20% damage under medium range</eng>
+				</desc>
+			</Damage_for_long_penalty_for_short_range>
+			<Zeal_per_Kill>
+				<desc>
+					<eng>Each kill generates Focus based on enemy type</eng>
+				</desc>
+			</Zeal_per_Kill>
+
+			<Damage_against_slowed_shocked_with_chance_to_stun>
+				<desc>
+					<eng>+40% Damage and 10% chance to stun against Slowed and Shocked enemies</eng>
+				</desc>
+			</Damage_against_slowed_shocked_with_chance_to_stun>
+			<HP_and_suppress_gain_per_Zeal_spent>
+				<desc>
+					<eng>Each point of spent Focus heals 2% HP and Suppression</eng>
+				</desc>
+			</HP_and_suppress_gain_per_Zeal_spent>
+			<Special_HP_and_Suppression_regen>
+				<desc>
+					<eng>+150 Hp/second for 10 seconds when Suppression Resistance drops to 50% and 10%, +150 Suppression for 10 seconds when HP drops to 50% and 10% (non-stacking)</eng>
+				</desc>
+			</Special_HP_and_Suppression_regen>
+			<Suppression_gain_and_pain_per_deflect>
+				<desc>
+					<eng>Succesfully deflected attacks give 100 Suppression and nearby enemies lose 50 Suppression</eng>
+				</desc>
+			</Suppression_gain_and_pain_per_deflect>
+			<More_rockets_demolition_armor>
+				<desc>
+					<eng>Demolition armour fires +5 missiles</eng>
+				</desc>
+			</More_rockets_demolition_armor>
+			<Area_large_damage_on_Deadly_Strike>
+				<desc>
+					<eng>Single hit skills with Single Target tag deal area damage around the target</eng>
+				</desc>
+			</Area_large_damage_on_Deadly_Strike>
+			<HP_regen_based_on_Adrenalin>
+				<desc>
+					<eng>Regeneration equal to current Adrenaline/3 HP/second</eng>
+				</desc>
+			</HP_regen_based_on_Adrenalin>
+			<Surprise_duration_bonus_after_Stealth>
+				<desc>
+					<eng>+100% duration to Suprise bonuses</eng>
+				</desc>
+			</Surprise_duration_bonus_after_Stealth>
+			<First_attack_bonus_in_surprise>
+				<desc>
+					<eng>The first attack with Suprise bonus deals +300% Damage.</eng>
+				</desc>
+			</First_attack_bonus_in_surprise>
+			<Bonus_damage_in_Surprise>
+				<desc>
+					<eng>+50% Damage while having Suprise bonus</eng>
+				</desc>
+			</Bonus_damage_in_Surprise>
+			<Sniper_shot_gain_Dot_poison>
+				<desc>
+					<eng>Skills with Sniper Shot tag gain the DoT poison tag</eng>
+				</desc>
+			</Sniper_shot_gain_Dot_poison>
+			<Bonus_dot_damage_long_cooldown_skills>
+				<desc>
+					<eng>DoT type skill( all type) damage increase by 100% (from 20% to 40%) on skills with 5 sec cooldown or more</eng>
+				</desc>
+			</Bonus_dot_damage_long_cooldown_skills>
+			<Bonus_Crit_in_Surprise>
+				<desc>
+					<eng>+5% Critical Hit Chance and +10% Critical Hit Strength while haveing Suprise bonus</eng>
+				</desc>
+			</Bonus_Crit_in_Surprise>
+			<Bonus_damage_based_on_Warp_heat>
+				<desc>
+					<eng>Damage bonus percent equal to current warp Heat/2</eng>
+				</desc>
+			</Bonus_damage_based_on_Warp_heat>
+			<Warp_Heat_per_sec>
+				<desc>
+					<eng>-2 warp Heat/ second</eng>
+				</desc>
+			</Warp_Heat_per_sec>
+			<Movement_speed_after_Spell_cast>
+				<desc>
+					<eng>+20 movement speed after using a psychic power for 5 seconds (non-stacking)</eng>
+				</desc>
+			</Movement_speed_after_Spell_cast>
+			<Cooldown_reduction_after_Teleport>
+				<desc>
+					<eng>Using the Teleport skill halves current Cooldown on all equipped psychic powers</eng>
+				</desc>
+			</Cooldown_reduction_after_Teleport>
+			<Warp_Heat_reduction_bonus>
+				<desc>
+					<eng>+2 to Warp Heat decrease values of all force weapons</eng>
+				</desc>
+			</Warp_Heat_reduction_bonus>
+
+
+			<Damage_bonus_based_on_debuff>
+				<desc>
+					<eng>+10% Damage for each debuff on the target</eng>
+				</desc>
+			</Damage_bonus_based_on_debuff>
+			<Damage_reduce_based_on_warp_heat>
+				<desc>
+					<eng>+1 Damage Reduction for 5 seconds after each point of Warp Heat gained (stacking)</eng>
+				</desc>
+			</Damage_reduce_based_on_warp_heat>
+			<Reverse_damage_based_on_Warp_heat>
+				<desc>
+					<eng>Currend Warp Heat/5% chance to turn incoming damage to healing</eng>
+				</desc>
+			</Reverse_damage_based_on_Warp_heat>
+			<Reflect_damage_based_on_Warp_heat>
+				<desc>
+					<eng>Currend Warp Heat/3% chance to reflect incoming damage to attacker</eng>
+				</desc>
+			</Reflect_damage_based_on_Warp_heat>
+			<Chance_to_Area_damage_based_on_Warp_Heat>
+				<desc>
+					<eng>Currend Warp Heat/3% chance to turn a kill into an AoE explosion</eng>
+				</desc>
+			</Chance_to_Area_damage_based_on_Warp_Heat>
+			<Chance_to_reduce_Warp_Heat_Cost>
+				<desc>
+					<eng>Each psychic power use has a 7% chance to negate the Warp Heat cost of psychic powers used in the next 5 seconds (stacking)</eng>
+				</desc>
+			</Chance_to_reduce_Warp_Heat_Cost>
+			<Chance_to_Area_large_damage_in_force_weapon>
+				<desc>
+					<eng>Force weapon single target attacks used after a psychic power have a 10% chance to turn the the single target attack into an AoE attack</eng>
+				</desc>
+			</Chance_to_Area_large_damage_in_force_weapon>
+			<Damage_buff_to_next_spell>
+				<desc>
+					<eng>Using non-psychic power skills (including armour and utility belt skills) bestows a 15% Damage bonus to the next psychic power (stacks 5 times)</eng>
+				</desc>
+			</Damage_buff_to_next_spell>
+			<Damage_reduce_based_on_debuff>
+				<desc>
+					<eng>Enemies with debilitating effects on them deal 5% less damage per debilititating effect</eng>
+				</desc>
+			</Damage_reduce_based_on_debuff>
+			<Aoe_damage_bonus_to_Spells>
+				<desc>
+					<eng>+40% Damage to AoE psychic powers</eng>
+				</desc>
+			</Aoe_damage_bonus_to_Spells>
+		</Enchantment>
+	</Artifacts>
+	<Pickupable>
+		<wardrug>
+			<eng>Inoculator refill</eng>
+		</wardrug>
+		<grenade>
+			<eng>Supply</eng>
+		</grenade>
+		<charge>
+			<eng>(1 charge)</eng>
+		</charge>
+		<chargeplural>
+			<eng>(%d charges)</eng>
+		</chargeplural>
+		<worldskill>
+			<eng>Activator: %s</eng>
+		</worldskill>
+		<dataslate>
+			<eng>Dataslate</eng>
+		</dataslate>
+		<tarot>
+			<eng>Uther's Tarot</eng>
+		</tarot>
+	</Pickupable>
+	<Effects>
+		<missions>
+			<eng>for %d missions</eng>
+		</missions>
+		<alreadyused>
+			<eng>There is an another Consumable in effect</eng>
+		</alreadyused>
+		<nocrafting>
+			<eng>There is no crafting in progress</eng>
+		</nocrafting>
+	</Effects>
+</Root>

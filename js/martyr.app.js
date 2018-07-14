@@ -405,10 +405,12 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
                 };
             }
             lnkArr.slice(-3).forEach(function (perk, index) {
-                for (pc in ssc.perkData) {
-                    var pc_ = ssc.perkData[pc];
+                for (p in ssc.perkData) {
+                    if (ssc.perkData[p].indexOf(perk) > -1) {
+                        ssc.perks[index].name = perk;
+                        return;
+                    }
                 }
-                ssc.perks[index].name = perk;
             });
             
             if (ssc.currentType == 'Psyker' && lnk[1]) {

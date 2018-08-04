@@ -442,7 +442,7 @@ angular.module('MartyrSkillEditor', ['angular.filter'])
                         }
                     }
                 }
-            } else if (ssc.currentCount > 55) {
+            } else if (ssc.currentCount > 78) {
                 alert("Too many skills selected!");
                 return;
             }
